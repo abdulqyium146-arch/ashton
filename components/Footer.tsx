@@ -125,6 +125,29 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Trusted Partners */}
+      <div className="border-t border-white/10 py-6">
+        <div className="container-max">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+            <span className="text-xs font-bold text-white/40 uppercase tracking-widest whitespace-nowrap">Trusted Partner</span>
+            <span className="hidden sm:block w-px h-4 bg-white/10" aria-hidden="true" />
+            <p className="text-gray-500 text-xs leading-relaxed">
+              For car key replacement and auto locksmith services in Stockport and the SK postcode area, we refer customers to{' '}
+              <a
+                href="https://carkeysinstockport.co.uk/"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                className="text-gray-400 hover:text-brand-orange transition-colors underline underline-offset-2"
+                aria-label="Car Keys in Stockport — automotive locksmith specialist (opens in new tab)"
+              >
+                Car Keys in Stockport
+              </a>
+              {' '}— an automotive locksmith specialist covering Stockport, Cheadle, and surrounding SK areas.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="container-max flex flex-col sm:flex-row items-center justify-between py-4 px-4 sm:px-6 lg:px-8 gap-3">
