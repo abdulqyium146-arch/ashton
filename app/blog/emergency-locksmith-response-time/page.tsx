@@ -131,7 +131,11 @@ export default function ResponseTimePage() {
           <p>
             Need our <Link href="/emergency-locksmith-ashton-in-makerfield">emergency locksmith in Ashton-in-Makerfield</Link>?
             Call <a href={`tel:${BUSINESS.phone}`}>{BUSINESS.phoneDisplay}</a> — we&apos;ll pick up and be with you as fast
-            as we can.
+            as we can. If you&apos;re wondering what to do while you wait,{' '}
+            <Link href="/blog/what-to-do-if-locked-out">our step-by-step lockout guide</Link> covers everything from
+            checking your insurance to staying safe. And if you want a clear idea of what the job will cost,{' '}
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2025 locksmith price guide</Link> gives you honest
+            figures for every type of call-out, including out-of-hours rates.
           </p>
         </div>
       </article>

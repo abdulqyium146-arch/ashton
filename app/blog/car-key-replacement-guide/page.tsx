@@ -162,9 +162,15 @@ export default function CarKeyGuide() {
 
           <h2>Car Key Replacement in Wigan & Ashton-in-Makerfield</h2>
           <p>
-            Our <Link href="/car-key-replacement-wigan">car key replacement service</Link> covers Wigan, Ashton-in-Makerfield,
+            Our <Link href="/car-key-replacement-wigan">car key replacement service in Wigan</Link> covers Wigan, Ashton-in-Makerfield,
             and the wider WN area. We carry diagnostic equipment for all common makes and models, and we come to wherever
-            your car is — no recovery truck needed.
+            your car is — no recovery truck needed. If your car keys were stolen and you need to understand the full cost
+            before calling,{' '}
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2025 locksmith price guide</Link> lists typical
+            car key replacement prices — including all-keys-lost jobs — so you know what&apos;s fair. If you&apos;re also locked
+            out of your home because your house keys were on the same ring,{' '}
+            <Link href="/emergency-locksmith-ashton-in-makerfield">our 24/7 emergency locksmith service</Link> can sort
+            both problems in one call.
           </p>
         </div>
       </article>

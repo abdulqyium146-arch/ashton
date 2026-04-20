@@ -137,6 +137,16 @@ export default function LocksmithAshtonPage() {
             searching for a <Link href="/locksmith-near-me">locksmith near me</Link> anywhere in the WN postcodes,
             Ashton Lock & Key is who to call.
           </p>
+
+          <h2>Helpful Resources for Ashton Residents</h2>
+          <p>
+            If you&apos;ve ever been caught out by a lockout, our step-by-step guide on{' '}
+            <Link href="/blog/what-to-do-if-locked-out">what to do when you&apos;re locked out</Link> covers everything
+            from checking your insurance to picking the right locksmith. Once you&apos;re back inside, it&apos;s worth reviewing
+            your home security — our{' '}
+            <Link href="/blog/how-to-improve-home-security">practical home security guide</Link> explains the upgrades
+            that make the most difference on a tight budget, including which lock standards your insurer actually requires.
+          </p>
         </div>
       </section>
 

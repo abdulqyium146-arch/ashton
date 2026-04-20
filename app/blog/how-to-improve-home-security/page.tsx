@@ -158,6 +158,18 @@ export default function HomeSecurityPage() {
               an anti-snap TS007 3-star cylinder. We supply and fit these as part of our{' '}
               <Link href="/emergency-locksmith-ashton-in-makerfield">locksmith service in Ashton-in-Makerfield</Link>.
             </p>
+
+            <h2>While You&apos;re Thinking About Security</h2>
+            <p>
+              If you don&apos;t have a spare key cut yet, now is a good time to sort it. A spare key left with a trusted
+              neighbour is one of the simplest security measures there is — and our{' '}
+              <Link href="/key-cutting-ashton">key cutting service in Ashton</Link> starts from £3. If you&apos;ve ever
+              been locked out and want to know how to handle it properly next time, our{' '}
+              <Link href="/blog/what-to-do-if-locked-out">lockout step-by-step guide</Link> walks through every option
+              in the right order. Want to know what lock upgrades actually cost?{' '}
+              <Link href="/blog/how-much-does-a-locksmith-cost-uk">Our UK locksmith pricing guide</Link> covers lock
+              replacement, cylinder upgrades, and key cutting — all with honest, transparent figures.
+            </p>
           </div>
         </div>
       </article>

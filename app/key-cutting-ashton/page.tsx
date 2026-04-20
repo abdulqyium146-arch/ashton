@@ -173,7 +173,18 @@ export default function KeyCuttingPage() {
           </ul>
           <p>
             Prices are per key. Cutting multiple keys at the same time? We can offer a discount.
-            Car key replacement is a different job — see our <Link href="/car-key-replacement-wigan">car key service</Link> for that.
+            Car key replacement is a different job — see our <Link href="/car-key-replacement-wigan">car key replacement service in Wigan</Link> for that.
+          </p>
+
+          <h2>Thinking About Home Security While You&apos;re Here?</h2>
+          <p>
+            While getting a spare key cut is a smart first step, it&apos;s worth knowing whether your locks are actually
+            up to scratch too. Our guide on{' '}
+            <Link href="/blog/how-to-improve-home-security">how to improve home security on a budget</Link> covers the
+            practical upgrades that make a real difference — including whether your cylinders are anti-snap rated. If you
+            want to know what everything should cost,{' '}
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2025 locksmith price guide</Link> has transparent
+            figures for every job we do.
           </p>
         </div>
       </section>

@@ -132,6 +132,16 @@ export default function LocksmithNearMePage() {
             <li><Link href="/car-key-replacement-wigan">Car Key Replacement Wigan</Link> — All makes, cheaper than dealers</li>
             <li><Link href="/locksmith-wigan">Locksmith Wigan</Link> — Full coverage across Wigan Borough</li>
           </ul>
+
+          <h2>Before You Book</h2>
+          <p>
+            Want to know what a genuine local locksmith should charge? Our{' '}
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">locksmith pricing guide for 2025</Link> gives you
+            honest, transparent figures — so you can compare quotes with confidence and avoid the inflated bills that
+            rogue traders rely on. For urgent situations,{' '}
+            <Link href="/blog/emergency-locksmith-response-time">our guide to realistic emergency response times</Link>{' '}
+            explains what 30 minutes actually means and what to do if a locksmith keeps you waiting.
+          </p>
         </div>
       </section>
 

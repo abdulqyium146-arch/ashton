@@ -124,6 +124,15 @@ export default function LocksmithWiganPage() {
             covers all makes and models. We come to wherever the vehicle is — home, work, roadside — and programme
             the replacement on the spot. Far cheaper than going to the dealer, and a lot less hassle.
           </p>
+
+          <h2>Know Before You Call</h2>
+          <p>
+            If this is your first time using a locksmith, it helps to know what a fair price looks like. Our{' '}
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">UK locksmith price guide</Link> covers typical costs for
+            every job — lockouts, key cutting, car keys — so you know what to expect and how to spot a rogue trader.
+            Locked out right now and not sure what to do next? Read our guide on{' '}
+            <Link href="/blog/what-to-do-if-locked-out">what to do when you&apos;re locked out</Link> before you do anything drastic.
+          </p>
         </div>
       </section>
 

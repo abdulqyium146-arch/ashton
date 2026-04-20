@@ -306,6 +306,11 @@ export default function HomePage() {
             <Link href="/locksmith-wigan" className="btn-secondary justify-center text-sm">Locksmith Wigan</Link>
             <Link href="/locksmith-near-me" className="btn-secondary justify-center text-sm">Locksmith Near Me</Link>
           </div>
+          <p className="text-center text-gray-500 text-sm mt-6 max-w-2xl mx-auto">
+            Need us urgently?{' '}
+            <Link href="/emergency-locksmith-ashton-in-makerfield" className="text-brand-orange font-semibold hover:underline">Emergency locksmith Ashton-in-Makerfield</Link>{' '}
+            is available right now — 24/7, 30-minute response.
+          </p>
         </div>
       </section>
 
@@ -371,6 +376,17 @@ export default function HomePage() {
 
       {/* ── CTA ──────────────────────────────────────────────── */}
       <CTASection variant="gradient" />
+
+      {/* ── CONTACT NUDGE ───────────────────────────────────── */}
+      <section className="py-6 bg-brand-navy">
+        <div className="container-max text-center">
+          <p className="text-white/60 text-sm">
+            Prefer to send a message?{' '}
+            <Link href="/contact" className="text-white underline hover:text-brand-orange transition-colors">Use our contact form</Link>{' '}
+            and we&apos;ll get back to you promptly.
+          </p>
+        </div>
+      </section>
     </>
   )
 }

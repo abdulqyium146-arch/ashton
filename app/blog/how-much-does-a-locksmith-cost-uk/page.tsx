@@ -158,7 +158,15 @@ export default function LocksmithCostPage() {
 
           <h2>Rogue Locksmith Warning Signs</h2>
           <p>
-            Know what to watch for before you call anyone:
+            Know what to watch for before you call anyone. If you&apos;re currently locked out and trying to figure out
+            what to do, read our guide on{' '}
+            <Link href="/blog/what-to-do-if-locked-out">what to do when locked out</Link> — it covers the right order
+            of steps before you even pick up the phone. And if speed matters to you,{' '}
+            <Link href="/blog/emergency-locksmith-response-time">our response time guide</Link> explains what&apos;s realistic
+            so you don&apos;t get misled by unrealistic promises.
+          </p>
+          <p>
+            Specific warning signs to watch for:
           </p>
           <ul>
             <li><strong>&quot;From £25&quot; or &quot;from £15&quot; advertised prices</strong> — almost always teaser rates that triple on arrival</li>

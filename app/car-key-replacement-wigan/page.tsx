@@ -195,7 +195,11 @@ export default function CarKeyReplacementPage() {
           <p>
             Our mobile car key service covers Wigan, <Link href="/locksmith-ashton-in-makerfield">Ashton-in-Makerfield</Link>,
             St Helens, Newton-le-Willows, Leigh, Golborne, and all surrounding WN postcodes. Want to understand more
-            about what&apos;s involved? Read our <Link href="/blog/car-key-replacement-guide">complete car key replacement guide</Link>.
+            about what&apos;s involved? Read our <Link href="/blog/car-key-replacement-guide">complete car key replacement guide</Link> — it
+            covers every key type, the dealer vs locksmith cost comparison, and exactly what to expect from an all-keys-lost job.
+            Not sure if our prices are competitive?{' '}
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">Our UK locksmith price guide for 2025</Link> lays out
+            realistic figures for every car key job.
           </p>
         </div>
       </section>

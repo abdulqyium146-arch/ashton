@@ -185,6 +185,16 @@ export default function EmergencyLocksmithPage() {
             Leigh, Golborne, Haydock, Billinge, Orrell, Hindley, Abram, and Bryn. Not sure if you&apos;re in our area? Just ring us —
             if we can reach you quickly, we will.
           </p>
+
+          <h2>Useful Guides</h2>
+          <p>
+            Not sure what to expect or whether you&apos;re being quoted fairly? Our guide on{' '}
+            <Link href="/blog/what-to-do-if-locked-out">what to do if you&apos;re locked out</Link> walks through every
+            step — from checking your insurance to choosing a locksmith you can trust. If you&apos;re wondering whether the
+            price you&apos;ve been given sounds right, the{' '}
+            <Link href="/blog/emergency-locksmith-response-time">emergency locksmith response time guide</Link> explains
+            realistic timings and what to watch out for.
+          </p>
         </div>
       </section>
 

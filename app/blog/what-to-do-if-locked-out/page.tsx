@@ -157,8 +157,11 @@ export default function WhatToDoLockedOutPage() {
             <li>Is fully insured</li>
           </ul>
           <p>
-            In Ashton-in-Makerfield, Wigan, or anywhere in the surrounding area, call our{' '}
-            <Link href="/emergency-locksmith-ashton-in-makerfield">emergency locksmith service</Link> on{' '}
+            Not sure what a fair price looks like? Our{' '}
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">UK locksmith price guide</Link> gives you exact figures
+            for every job type — so you can tell straight away if you&apos;re being overcharged. In Ashton-in-Makerfield,
+            Wigan, or anywhere in the surrounding area, call our{' '}
+            <Link href="/emergency-locksmith-ashton-in-makerfield">24/7 emergency locksmith in Ashton</Link> on{' '}
             <a href={`tel:${BUSINESS.phone}`}>{BUSINESS.phoneDisplay}</a>. You&apos;ll get a fixed quote immediately
             and we&apos;ll be with you in 30 minutes.
           </p>
