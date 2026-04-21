@@ -7,7 +7,7 @@ import FAQSection from '@/components/FAQSection'
 import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Car Key Replacement UK Guide | Lost, Broken or Stolen Keys | 2025',
+  title: 'Car Key Replacement UK Guide | Lost, Broken or Stolen Keys | 2026',
   description: 'Complete guide to car key replacement in the UK. What it costs, how long it takes, dealer vs locksmith — and how to get the best deal. Expert advice from Ashton Lock & Key.',
   alternates: {
     canonical: `${BUSINESS.url}/blog/car-key-replacement-guide`,
@@ -31,6 +31,7 @@ const faqs = [
 
 export default function CarKeyGuide() {
   const datePublished = '2024-09-20'
+  const dateModified = '2026-01-15'
   const pageUrl = `${BUSINESS.url}/blog/car-key-replacement-guide`
 
   const schemas = [
@@ -39,7 +40,7 @@ export default function CarKeyGuide() {
       description: 'Everything you need to know about replacing car keys in the UK — costs, options, and expert tips.',
       url: pageUrl,
       datePublished,
-      dateModified: datePublished,
+      dateModified,
       keywords: ['car key replacement uk', 'lost car keys', 'car key programming', 'car key replacement wigan'],
     }),
     faqSchema(faqs),
@@ -65,6 +66,9 @@ export default function CarKeyGuide() {
             <span className="bg-purple-500/20 text-purple-400 text-sm font-semibold px-3 py-1.5 rounded-full">Car Keys</span>
             <time className="text-white/50 text-sm" dateTime={datePublished}>20 September 2024</time>
             <span className="text-white/50 text-sm">· 8 min read</span>
+            <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-2.5 py-1 rounded-full">
+              <time dateTime={dateModified}>Updated Jan 2026</time>
+            </span>
           </div>
           <h1 id="article-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             Car Key Replacement:{' '}
@@ -166,7 +170,7 @@ export default function CarKeyGuide() {
             and the wider WN area. We carry diagnostic equipment for all common makes and models, and we come to wherever
             your car is — no recovery truck needed. If your car keys were stolen and you need to understand the full cost
             before calling,{' '}
-            <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2025 locksmith price guide</Link> lists typical
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2026 locksmith price guide</Link> lists typical
             car key replacement prices — including all-keys-lost jobs — so you know what&apos;s fair. If you&apos;re also locked
             out of your home because your house keys were on the same ring,{' '}
             <Link href="/emergency-locksmith-ashton-in-makerfield">our 24/7 emergency locksmith service</Link> can sort

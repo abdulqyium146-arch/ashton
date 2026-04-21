@@ -7,8 +7,8 @@ import FAQSection from '@/components/FAQSection'
 import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'How Much Does a Locksmith Cost in the UK? (2025 Price Guide)',
-  description: 'Complete UK locksmith pricing guide for 2025. Emergency lockouts, key cutting, car keys — see what\'s fair and avoid rogue traders. Local Wigan prices included.',
+  title: 'How Much Does a Locksmith Cost in the UK? (2026 Price Guide)',
+  description: 'Complete UK locksmith pricing guide for 2026. Emergency lockouts, key cutting, car keys — see what\'s fair and avoid rogue traders. Updated local Wigan prices included.',
   alternates: {
     canonical: `${BUSINESS.url}/blog/how-much-does-a-locksmith-cost-uk`,
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the average cost of an emergency locksmith in the UK?',
-    answer: 'The average cost for a standard residential lockout in the UK ranges from £60–£120 during daytime hours. Out-of-hours (evenings, weekends) typically costs £80–£150. Always get a fixed quote before agreeing to any work.',
+    answer: 'The average cost for a standard residential lockout in the UK ranges from £65–£120 during daytime hours in 2026. Out-of-hours (evenings, weekends) typically costs £85–£155. Always get a fixed quote before agreeing to any work.',
   },
   {
     question: 'Why do some locksmiths charge so much more than others?',
@@ -30,31 +30,32 @@ const faqs = [
 ]
 
 const priceData = [
-  { service: 'Standard residential lockout (daytime)', low: 60, high: 100, notes: 'Mon–Fri 8am–6pm' },
-  { service: 'Emergency lockout (evenings/weekends)', low: 80, high: 150, notes: 'After 6pm / weekends' },
-  { service: 'Late-night lockout (midnight–6am)', low: 100, high: 180, notes: 'Antisocial hours premium' },
-  { service: 'Commercial lockout', low: 80, high: 200, notes: 'Depending on lock type' },
-  { service: 'Lock replacement (standard)', low: 40, high: 120, notes: 'Parts + labour' },
-  { service: 'Broken key extraction', low: 50, high: 90, notes: 'Non-destructive preferred' },
-  { service: 'Standard key cutting', low: 3, high: 12, notes: 'Per key, type dependent' },
-  { service: 'High-security key cutting', low: 15, high: 40, notes: 'Patented blanks extra' },
-  { service: 'Car key replacement (basic transponder)', low: 80, high: 150, notes: 'Cut + programme' },
-  { service: 'Car key replacement (smart/remote)', low: 120, high: 250, notes: 'Full key + fob' },
-  { service: 'All keys lost (car)', low: 180, high: 350, notes: 'vs £400+ at dealers' },
+  { service: 'Standard residential lockout (daytime)', low: 65, high: 110, notes: 'Mon–Fri 8am–6pm' },
+  { service: 'Emergency lockout (evenings/weekends)', low: 85, high: 155, notes: 'After 6pm / weekends' },
+  { service: 'Late-night lockout (midnight–6am)', low: 110, high: 190, notes: 'Antisocial hours premium' },
+  { service: 'Commercial lockout', low: 90, high: 220, notes: 'Depending on lock type' },
+  { service: 'Lock replacement (standard)', low: 45, high: 130, notes: 'Parts + labour' },
+  { service: 'Broken key extraction', low: 55, high: 95, notes: 'Non-destructive preferred' },
+  { service: 'Standard key cutting', low: 3, high: 14, notes: 'Per key, type dependent' },
+  { service: 'High-security key cutting', low: 18, high: 45, notes: 'Patented blanks extra' },
+  { service: 'Car key replacement (basic transponder)', low: 90, high: 165, notes: 'Cut + programme' },
+  { service: 'Car key replacement (smart/remote)', low: 135, high: 275, notes: 'Full key + fob' },
+  { service: 'All keys lost (car)', low: 200, high: 380, notes: 'vs £450+ at dealers' },
 ]
 
 export default function LocksmithCostPage() {
   const datePublished = '2024-10-15'
+  const dateModified = '2026-01-15'
   const pageUrl = `${BUSINESS.url}/blog/how-much-does-a-locksmith-cost-uk`
 
   const schemas = [
     blogPostingSchema({
-      title: 'How Much Does a Locksmith Cost in the UK? (2025 Guide)',
-      description: 'Complete UK locksmith pricing guide covering emergency lockouts, key cutting, and car keys.',
+      title: 'How Much Does a Locksmith Cost in the UK? (2026 Guide)',
+      description: 'Complete UK locksmith pricing guide covering emergency lockouts, key cutting, and car keys. Updated 2026.',
       url: pageUrl,
       datePublished,
-      dateModified: datePublished,
-      keywords: ['locksmith cost uk', 'how much does a locksmith cost', 'emergency locksmith price', 'locksmith prices wigan'],
+      dateModified,
+      keywords: ['locksmith cost uk', 'how much does a locksmith cost', 'emergency locksmith price', 'locksmith prices wigan', 'locksmith prices 2026'],
     }),
     faqSchema(faqs),
     breadcrumbSchema([
@@ -62,7 +63,7 @@ export default function LocksmithCostPage() {
       { name: 'Blog', url: `${BUSINESS.url}/blog` },
       { name: 'Locksmith Cost UK', url: pageUrl },
     ]),
-    webPageSchema({ url: pageUrl, title: 'How Much Does a Locksmith Cost in the UK?', description: 'UK locksmith pricing guide 2025.', type: 'ItemPage' }),
+    webPageSchema({ url: pageUrl, title: 'How Much Does a Locksmith Cost in the UK?', description: 'UK locksmith pricing guide 2026 — updated figures for emergency lockouts, key cutting, and car keys.', type: 'ItemPage' }),
   ]
 
   return (
@@ -71,7 +72,7 @@ export default function LocksmithCostPage() {
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       ))}
 
-      <Breadcrumb items={[{ label: 'Blog', href: '/blog' }, { label: 'Locksmith Cost UK 2025' }]} />
+      <Breadcrumb items={[{ label: 'Blog', href: '/blog' }, { label: 'Locksmith Cost UK 2026' }]} />
 
       {/* HERO */}
       <section className="bg-brand-navy section-padding" aria-labelledby="article-heading">
@@ -80,10 +81,13 @@ export default function LocksmithCostPage() {
             <span className="bg-blue-500/20 text-blue-400 text-sm font-semibold px-3 py-1.5 rounded-full">Pricing</span>
             <time className="text-white/50 text-sm" dateTime={datePublished}>15 October 2024</time>
             <span className="text-white/50 text-sm">· 7 min read</span>
+            <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-2.5 py-1 rounded-full">
+              <time dateTime={dateModified}>Updated Jan 2026</time>
+            </span>
           </div>
           <h1 id="article-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             How Much Does a Locksmith Cost in the UK?{' '}
-            <span className="text-brand-orange">(2025 Guide)</span>
+            <span className="text-brand-orange">(2026 Guide)</span>
           </h1>
           <p className="text-xl text-white/70">
             The locksmith industry has a serious rogue trader problem. Knowing what things should actually cost means you
@@ -96,10 +100,11 @@ export default function LocksmithCostPage() {
       <article className="section-padding bg-white">
         <div className="container-max max-w-3xl mx-auto prose-custom">
 
-          <h2>UK Locksmith Price Table 2025</h2>
+          <h2>UK Locksmith Price Table 2026</h2>
           <p>
             Prices vary by region — London is generally at the top end, and northern England (including Wigan and Ashton)
-            tends to be more competitive. Here&apos;s what to expect across the board:
+            tends to be more competitive. These figures are updated for 2026, reflecting modest cost increases across the industry.
+            Here&apos;s what to expect across the board:
           </p>
 
           <div className="overflow-x-auto rounded-2xl border border-gray-200 mb-8">

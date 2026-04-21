@@ -61,15 +61,16 @@ const tips = [
 
 export default function HomeSecurityPage() {
   const datePublished = '2024-08-10'
+  const dateModified = '2026-01-15'
   const pageUrl = `${BUSINESS.url}/blog/how-to-improve-home-security`
 
   const schemas = [
     blogPostingSchema({
       title: 'How to Improve Your Home Security on a Budget',
-      description: 'Practical, affordable home security tips from an expert locksmith.',
+      description: 'Practical, affordable home security tips from an expert locksmith. Updated 2026.',
       url: pageUrl,
       datePublished,
-      dateModified: datePublished,
+      dateModified,
       keywords: ['home security tips', 'improve home security', 'anti-snap cylinder', 'BS 3621 locks', 'home security ashton'],
     }),
     faqSchema(faqs),
@@ -95,6 +96,9 @@ export default function HomeSecurityPage() {
             <span className="bg-green-500/20 text-green-400 text-sm font-semibold px-3 py-1.5 rounded-full">Security</span>
             <time className="text-white/50 text-sm" dateTime={datePublished}>10 August 2024</time>
             <span className="text-white/50 text-sm">· 6 min read</span>
+            <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-2.5 py-1 rounded-full">
+              <time dateTime={dateModified}>Updated Jan 2026</time>
+            </span>
           </div>
           <h1 id="article-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             How to Improve Your Home Security{' '}

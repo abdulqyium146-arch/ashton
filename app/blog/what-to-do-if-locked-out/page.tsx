@@ -32,7 +32,7 @@ const faqs = [
 
 export default function WhatToDoLockedOutPage() {
   const datePublished = '2024-11-01'
-  const dateModified = '2024-11-01'
+  const dateModified = '2026-01-15'
   const pageUrl = `${BUSINESS.url}/blog/what-to-do-if-locked-out`
 
   const schemas = [
@@ -73,6 +73,9 @@ export default function WhatToDoLockedOutPage() {
             <span className="bg-red-500/20 text-red-400 text-sm font-semibold px-3 py-1.5 rounded-full">Emergency</span>
             <time className="text-white/50 text-sm" dateTime={datePublished}>1 November 2024</time>
             <span className="text-white/50 text-sm">· 5 min read</span>
+            <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-2.5 py-1 rounded-full">
+              <time dateTime={dateModified}>Updated Jan 2026</time>
+            </span>
           </div>
           <h1 id="article-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             What to Do If You&apos;re Locked Out of Your House

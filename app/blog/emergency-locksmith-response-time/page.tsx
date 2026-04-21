@@ -31,6 +31,7 @@ const faqs = [
 
 export default function ResponseTimePage() {
   const datePublished = '2024-07-22'
+  const dateModified = '2026-01-15'
   const pageUrl = `${BUSINESS.url}/blog/emergency-locksmith-response-time`
 
   const schemas = [
@@ -39,7 +40,7 @@ export default function ResponseTimePage() {
       description: 'Understanding realistic emergency locksmith response times in the UK.',
       url: pageUrl,
       datePublished,
-      dateModified: datePublished,
+      dateModified,
       keywords: ['emergency locksmith response time', 'how long does a locksmith take', 'locksmith arrival time', '30 minute locksmith'],
     }),
     faqSchema(faqs),
@@ -65,6 +66,9 @@ export default function ResponseTimePage() {
             <span className="bg-orange-500/20 text-orange-400 text-sm font-semibold px-3 py-1.5 rounded-full">Emergency</span>
             <time className="text-white/50 text-sm" dateTime={datePublished}>22 July 2024</time>
             <span className="text-white/50 text-sm">· 4 min read</span>
+            <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-2.5 py-1 rounded-full">
+              <time dateTime={dateModified}>Updated Jan 2026</time>
+            </span>
           </div>
           <h1 id="article-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             How Long Should an Emergency Locksmith Take?
@@ -134,7 +138,7 @@ export default function ResponseTimePage() {
             as we can. If you&apos;re wondering what to do while you wait,{' '}
             <Link href="/blog/what-to-do-if-locked-out">our step-by-step lockout guide</Link> covers everything from
             checking your insurance to staying safe. And if you want a clear idea of what the job will cost,{' '}
-            <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2025 locksmith price guide</Link> gives you honest
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2026 locksmith price guide</Link> gives you honest
             figures for every type of call-out, including out-of-hours rates.
           </p>
         </div>
