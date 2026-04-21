@@ -30,10 +30,22 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(BUSINESS.url),
-  // ─── FIX 3: Template only adds brand — child pages supply keyword-rich title
   title: {
     default: `${BUSINESS.name} | Emergency Locksmith Ashton-in-Makerfield | 24/7`,
     template: `%s | ${BUSINESS.name}`,
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { rel: 'manifest', url: '/site.webmanifest' },
+    ],
   },
   description: BUSINESS.description,
   applicationName: BUSINESS.name,
@@ -114,13 +126,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
          */}
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://maps.gstatic.com" crossOrigin="anonymous" />
-
-        {/*
-         * ─── Favicon chain — provides all device sizes
-         *     Replace with real PNG versions before go-live
-         */}
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
 
         {/*
          * ─── FIX 8: LocalBusiness + WebSite schemas on every page
