@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
 import { faqSchema, breadcrumbSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
@@ -106,13 +107,44 @@ export default function LocksmithAshtonPage() {
 
       {/* CONTENT */}
       <section className="section-padding bg-brand-light">
-        <div className="container-max max-w-4xl mx-auto prose-custom">
-          <h2>A Locksmith Who Actually Knows Ashton-in-Makerfield</h2>
+        <div className="container-max max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-10">
+            <div className="prose-custom">
+              <h2>A Locksmith Who Actually Knows Ashton-in-Makerfield</h2>
+              <p>
+                We&apos;re not a national franchise that routes your call to whoever&apos;s on the database nearest your postcode.
+                Ashton Lock & Key is a local business, based in Ashton-in-Makerfield, serving WN4 and the surrounding
+                area every single day. We know the streets, we know the housing stock, and we know the kinds of locks you&apos;ll
+                find on the doors round here.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <div className="rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/ashton-lock-key-shopfront-ashton-in-makerfield.webp"
+                  alt="Ashton Lock & Key shop on the high street in Ashton-in-Makerfield — your local locksmith since day one"
+                  width={560}
+                  height={420}
+                  sizes="(max-width: 1024px) 100vw, 45vw"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/locksmith-shop-interior-keys-display-ashton.webp"
+                  alt="Inside Ashton Lock & Key — extensive range of locks, keys and security products in Ashton-in-Makerfield"
+                  width={560}
+                  height={420}
+                  sizes="(max-width: 1024px) 100vw, 45vw"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="prose-custom">
           <p>
-            We&apos;re not a national franchise that routes your call to whoever&apos;s on the database nearest your postcode.
-            Ashton Lock & Key is a local business, based in Ashton-in-Makerfield, serving WN4 and the surrounding
-            area every single day. We know the streets, we know the housing stock, and we know the kinds of locks you&apos;ll
-            find on the doors round here.
+            Whether you&apos;re locked out of a terraced house on Bryn Road, need a spare key for your business unit on the
+            Stubshaw Cross estate, or you&apos;ve lost your car keys in Garswood — we&apos;re 30 minutes away.
           </p>
           <p>
             Whether you&apos;re locked out of a terraced house on Bryn Road, need a spare key for your business unit on the
@@ -147,6 +179,7 @@ export default function LocksmithAshtonPage() {
             <Link href="/blog/how-to-improve-home-security">practical home security guide</Link> explains the upgrades
             that make the most difference on a tight budget, including which lock standards your insurer actually requires.
           </p>
+          </div>
         </div>
       </section>
 

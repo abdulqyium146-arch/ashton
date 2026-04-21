@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
@@ -185,6 +186,17 @@ export default function EmergencyLocksmithPage() {
             Leigh, Golborne, Haydock, Billinge, Orrell, Hindley, Abram, and Bryn. Not sure if you&apos;re in our area? Just ring us —
             if we can reach you quickly, we will.
           </p>
+
+          <div className="my-8 rounded-2xl overflow-hidden shadow-md">
+            <Image
+              src="/images/ashton-lock-key-mobile-van-citroen.webp"
+              alt="Ashton Lock & Key emergency locksmith van on call in Ashton-in-Makerfield — mobile key cutting and locksmith service"
+              width={800}
+              height={534}
+              sizes="(max-width: 768px) 100vw, 700px"
+              className="w-full h-auto object-cover"
+            />
+          </div>
 
           <h2>Useful Guides</h2>
           <p>

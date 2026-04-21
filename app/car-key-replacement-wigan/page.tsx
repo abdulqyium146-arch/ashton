@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
@@ -158,7 +159,39 @@ export default function CarKeyReplacementPage() {
 
       {/* CONTENT */}
       <section className="section-padding bg-white">
-        <div className="container-max max-w-4xl mx-auto prose-custom">
+        <div className="container-max max-w-4xl mx-auto">
+
+          {/* Key photos — shows real work, builds E-E-A-T */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-10">
+            <figure>
+              <div className="rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/car-transponder-key-replacement-wigan.webp"
+                  alt="Car transponder key replacement programmed by Ashton Lock & Key in Wigan — chip visible in key head"
+                  width={540}
+                  height={540}
+                  sizes="(max-width: 640px) 100vw, 45vw"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <figcaption className="text-xs text-gray-400 mt-2 text-center">Transponder key — chip must be programmed to your vehicle</figcaption>
+            </figure>
+            <figure>
+              <div className="rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/vauxhall-car-key-fob-replacement-ashton.webp"
+                  alt="Vauxhall remote key fob replacement supplied and programmed by Ashton Lock & Key"
+                  width={540}
+                  height={540}
+                  sizes="(max-width: 640px) 100vw, 45vw"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <figcaption className="text-xs text-gray-400 mt-2 text-center">Vauxhall remote key fob — supplied, cut and programmed on-site</figcaption>
+            </figure>
+          </div>
+
+          <div className="prose-custom">
           <h2>We Come to Wherever Your Car Is</h2>
           <p>
             When you&apos;ve lost your car keys, being told to arrange recovery to a dealer and wait several days for a
@@ -201,6 +234,7 @@ export default function CarKeyReplacementPage() {
             <Link href="/blog/how-much-does-a-locksmith-cost-uk">Our UK locksmith price guide for 2025</Link> lays out
             realistic figures for every car key job.
           </p>
+          </div>
         </div>
       </section>
 

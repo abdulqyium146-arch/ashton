@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
 import { faqSchema, breadcrumbSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
@@ -91,7 +92,30 @@ export default function LocksmithWiganPage() {
 
       {/* CONTENT */}
       <section className="section-padding bg-white">
-        <div className="container-max max-w-4xl mx-auto prose-custom">
+        <div className="container-max max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-10">
+            <div className="rounded-2xl overflow-hidden shadow-md">
+              <Image
+                src="/images/ashton-lock-key-locksmith-van-wigan.webp"
+                alt="Ashton Lock & Key locksmith van serving Wigan borough — Ford Transit fully equipped for all locksmith services"
+                width={600}
+                height={450}
+                sizes="(max-width: 1024px) 100vw, 45vw"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-md">
+              <Image
+                src="/images/locksmith-security-products-shop-ashton.webp"
+                alt="Ashton Lock & Key security products and locksmith supplies — extensive stock available for Wigan area customers"
+                width={600}
+                height={450}
+                sizes="(max-width: 1024px) 100vw, 45vw"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+          <div className="prose-custom">
           <h2>Your Local Locksmith for the Whole Wigan Borough</h2>
           <p>
             Ashton Lock & Key is based in Ashton-in-Makerfield, just minutes from Wigan town centre. We cover the full
@@ -133,6 +157,7 @@ export default function LocksmithWiganPage() {
             Locked out right now and not sure what to do next? Read our guide on{' '}
             <Link href="/blog/what-to-do-if-locked-out">what to do when you&apos;re locked out</Link> before you do anything drastic.
           </p>
+          </div>
         </div>
       </section>
 

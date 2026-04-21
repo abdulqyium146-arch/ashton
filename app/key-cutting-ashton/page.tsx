@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
@@ -141,13 +142,40 @@ export default function KeyCuttingPage() {
 
       {/* CONTENT */}
       <section className="section-padding bg-brand-light">
-        <div className="container-max max-w-4xl mx-auto prose-custom">
-          <h2>Key Cutting in Ashton-in-Makerfield — Quick and Reliable</h2>
-          <p>
-            Getting a key cut is one of those jobs that takes five minutes and saves you a world of grief later. At Ashton Lock & Key,
-            we use precision cutting machines and carry blanks for an enormous range of key types — Yale, Chubb, euro cylinder,
-            high-security, padlocks, window locks, and more. If you bring us the original, we&apos;ll have a copy done while you wait.
-          </p>
+        <div className="container-max max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-10">
+            <div className="prose-custom">
+              <h2>Key Cutting in Ashton-in-Makerfield — Quick and Reliable</h2>
+              <p>
+                Getting a key cut is one of those jobs that takes five minutes and saves you a world of grief later. At Ashton Lock & Key,
+                we use precision cutting machines and carry blanks for an enormous range of key types — Yale, Chubb, euro cylinder,
+                high-security, padlocks, window locks, and more. If you bring us the original, we&apos;ll have a copy done while you wait.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <div className="rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/professional-key-cutting-machine-ashton.webp"
+                  alt="Professional key cutting machine at Ashton Lock & Key — precision cutting for all key types in Ashton-in-Makerfield"
+                  width={560}
+                  height={420}
+                  sizes="(max-width: 1024px) 100vw, 45vw"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="rounded-2xl overflow-hidden shadow-md">
+                <Image
+                  src="/images/key-cutting-security-products-ashton.webp"
+                  alt="Key cutting and security products on display at Ashton Lock & Key shop in Ashton-in-Makerfield"
+                  width={560}
+                  height={420}
+                  sizes="(max-width: 1024px) 100vw, 45vw"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="prose-custom">
 
           <h2>Get a Spare Key — Before You Need It</h2>
           <p>
@@ -186,6 +214,7 @@ export default function KeyCuttingPage() {
             <Link href="/blog/how-much-does-a-locksmith-cost-uk">our 2025 locksmith price guide</Link> has transparent
             figures for every job we do.
           </p>
+          </div>
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
 import { faqSchema, breadcrumbSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
@@ -119,6 +120,7 @@ export default function HomePage() {
         </div>
 
         <div className="container-max px-4 sm:px-6 lg:px-8 py-20 md:py-28 lg:py-36 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-3xl">
             {/* Live badge */}
             <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
@@ -182,6 +184,26 @@ export default function HomePage() {
             <p className="mt-5 text-white/50 text-sm">
               ✓ No call-out charge &nbsp;·&nbsp; ✓ Fixed price quotes &nbsp;·&nbsp; ✓ Fully insured
             </p>
+          </div>
+
+          {/* Hero image — van shot, above the fold */}
+          <div className="hidden lg:block relative">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/images/ashton-lock-key-locksmith-van-wigan.webp"
+                alt="Ashton Lock & Key mobile locksmith van fully equipped for emergency callouts across Wigan and Ashton-in-Makerfield"
+                width={600}
+                height={450}
+                priority
+                sizes="(max-width: 1024px) 0px, 50vw"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute bottom-4 left-4 right-4 bg-brand-navy/90 backdrop-blur rounded-xl px-4 py-3">
+                <p className="text-white text-sm font-semibold">Mobile locksmith serving Wigan &amp; Ashton-in-Makerfield</p>
+                <p className="text-brand-orange text-xs font-bold mt-0.5">Full locksmith services available — 24/7</p>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -311,6 +333,38 @@ export default function HomePage() {
             <Link href="/emergency-locksmith-ashton-in-makerfield" className="text-brand-orange font-semibold hover:underline">Emergency locksmith Ashton-in-Makerfield</Link>{' '}
             is available right now — 24/7, 30-minute response.
           </p>
+        </div>
+      </section>
+
+      {/* ── SHOPFRONT TRUST SIGNAL ───────────────────────────── */}
+      <section className="section-padding bg-white" aria-labelledby="about-heading">
+        <div className="container-max">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/ashton-lock-key-shopfront-ashton-in-makerfield.webp"
+                alt="Ashton Lock & Key shop on the high street in Ashton-in-Makerfield — your local locksmith and key cutting centre"
+                width={640}
+                height={480}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div>
+              <h2 id="about-heading" className="text-3xl font-black text-brand-navy mb-4">
+                A Real Local Business — Not a Call Centre
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                Ashton Lock & Key is based right here in Ashton-in-Makerfield. We have a shop on the high street,
+                a fully equipped mobile van, and a team you can actually speak to. When you call, you get the locksmith —
+                not an operator 200 miles away who farms the job out.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                That local presence means faster response times, honest prices, and genuine accountability.
+                We&apos;re not going anywhere — our reputation depends on every single job.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
