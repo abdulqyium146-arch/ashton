@@ -11,16 +11,15 @@ export default function Footer() {
         <div className="container-max grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="flex items-center justify-center w-10 h-10 bg-brand-orange rounded-lg">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
-                </svg>
-              </div>
-              <div>
-                <span className="block text-lg font-black leading-none">Ashton Lock & Key</span>
-                <span className="block text-xs text-brand-orange font-semibold tracking-wider uppercase">Professional Locksmith</span>
-              </div>
+            <div className="mb-4">
+              <img
+                src="/images/ashton_locksmith_logo.svg"
+                alt="Ashton Lock & Key — professional locksmith in Ashton-in-Makerfield and Wigan"
+                width={220}
+                height={110}
+                className="h-14 w-auto rounded-lg"
+                loading="lazy"
+              />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               Your trusted local locksmith in Ashton-in-Makerfield. Emergency lockouts, key cutting, and car key replacement. Available 24/7.

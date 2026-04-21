@@ -57,16 +57,15 @@ export default function Header() {
       >
         <nav className="container-max flex items-center justify-between py-4 px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3" aria-label={BUSINESS.name}>
-            <div className="flex items-center justify-center w-10 h-10 bg-brand-orange rounded-lg shadow">
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
-              </svg>
-            </div>
-            <div>
-              <span className="block text-lg font-black text-brand-navy leading-none">Ashton Lock</span>
-              <span className="block text-xs font-semibold text-brand-orange tracking-wider uppercase">& Key</span>
-            </div>
+          <Link href="/" aria-label={`${BUSINESS.name} — Home`}>
+            <img
+              src="/images/ashton_locksmith_logo.svg"
+              alt="Ashton Lock & Key — professional locksmith in Ashton-in-Makerfield"
+              width={176}
+              height={88}
+              className="h-11 w-auto"
+              loading="eager"
+            />
           </Link>
 
           {/* Desktop Nav */}
