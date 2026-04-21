@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
-import { faqSchema, breadcrumbSchema } from '@/lib/schema'
+import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
 import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Locksmith Wigan | 24/7 Emergency & All Locksmith Services | Fast Response',
+  title: 'Locksmith Wigan | 24/7 Emergency & Key Cutting',
   description: 'Need a locksmith in Wigan? Ashton Lock & Key provides emergency lockouts, key cutting & car key replacement across Wigan. 24/7, fast response. Call 07711 341668.',
   alternates: {
     canonical: `${BUSINESS.url}/locksmith-wigan`,
@@ -37,12 +37,24 @@ const faqs = [
 ]
 
 export default function LocksmithWiganPage() {
+  const pageUrl = `${BUSINESS.url}/locksmith-wigan`
   const schemas = [
+    serviceSchema(
+      'Locksmith Wigan',
+      'Professional locksmith services across the Wigan borough — emergency lockouts, key cutting, car key replacement. Based in Ashton-in-Makerfield, covering all WN postcodes. Available 24/7.',
+      pageUrl,
+    ),
     faqSchema(faqs),
     breadcrumbSchema([
       { name: 'Home', url: BUSINESS.url },
-      { name: 'Locksmith Wigan', url: `${BUSINESS.url}/locksmith-wigan` },
+      { name: 'Locksmith Wigan', url: pageUrl },
     ]),
+    webPageSchema({
+      url: pageUrl,
+      title: 'Locksmith Wigan | 24/7 Emergency & Key Cutting',
+      description: 'Professional locksmith covering the whole Wigan borough. Emergency lockouts, key cutting & car keys. Fast local response.',
+      type: 'WebPage',
+    }),
   ]
 
   return (

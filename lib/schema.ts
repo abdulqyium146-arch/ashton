@@ -34,23 +34,11 @@ export function localBusinessSchema() {
       latitude: BUSINESS.geo.latitude,
       longitude: BUSINESS.geo.longitude,
     },
-    // ─── FIX: 24/7 schema now matches visual content (both show 24/7)
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: [
-          'Monday',
-          'Tuesday',
-          'Wednesday',
-          'Thursday',
-          'Friday',
-          'Saturday',
-          'Sunday',
-        ],
-        opens: '00:00',
-        closes: '23:59',
-      },
-    ],
+    openingHours: BUSINESS.openingHoursSchema,
+    openingHoursSpecification: BUSINESS.openingHoursSpecification.map((spec) => ({
+      '@type': 'OpeningHoursSpecification',
+      ...spec,
+    })),
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: BUSINESS.aggregateRating.ratingValue,

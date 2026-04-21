@@ -15,13 +15,27 @@ export const BUSINESS = {
     latitude: 53.4878,
     longitude: -2.6405,
   },
-  // 24/7 — emergency line always open
-  openingHoursSchema: ['Mo-Su 00:00-23:59'],
+  // Regular shop/non-emergency hours + 24/7 emergency line
+  openingHoursSchema: [
+    'Mo-Fr 08:00-20:00',
+    'Sa 08:00-18:00',
+    'Su 09:00-17:00',
+  ],
   openingHoursSpecification: [
     {
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-      opens: '00:00',
-      closes: '23:59',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '08:00',
+      closes: '20:00',
+    },
+    {
+      dayOfWeek: ['Saturday'],
+      opens: '08:00',
+      closes: '18:00',
+    },
+    {
+      dayOfWeek: ['Sunday'],
+      opens: '09:00',
+      closes: '17:00',
     },
   ],
   url: 'https://www.ashtonlockandkey.co.uk',

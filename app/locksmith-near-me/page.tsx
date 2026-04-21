@@ -1,14 +1,14 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
-import { faqSchema, breadcrumbSchema } from '@/lib/schema'
+import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
 import TrustBadges from '@/components/TrustBadges'
 import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Locksmith Near Me | Ashton-in-Makerfield & Wigan | Fast Local Response',
+  title: 'Locksmith Near Me — Wigan & Ashton-in-Makerfield | 24/7',
   description: 'Searching for a locksmith near me in Wigan or Ashton-in-Makerfield? Ashton Lock & Key is your nearest local locksmith. 24/7 emergency service, 30-min response. Call 07711 341668.',
   alternates: {
     canonical: `${BUSINESS.url}/locksmith-near-me`,
@@ -31,12 +31,24 @@ const faqs = [
 ]
 
 export default function LocksmithNearMePage() {
+  const pageUrl = `${BUSINESS.url}/locksmith-near-me`
   const schemas = [
+    serviceSchema(
+      'Locksmith Near Me — Wigan & Ashton-in-Makerfield',
+      'Local locksmith serving Wigan, Ashton-in-Makerfield, and surrounding WN postcodes. Emergency lockouts, key cutting, car key replacement. 30-minute response, available 24/7.',
+      pageUrl,
+    ),
     faqSchema(faqs),
     breadcrumbSchema([
       { name: 'Home', url: BUSINESS.url },
-      { name: 'Locksmith Near Me', url: `${BUSINESS.url}/locksmith-near-me` },
+      { name: 'Locksmith Near Me', url: pageUrl },
     ]),
+    webPageSchema({
+      url: pageUrl,
+      title: 'Locksmith Near Me — Wigan & Ashton-in-Makerfield | 24/7',
+      description: 'Your nearest local locksmith in Wigan and Ashton-in-Makerfield. Emergency lockouts, key cutting & car keys. Fast 30-min response.',
+      type: 'WebPage',
+    }),
   ]
 
   return (
@@ -136,7 +148,7 @@ export default function LocksmithNearMePage() {
           <h2>Before You Book</h2>
           <p>
             Want to know what a genuine local locksmith should charge? Our{' '}
-            <Link href="/blog/how-much-does-a-locksmith-cost-uk">locksmith pricing guide for 2025</Link> gives you
+            <Link href="/blog/how-much-does-a-locksmith-cost-uk">locksmith pricing guide for 2026</Link> gives you
             honest, transparent figures — so you can compare quotes with confidence and avoid the inflated bills that
             rogue traders rely on. For urgent situations,{' '}
             <Link href="/blog/emergency-locksmith-response-time">our guide to realistic emergency response times</Link>{' '}

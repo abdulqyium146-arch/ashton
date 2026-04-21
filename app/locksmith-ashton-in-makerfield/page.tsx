@@ -2,14 +2,14 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
-import { faqSchema, breadcrumbSchema } from '@/lib/schema'
+import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
 import ReviewsSection from '@/components/ReviewsSection'
 import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Locksmith Ashton-in-Makerfield | Local Expert | 24/7 Emergency & Key Cutting',
+  title: 'Locksmith Ashton-in-Makerfield | 24/7 Local Expert',
   description: 'Looking for a locksmith in Ashton-in-Makerfield? Ashton Lock & Key is your local expert. Emergency lockouts, key cutting & car keys. Call 07711 341668.',
   alternates: {
     canonical: `${BUSINESS.url}/locksmith-ashton-in-makerfield`,
@@ -32,12 +32,24 @@ const faqs = [
 ]
 
 export default function LocksmithAshtonPage() {
+  const pageUrl = `${BUSINESS.url}/locksmith-ashton-in-makerfield`
   const schemas = [
+    serviceSchema(
+      'Locksmith Ashton-in-Makerfield',
+      'Professional locksmith services in Ashton-in-Makerfield — emergency lockouts, key cutting, car key replacement, and lock upgrades. Available 24/7.',
+      pageUrl,
+    ),
     faqSchema(faqs),
     breadcrumbSchema([
       { name: 'Home', url: BUSINESS.url },
-      { name: 'Locksmith Ashton-in-Makerfield', url: `${BUSINESS.url}/locksmith-ashton-in-makerfield` },
+      { name: 'Locksmith Ashton-in-Makerfield', url: pageUrl },
     ]),
+    webPageSchema({
+      url: pageUrl,
+      title: 'Locksmith Ashton-in-Makerfield | 24/7 Local Expert',
+      description: 'Professional locksmith in Ashton-in-Makerfield. Emergency lockouts, key cutting & car keys. Genuinely local, fast response.',
+      type: 'WebPage',
+    }),
   ]
 
   return (
@@ -142,10 +154,6 @@ export default function LocksmithAshtonPage() {
             </div>
           </div>
           <div className="prose-custom">
-          <p>
-            Whether you&apos;re locked out of a terraced house on Bryn Road, need a spare key for your business unit on the
-            Stubshaw Cross estate, or you&apos;ve lost your car keys in Garswood — we&apos;re 30 minutes away.
-          </p>
           <p>
             Whether you&apos;re locked out of a terraced house on Bryn Road, need a spare key for your business unit on the
             Stubshaw Cross estate, or you&apos;ve lost your car keys in Garswood — we&apos;re 30 minutes away.
