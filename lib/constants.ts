@@ -35,28 +35,28 @@ export const BUSINESS = {
     bestRating: '5',
     worstRating: '1',
   },
-  // Top reviews for inline schema
+  // Top reviews for inline schema (real Google reviews)
   reviews: [
     {
-      author: 'Sarah M.',
+      author: 'thomas berry',
       ratingValue: 5,
       reviewBody:
-        'Absolutely brilliant service! Locked out at 11pm and the locksmith arrived within 25 minutes. Friendly, professional, and fair price.',
-      datePublished: '2024-11-15',
+        'Best lock smith in the uk honest and reliable been using neil for 25yrs never I won\'t use no one else.',
+      datePublished: '2025-04-20',
     },
     {
-      author: 'Dave R.',
+      author: 'Ian White',
       ratingValue: 5,
       reviewBody:
-        'Lost my car keys on a Sunday and Ashton Lock & Key sorted me out quickly at a fraction of what the dealer quoted. Top service.',
-      datePublished: '2024-10-22',
+        'Great service! 10 minutes after putting down the phone, Neal had arrived at my house. Repair done to my front door lock. No fuss, happy with the price and service.',
+      datePublished: '2025-06-20',
     },
     {
-      author: 'Linda T.',
+      author: 'Cecilia Frodsham',
       ratingValue: 5,
       reviewBody:
-        'Had new locks fitted after a break-in attempt. Felt so much safer. Proper local expert who clearly knows his trade.',
-      datePublished: '2024-09-08',
+        'Great service from Ashton Lock & Key. I rang first thing as our front door wouldn\'t open and within 30 minutes, the gentleman arrived and was able to fix the problem. Excellent.',
+      datePublished: '2025-04-20',
     },
   ],
   serviceAreas: [
