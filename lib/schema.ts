@@ -61,6 +61,7 @@ export function localBusinessSchema() {
     // ─── FIX: Inline reviews — enables star snippets in local pack
     review: BUSINESS.reviews.map((r) => ({
       '@type': 'Review',
+      name: r.reviewBody.split(' ').slice(0, 6).join(' ').replace(/[.,!?]+$/, ''),
       author: { '@type': 'Person', name: r.author },
       reviewRating: {
         '@type': 'Rating',
@@ -288,6 +289,7 @@ export function reviewSchema(
   return reviews.map((review) => ({
     '@context': 'https://schema.org',
     '@type': 'Review',
+    name: review.text.split(' ').slice(0, 6).join(' ').replace(/[.,!?]+$/, ''),
     author: { '@type': 'Person', name: review.author },
     reviewRating: {
       '@type': 'Rating',
