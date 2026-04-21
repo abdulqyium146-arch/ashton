@@ -189,10 +189,11 @@ export default function ReviewsSection() {
               itemScope
               itemType="https://schema.org/Review"
             >
+              <meta itemProp="name" content={review.text.split(' ').slice(0, 7).join(' ').replace(/[.,!?'"]+$/, '')} />
               <div className="flex items-start justify-between mb-3">
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <p className="font-bold text-brand-navy text-base leading-tight" itemProp="author">{review.author}</p>
+                    <p className="font-bold text-brand-navy text-base leading-tight" itemProp="author" itemScope itemType="https://schema.org/Person"><span itemProp="name">{review.author}</span></p>
                     {review.badge && (
                       <span className="text-xs bg-blue-100 text-blue-700 font-semibold px-2 py-0.5 rounded-full whitespace-nowrap">{review.badge}</span>
                     )}
