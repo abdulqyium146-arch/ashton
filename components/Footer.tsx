@@ -158,9 +158,18 @@ export default function Footer() {
             <span aria-hidden="true">·</span>
             <Link href="/contact" className="hover:text-brand-orange transition-colors">Contact</Link>
             <span aria-hidden="true">·</span>
-            <span>Serving Wigan & Surrounding Areas</span>
-            <span aria-hidden="true">·</span>
-            <span>WN4</span>
+            <span className="flex items-center gap-1.5">
+              <span className="text-gray-600">Official website:</span>
+              <a
+                href="https://ashtonlockandkey.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-brand-orange transition-colors"
+                aria-label="Ashton Lock and Key — official .com website (opens in new tab)"
+              >
+                ashtonlockandkey.com
+              </a>
+            </span>
           </div>
         </div>
       </div>

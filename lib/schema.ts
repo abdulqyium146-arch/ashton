@@ -11,6 +11,7 @@ export function localBusinessSchema() {
     '@context': 'https://schema.org',
     '@type': 'Locksmith',
     '@id': `${BUSINESS.url}/#business`,
+    sameAs: BUSINESS.sameAs,
     name: BUSINESS.name,
     alternateName: 'Ashton Lock and Key',
     description: BUSINESS.description,

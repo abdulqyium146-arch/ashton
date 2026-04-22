@@ -39,6 +39,9 @@ export const BUSINESS = {
     },
   ],
   url: 'https://www.ashtonlockandkey.co.uk',
+  sameAs: [
+    'https://ashtonlockandkey.com',
+  ],
   description:
     'Professional locksmith in Ashton-in-Makerfield, Wigan. Emergency lockout, key cutting & car key replacement. Available 24/7. Fast 30-minute response.',
   slogan: 'Your trusted local locksmith — 24/7 fast response',
