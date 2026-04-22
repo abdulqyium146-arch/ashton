@@ -127,22 +127,45 @@ export default function Footer() {
       {/* Trusted Partners */}
       <div className="border-t border-white/10 py-6">
         <div className="container-max">
-          <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-            <span className="text-xs font-bold text-white/40 uppercase tracking-widest whitespace-nowrap">Trusted Partner</span>
-            <span className="hidden sm:block w-px h-4 bg-white/10" aria-hidden="true" />
-            <p className="text-gray-500 text-xs leading-relaxed">
-              For car key replacement and auto locksmith services in Stockport and the SK postcode area, we refer customers to{' '}
-              <a
-                href="https://carkeysinstockport.co.uk/"
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                className="text-gray-400 hover:text-brand-orange transition-colors underline underline-offset-2"
-                aria-label="Car Keys in Stockport — automotive locksmith specialist (opens in new tab)"
-              >
-                Car Keys in Stockport
-              </a>
-              {' '}— an automotive locksmith specialist covering Stockport, Cheadle, and surrounding SK areas.
-            </p>
+          <p className="text-xs font-bold text-white/40 uppercase tracking-widest mb-4">Trusted Partners</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+            {/* Partner 1 — Car Keys in Stockport */}
+            <div className="flex items-start gap-3">
+              <span className="mt-0.5 w-1.5 h-1.5 rounded-full bg-brand-orange flex-shrink-0" aria-hidden="true" />
+              <p className="text-gray-500 text-xs leading-relaxed">
+                For auto locksmith services in the Stockport and SK postcode area, we refer customers to{' '}
+                <a
+                  href="https://carkeysinstockport.co.uk/"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  className="text-gray-400 hover:text-brand-orange transition-colors underline underline-offset-2"
+                  aria-label="Car Keys in Stockport — automotive locksmith specialist covering Stockport and SK areas (opens in new tab)"
+                >
+                  Car Keys in Stockport
+                </a>
+                {' '}— an automotive locksmith specialist covering Stockport, Cheadle, and surrounding SK areas.
+              </p>
+            </div>
+
+            {/* Partner 2 — Excalibur's Mobile Locksmiths */}
+            <div className="flex items-start gap-3">
+              <span className="mt-0.5 w-1.5 h-1.5 rounded-full bg-brand-orange flex-shrink-0" aria-hidden="true" />
+              <p className="text-gray-500 text-xs leading-relaxed">
+                For mobile auto locksmith cover across the wider North West, we recommend{' '}
+                <a
+                  href="https://mobileautolocksmiths.co.uk/"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  className="text-gray-400 hover:text-brand-orange transition-colors underline underline-offset-2"
+                  aria-label="Excalibur's Mobile Locksmiths — mobile auto locksmith covering the North West 24/7 (opens in new tab)"
+                >
+                  Excalibur&apos;s Mobile Locksmiths
+                </a>
+                {' '}— Excalibur&apos;s mobile locksmiths come to you anywhere across the North West, 24 hours a day, always cheaper than the main dealer.
+              </p>
+            </div>
+
           </div>
         </div>
       </div>
