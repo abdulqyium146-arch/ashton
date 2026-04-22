@@ -143,6 +143,7 @@ export default function LocksmithNearMePage() {
             <li><Link href="/key-cutting-ashton">Key Cutting Ashton</Link> — All key types, while you wait</li>
             <li><Link href="/car-key-replacement-wigan">Car Key Replacement Wigan</Link> — All makes, cheaper than dealers</li>
             <li><Link href="/locksmith-wigan">Locksmith Wigan</Link> — Full coverage across Wigan Borough</li>
+            <li><Link href="/locksmith-ashton-in-makerfield">Locksmith Ashton-in-Makerfield</Link> — Your local WN4 expert</li>
           </ul>
 
           <h2>Before You Book</h2>

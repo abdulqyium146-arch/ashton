@@ -219,6 +219,11 @@ export default function WhatToDoLockedOutPage() {
               </Link>
             ))}
           </div>
+          <p className="text-center mt-6">
+            <Link href="/blog" className="text-brand-orange hover:underline text-sm font-semibold">
+              ← Browse all locksmith guides
+            </Link>
+          </p>
         </div>
       </section>
     </>

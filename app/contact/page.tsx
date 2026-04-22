@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { webPageSchema, breadcrumbSchema } from '@/lib/schema'
 import CTASection from '@/components/CTASection'
@@ -213,6 +214,41 @@ export default function ContactPage() {
           <p className="text-center text-gray-600 mt-4 text-sm">
             Serving <strong>Ashton-in-Makerfield (WN4)</strong>, Wigan, St Helens, Newton-le-Willows,
             Leigh, Golborne, Haydock, Billinge, Orrell, Hindley, and surrounding areas.
+          </p>
+        </div>
+      </section>
+
+      {/* SERVICES — internal links from contact page to service pages */}
+      <section className="section-padding bg-white" aria-labelledby="services-contact-heading">
+        <div className="container-max max-w-3xl mx-auto">
+          <h2 id="services-contact-heading" className="text-2xl font-black text-brand-navy mb-2 text-center">
+            Our Locksmith Services
+          </h2>
+          <p className="text-center text-gray-600 text-sm mb-8">
+            Not sure what you need? Browse our services — each page has full details, pricing, and FAQs.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+            {[
+              { title: 'Emergency Locksmith Ashton-in-Makerfield', desc: '24/7 lockout response — we\'ll be with you in 30 minutes', href: '/emergency-locksmith-ashton-in-makerfield' },
+              { title: 'Key Cutting Ashton', desc: 'Spare keys cut while you wait — from £3', href: '/key-cutting-ashton' },
+              { title: 'Car Key Replacement Wigan', desc: 'Lost or broken car keys replaced on-site', href: '/car-key-replacement-wigan' },
+            ].map((s) => (
+              <Link key={s.href} href={s.href} className="card hover:-translate-y-0.5 transition-transform group block">
+                <p className="font-bold text-brand-navy group-hover:text-brand-orange transition-colors mb-1">{s.title}</p>
+                <p className="text-xs text-gray-500 leading-relaxed">{s.desc}</p>
+              </Link>
+            ))}
+          </div>
+          <p className="text-center text-sm text-gray-500">
+            Covering{' '}
+            <Link href="/locksmith-ashton-in-makerfield" className="text-brand-orange hover:underline font-medium">Ashton-in-Makerfield</Link>
+            {', '}
+            <Link href="/locksmith-wigan" className="text-brand-orange hover:underline font-medium">Wigan</Link>
+            {', and '}
+            <Link href="/locksmith-near-me" className="text-brand-orange hover:underline font-medium">all surrounding WN postcodes</Link>.
+            Read our{' '}
+            <Link href="/blog" className="text-brand-orange hover:underline font-medium">locksmith guides</Link>{' '}
+            for advice before you book.
           </p>
         </div>
       </section>

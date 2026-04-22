@@ -24,13 +24,14 @@ const posts = [
     readTime: '5 min read',
   },
   {
-    title: 'How Much Does a Locksmith Cost in the UK? (2025 Guide)',
+    title: 'How Much Does a Locksmith Cost in the UK? (2026 Guide)',
     excerpt: 'Transparent breakdown of locksmith pricing across the UK — so you know what\'s fair and what\'s a rip-off.',
     href: '/blog/how-much-does-a-locksmith-cost-uk',
     category: 'Pricing',
     color: 'bg-blue-50 text-blue-700',
     date: '2024-10-15',
     readTime: '7 min read',
+    // title corrected above from "2025 Guide" → "2026 Guide"
   },
   {
     title: 'Car Key Replacement: The Complete UK Guide',
@@ -115,6 +116,38 @@ export default function BlogPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* SERVICES STRIP — passes link equity from blog to service pages */}
+      <section className="section-padding bg-brand-light" aria-labelledby="services-strip-heading">
+        <div className="container-max max-w-3xl mx-auto text-center">
+          <h2 id="services-strip-heading" className="text-2xl font-black text-brand-navy mb-2">
+            Need a Locksmith Right Now?
+          </h2>
+          <p className="text-gray-600 text-sm mb-8">
+            Our guides cover the theory — when you need immediate help, we&apos;re available 24/7 across Wigan and Ashton-in-Makerfield.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+            {[
+              { title: 'Emergency Locksmith Ashton-in-Makerfield', desc: '30-minute response, 24/7', href: '/emergency-locksmith-ashton-in-makerfield' },
+              { title: 'Key Cutting Ashton', desc: 'All key types, while you wait', href: '/key-cutting-ashton' },
+              { title: 'Car Key Replacement Wigan', desc: 'All makes — cheaper than dealers', href: '/car-key-replacement-wigan' },
+            ].map((s) => (
+              <Link key={s.href} href={s.href} className="card hover:-translate-y-0.5 transition-transform group block text-center">
+                <p className="font-bold text-brand-navy group-hover:text-brand-orange transition-colors mb-1">{s.title}</p>
+                <p className="text-xs text-gray-500">{s.desc}</p>
+              </Link>
+            ))}
+          </div>
+          <p className="text-sm text-gray-500">
+            Serving{' '}
+            <Link href="/locksmith-ashton-in-makerfield" className="text-brand-orange hover:underline font-medium">Ashton-in-Makerfield</Link>
+            {', '}
+            <Link href="/locksmith-wigan" className="text-brand-orange hover:underline font-medium">Wigan</Link>
+            {', and '}
+            <Link href="/locksmith-near-me" className="text-brand-orange hover:underline font-medium">surrounding areas</Link>.
+          </p>
         </div>
       </section>
     </>

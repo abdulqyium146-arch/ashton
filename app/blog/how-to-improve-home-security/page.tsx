@@ -180,6 +180,28 @@ export default function HomeSecurityPage() {
 
       <CTASection heading="Want a Security Assessment?" subtext="Our local locksmith in Ashton-in-Makerfield can advise on the best upgrades for your home. Call us today." variant="navy" />
       <FAQSection faqs={faqs} heading="Home Security FAQs" />
+
+      <section className="section-padding bg-brand-light">
+        <div className="container-max">
+          <h2 className="text-2xl font-black text-brand-navy mb-6 text-center">Related Articles</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { title: 'What to Do If Locked Out', href: '/blog/what-to-do-if-locked-out' },
+              { title: 'How Much Does a Locksmith Cost?', href: '/blog/how-much-does-a-locksmith-cost-uk' },
+              { title: 'How Long Should a Locksmith Take?', href: '/blog/emergency-locksmith-response-time' },
+            ].map((post) => (
+              <Link key={post.href} href={post.href} className="card hover:-translate-y-0.5 transition-transform group block">
+                <p className="font-semibold text-brand-navy group-hover:text-brand-orange transition-colors">{post.title}</p>
+              </Link>
+            ))}
+          </div>
+          <p className="text-center mt-6">
+            <Link href="/blog" className="text-brand-orange hover:underline text-sm font-semibold">
+              ← Browse all locksmith guides
+            </Link>
+          </p>
+        </div>
+      </section>
     </>
   )
 }

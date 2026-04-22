@@ -169,6 +169,14 @@ export default function LocksmithWiganPage() {
             Locked out right now and not sure what to do next? Read our guide on{' '}
             <Link href="/blog/what-to-do-if-locked-out">what to do when you&apos;re locked out</Link> before you do anything drastic.
           </p>
+
+          <h2>Also Serving</h2>
+          <p>
+            Based in <Link href="/locksmith-ashton-in-makerfield">Ashton-in-Makerfield</Link>, we&apos;re perfectly placed
+            to reach the whole borough quickly. If you&apos;re searching for a{' '}
+            <Link href="/locksmith-near-me">locksmith near me</Link> anywhere in the WN postcode area, we&apos;re the closest
+            genuinely local option — no national call centres, no subcontractors.
+          </p>
           </div>
         </div>
       </section>
