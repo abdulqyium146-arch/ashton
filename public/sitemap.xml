@@ -17,6 +17,91 @@
     <priority>0.98</priority>
   </url>
 
+  <!-- Tier 1.5 — Hyper-local Service Pages (Ashton-in-Makerfield silo) -->
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/car-lockout-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/car-key-replacement-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.96</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/lost-car-key-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/emergency-auto-locksmith-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/broken-key-extraction-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/ignition-repair-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/transponder-key-programming-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/key-fob-programming-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.87</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/smart-key-replacement-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.87</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/remote-key-repair-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/trunk-unlock-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ashtonlockandkey.co.uk/car-rekeying-ashton-in-makerfield</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.83</priority>
+  </url>
+
   <!-- Tier 1 Money Pages -->
   <url>
     <loc>https://www.ashtonlockandkey.co.uk/car-lockout-service-ashton</loc>

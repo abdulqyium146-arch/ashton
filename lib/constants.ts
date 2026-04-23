@@ -5,10 +5,10 @@ export const BUSINESS = {
   whatsapp: '447711341668',
   email: 'info@ashtonlockandkey.co.uk',
   address: {
-    streetAddress: 'Ashton-in-Makerfield',
+    streetAddress: '2, Market Approach, 1 Gerard St',
     addressLocality: 'Ashton-in-Makerfield',
     addressRegion: 'Wigan',
-    postalCode: 'WN4',
+    postalCode: 'WN4 9AL',
     addressCountry: 'GB',
   },
   geo: {

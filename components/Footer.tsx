@@ -116,7 +116,10 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-500 mb-0.5">Location</p>
-                  <p className="text-white font-medium text-sm">Ashton-in-Makerfield, Wigan</p>
+                  <address className="not-italic">
+                    <p className="text-white font-medium text-sm">2, Market Approach, 1 Gerard St</p>
+                    <p className="text-gray-400 text-xs">Ashton-in-Makerfield, Wigan WN4 9AL</p>
+                  </address>
                 </div>
               </li>
             </ul>
