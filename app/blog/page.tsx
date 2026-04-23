@@ -15,6 +15,51 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    title: 'Auto Locksmith Ashton-in-Makerfield — What to Expect',
+    excerpt: 'What does an auto locksmith actually do? Car lockouts, transponder programming, and how to choose a genuine specialist.',
+    href: '/blog/auto-locksmith-ashton-in-makerfield',
+    category: 'Auto Locksmith',
+    color: 'bg-brand-orange/10 text-brand-orange',
+    date: '2026-01-20',
+    readTime: '6 min read',
+  },
+  {
+    title: 'Lost Your Car Keys? Here\'s Exactly What to Do',
+    excerpt: 'Step-by-step guide for UK drivers — from checking the obvious to AKL replacement. Don\'t call the dealer until you\'ve read this.',
+    href: '/blog/lost-car-keys-what-to-do-uk',
+    category: 'Car Keys',
+    color: 'bg-purple-50 text-purple-700',
+    date: '2026-01-20',
+    readTime: '7 min read',
+  },
+  {
+    title: 'Car Key Replacement Cost UK 2026',
+    excerpt: 'Transparent pricing for every car key scenario — transponder keys, smart keys, all-keys-lost. Locksmith vs dealer comparison.',
+    href: '/blog/car-key-replacement-cost-uk-2026',
+    category: 'Pricing',
+    color: 'bg-green-50 text-green-700',
+    date: '2026-01-20',
+    readTime: '5 min read',
+  },
+  {
+    title: 'Transponder Key vs Smart Key — What\'s the Difference?',
+    excerpt: 'Plain-language explainer on car key types — how they work, what makes them different, and what replacement involves.',
+    href: '/blog/transponder-key-vs-smart-key-explained',
+    category: 'Explainer',
+    color: 'bg-blue-50 text-blue-700',
+    date: '2026-01-20',
+    readTime: '5 min read',
+  },
+  {
+    title: 'Locked Keys in Car — Ashton & Wigan Guide',
+    excerpt: 'Calm down. Don\'t break anything. Here\'s exactly what to do — and what to avoid — to get back in your car quickly.',
+    href: '/blog/locked-keys-in-car-ashton-wigan',
+    category: 'Emergency',
+    color: 'bg-red-50 text-red-700',
+    date: '2026-01-20',
+    readTime: '4 min read',
+  },
+  {
     title: 'What to Do If You\'re Locked Out of Your House',
     excerpt: 'Don\'t panic. Here\'s a step-by-step guide to handling a home lockout safely and without wasting money.',
     href: '/blog/what-to-do-if-locked-out',
@@ -31,7 +76,6 @@ const posts = [
     color: 'bg-blue-50 text-blue-700',
     date: '2024-10-15',
     readTime: '7 min read',
-    // title corrected above from "2025 Guide" → "2026 Guide"
   },
   {
     title: 'Car Key Replacement: The Complete UK Guide',
