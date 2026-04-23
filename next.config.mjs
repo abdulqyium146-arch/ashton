@@ -101,11 +101,11 @@ const nextConfig = {
 
   // ─── Redirects: enforce www + no trailing slashes
   redirects: async () => [
-    // non-www → www: canonical is www.ashtonlockandkey.co.uk (matches constants.ts)
+    // www → non-www: canonical is ashtonlockandkey.co.uk (matches constants.ts)
     {
       source: '/:path*',
-      has: [{ type: 'host', value: 'ashtonlockandkey.co.uk' }],
-      destination: 'https://www.ashtonlockandkey.co.uk/:path*',
+      has: [{ type: 'host', value: 'www.ashtonlockandkey.co.uk' }],
+      destination: 'https://ashtonlockandkey.co.uk/:path*',
       permanent: true,
     },
   ],

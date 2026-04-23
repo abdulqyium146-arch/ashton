@@ -38,7 +38,7 @@ export const BUSINESS = {
       closes: '17:00',
     },
   ],
-  url: 'https://www.ashtonlockandkey.co.uk',
+  url: 'https://ashtonlockandkey.co.uk',
   sameAs: [
     'https://ashtonlockandkey.com',
   ],
