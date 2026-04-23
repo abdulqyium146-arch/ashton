@@ -71,8 +71,8 @@ const nextConfig = {
           value: 'camera=(), microphone=(), geolocation=(self), interest-cohort=()',
         },
 
-        // ─── HSTS: force HTTPS (only enable after SSL confirmed live)
-        // { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
+        // HSTS: force HTTPS for 2 years, include subdomains, eligible for preload list
+        { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
       ],
     },
 
@@ -101,14 +101,13 @@ const nextConfig = {
 
   // ─── Redirects: enforce www + no trailing slashes
   redirects: async () => [
-    // www → non-www (or reverse — pick one, be consistent)
-    // Uncomment and adapt to match your DNS setup:
-    // {
-    //   source: '/:path*',
-    //   has: [{ type: 'host', value: 'ashtonlockandkey.co.uk' }],
-    //   destination: 'https://www.ashtonlockandkey.co.uk/:path*',
-    //   permanent: true,
-    // },
+    // non-www → www: canonical is www.ashtonlockandkey.co.uk (matches constants.ts)
+    {
+      source: '/:path*',
+      has: [{ type: 'host', value: 'ashtonlockandkey.co.uk' }],
+      destination: 'https://www.ashtonlockandkey.co.uk/:path*',
+      permanent: true,
+    },
   ],
 }
 
