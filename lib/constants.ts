@@ -1,8 +1,8 @@
 export const BUSINESS = {
   name: 'Ashton Lock & Key',
-  phone: '+447711341668',
-  phoneDisplay: '07711 341668',
-  whatsapp: '447711341668',
+  phone: '+447309903243',
+  phoneDisplay: '07309 903243',
+  whatsapp: '447309903243',
   email: 'info@ashtonlockandkey.co.uk',
   address: {
     streetAddress: '2, Market Approach, 1 Gerard St',

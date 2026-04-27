@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { webPageSchema, breadcrumbSchema } from '@/lib/schema'
@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 export const metadata: Metadata = {
   title: 'Contact Our Locksmith | Call or WhatsApp | Ashton-in-Makerfield & Wigan',
   description:
-    'Contact Ashton Lock & Key — your local locksmith in Ashton-in-Makerfield. Call 07711 341668 for 24/7 emergency lockouts, key cutting & car key replacement.',
+    'Contact Ashton Lock & Key â€” your local locksmith in Ashton-in-Makerfield. Call 07309 903243 for 24/7 emergency lockouts, key cutting & car key replacement.',
   alternates: {
     canonical: `${BUSINESS.url}/contact`,
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const contactMethods = [
   {
-    title: 'Call Us — 24/7',
+    title: 'Call Us â€” 24/7',
     value: BUSINESS.phoneDisplay,
     href: `tel:${BUSINESS.phone}`,
     description: 'Speak directly to your locksmith. No call centres, no hold music.',
@@ -81,7 +81,7 @@ export default function ContactPage() {
       '@id': `${pageUrl}#contactpage`,
       name: `Contact ${BUSINESS.name}`,
       url: pageUrl,
-      description: 'Contact page for Ashton Lock & Key — your local locksmith in Ashton-in-Makerfield, Wigan.',
+      description: 'Contact page for Ashton Lock & Key â€” your local locksmith in Ashton-in-Makerfield, Wigan.',
       mainEntity: {
         '@type': 'Locksmith',
         '@id': `${BUSINESS.url}/#business`,
@@ -116,7 +116,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-white/70 mb-4">
             Based in <strong className="text-white">Ashton-in-Makerfield, Wigan (WN4)</strong>.
-            Available 24/7 for emergencies — no call centres, no waiting around.
+            Available 24/7 for emergencies â€” no call centres, no waiting around.
           </p>
           <div className="flex items-center gap-2 text-green-400 font-semibold">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" aria-hidden="true" />
@@ -151,7 +151,7 @@ export default function ContactPage() {
             ))}
           </div>
 
-          {/* NAP block — for local SEO consistency */}
+          {/* NAP block â€” for local SEO consistency */}
           <div
             className="bg-brand-light rounded-2xl p-8 max-w-2xl mx-auto text-center"
             itemScope
@@ -208,7 +208,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ashton Lock & Key — service area map, Ashton-in-Makerfield, Wigan WN4"
+              title="Ashton Lock & Key â€” service area map, Ashton-in-Makerfield, Wigan WN4"
             />
           </div>
           <p className="text-center text-gray-600 mt-4 text-sm">
@@ -218,19 +218,19 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* SERVICES — internal links from contact page to service pages */}
+      {/* SERVICES â€” internal links from contact page to service pages */}
       <section className="section-padding bg-white" aria-labelledby="services-contact-heading">
         <div className="container-max max-w-3xl mx-auto">
           <h2 id="services-contact-heading" className="text-2xl font-black text-brand-navy mb-2 text-center">
             Our Locksmith Services
           </h2>
           <p className="text-center text-gray-600 text-sm mb-8">
-            Not sure what you need? Browse our services — each page has full details, pricing, and FAQs.
+            Not sure what you need? Browse our services â€” each page has full details, pricing, and FAQs.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
             {[
-              { title: 'Emergency Locksmith Ashton-in-Makerfield', desc: '24/7 lockout response — we\'ll be with you in 30 minutes', href: '/emergency-locksmith-ashton-in-makerfield' },
-              { title: 'Key Cutting Ashton', desc: 'Spare keys cut while you wait — from £3', href: '/key-cutting-ashton' },
+              { title: 'Emergency Locksmith Ashton-in-Makerfield', desc: '24/7 lockout response â€” we\'ll be with you in 30 minutes', href: '/emergency-locksmith-ashton-in-makerfield' },
+              { title: 'Key Cutting Ashton', desc: 'Spare keys cut while you wait â€” from Â£3', href: '/key-cutting-ashton' },
               { title: 'Car Key Replacement Wigan', desc: 'Lost or broken car keys replaced on-site', href: '/car-key-replacement-wigan' },
             ].map((s) => (
               <Link key={s.href} href={s.href} className="card hover:-translate-y-0.5 transition-transform group block">
@@ -255,7 +255,7 @@ export default function ContactPage() {
 
       <CTASection
         heading="Emergency? Call Now."
-        subtext="For urgent locksmith help in Ashton-in-Makerfield or Wigan — call us directly. We answer 24/7."
+        subtext="For urgent locksmith help in Ashton-in-Makerfield or Wigan â€” call us directly. We answer 24/7."
         variant="orange"
       />
     </>

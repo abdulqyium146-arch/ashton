@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
@@ -10,7 +10,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Locksmith Ashton-in-Makerfield | 24/7 Local Expert',
-  description: 'Looking for a locksmith in Ashton-in-Makerfield? Ashton Lock & Key is your local expert. Emergency lockouts, key cutting & car keys. Call 07711 341668.',
+  description: 'Looking for a locksmith in Ashton-in-Makerfield? Ashton Lock & Key is your local expert. Emergency lockouts, key cutting & car keys. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/locksmith-ashton-in-makerfield`,
   },
@@ -19,15 +19,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Is there a local locksmith in Ashton-in-Makerfield?',
-    answer: 'Yes — Ashton Lock & Key is based right here in Ashton-in-Makerfield. When you call us, you speak to the locksmith directly, not a national call centre that farms the job out. We know the area and we\'re close by.',
+    answer: 'Yes â€” Ashton Lock & Key is based right here in Ashton-in-Makerfield. When you call us, you speak to the locksmith directly, not a national call centre that farms the job out. We know the area and we\'re close by.',
   },
   {
     question: 'What locksmith services are available in Ashton-in-Makerfield?',
-    answer: 'Emergency lockouts, key cutting, car key replacement and programming, lock repairs, lock upgrades, and security advice. Emergencies are available 24/7 — for non-urgent work, call any time and we\'ll arrange a convenient time.',
+    answer: 'Emergency lockouts, key cutting, car key replacement and programming, lock repairs, lock upgrades, and security advice. Emergencies are available 24/7 â€” for non-urgent work, call any time and we\'ll arrange a convenient time.',
   },
   {
     question: 'How much does a locksmith cost in Ashton-in-Makerfield?',
-    answer: 'Standard lockouts from £60 during the day, £80 out-of-hours. Key cutting from £3 per key. Car key replacement from £80 depending on the vehicle. You get a fixed quote upfront — nothing gets added on when we arrive.',
+    answer: 'Standard lockouts from Â£60 during the day, Â£80 out-of-hours. Key cutting from Â£3 per key. Car key replacement from Â£80 depending on the vehicle. You get a fixed quote upfront â€” nothing gets added on when we arrive.',
   },
 ]
 
@@ -36,7 +36,7 @@ export default function LocksmithAshtonPage() {
   const schemas = [
     serviceSchema(
       'Locksmith Ashton-in-Makerfield',
-      'Professional locksmith services in Ashton-in-Makerfield — emergency lockouts, key cutting, car key replacement, and lock upgrades. Available 24/7.',
+      'Professional locksmith services in Ashton-in-Makerfield â€” emergency lockouts, key cutting, car key replacement, and lock upgrades. Available 24/7.',
       pageUrl,
     ),
     faqSchema(faqs),
@@ -72,7 +72,7 @@ export default function LocksmithAshtonPage() {
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
             Ashton Lock & Key is a genuine local locksmith based right here in Ashton-in-Makerfield. We cover the whole
-            WN4 area — from emergency lockouts and key cutting through to car keys and security upgrades.
+            WN4 area â€” from emergency lockouts and key cutting through to car keys and security upgrades.
             When you call, you speak to the locksmith. No middleman, no call centre.
           </p>
           <a href={`tel:${BUSINESS.phone}`} className="btn-primary text-xl py-5 px-8">
@@ -99,7 +99,7 @@ export default function LocksmithAshtonPage() {
               },
               {
                 title: 'Key Cutting',
-                desc: 'Spare keys cut while you wait. All types of keys — from standard Yale to high-security locks.',
+                desc: 'Spare keys cut while you wait. All types of keys â€” from standard Yale to high-security locks.',
                 href: '/key-cutting-ashton',
               },
               {
@@ -134,7 +134,7 @@ export default function LocksmithAshtonPage() {
               <div className="rounded-2xl overflow-hidden shadow-md">
                 <Image
                   src="/images/ashton-lock-key-shopfront-ashton-in-makerfield.webp"
-                  alt="Ashton Lock & Key shop on the high street in Ashton-in-Makerfield — your local locksmith since day one"
+                  alt="Ashton Lock & Key shop on the high street in Ashton-in-Makerfield â€” your local locksmith since day one"
                   width={560}
                   height={420}
                   sizes="(max-width: 1024px) 100vw, 45vw"
@@ -144,7 +144,7 @@ export default function LocksmithAshtonPage() {
               <div className="rounded-2xl overflow-hidden shadow-md">
                 <Image
                   src="/images/locksmith-shop-interior-keys-display-ashton.webp"
-                  alt="Inside Ashton Lock & Key — extensive range of locks, keys and security products in Ashton-in-Makerfield"
+                  alt="Inside Ashton Lock & Key â€” extensive range of locks, keys and security products in Ashton-in-Makerfield"
                   width={560}
                   height={420}
                   sizes="(max-width: 1024px) 100vw, 45vw"
@@ -156,7 +156,7 @@ export default function LocksmithAshtonPage() {
           <div className="prose-custom">
           <p>
             Whether you&apos;re locked out of a terraced house on Bryn Road, need a spare key for your business unit on the
-            Stubshaw Cross estate, or you&apos;ve lost your car keys in Garswood — we&apos;re 30 minutes away.
+            Stubshaw Cross estate, or you&apos;ve lost your car keys in Garswood â€” we&apos;re 30 minutes away.
           </p>
 
           <h2>Ashton-in-Makerfield Areas We Cover</h2>
@@ -167,7 +167,7 @@ export default function LocksmithAshtonPage() {
 
           <h2>Why Going Local Makes a Difference</h2>
           <p>
-            A locksmith who is actually based nearby gets to you faster. They understand the local housing stock — the
+            A locksmith who is actually based nearby gets to you faster. They understand the local housing stock â€” the
             types of locks common to the area, the uPVC door systems used on estates built in the 90s, the older
             properties in the town centre with mortice locks. They also don&apos;t need to inflate prices to cover
             fuel and travel time from a depot 40 miles away.
@@ -183,7 +183,7 @@ export default function LocksmithAshtonPage() {
             If you&apos;ve ever been caught out by a lockout, our step-by-step guide on{' '}
             <Link href="/blog/what-to-do-if-locked-out">what to do when you&apos;re locked out</Link> covers everything
             from checking your insurance to picking the right locksmith. Once you&apos;re back inside, it&apos;s worth reviewing
-            your home security — our{' '}
+            your home security â€” our{' '}
             <Link href="/blog/how-to-improve-home-security">practical home security guide</Link> explains the upgrades
             that make the most difference on a tight budget, including which lock standards your insurer actually requires.
           </p>

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -9,7 +9,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Lost Car Keys Ashton-in-Makerfield | All Keys Lost | Same-Day Replacement',
-  description: 'Lost all your car keys near Ashton-in-Makerfield? We replace and programme car keys from scratch — same day. All makes, cheaper than dealers. Call 07711 341668.',
+  description: 'Lost all your car keys near Ashton-in-Makerfield? We replace and programme car keys from scratch â€” same day. All makes, cheaper than dealers. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/lost-car-keys-ashton`,
   },
@@ -28,18 +28,18 @@ const faqs = [
   },
   {
     question: 'What do I need to have ready when you arrive?',
-    answer: 'Have your V5C vehicle registration document (logbook) available to prove ownership. You\'ll need to be present at the vehicle throughout — we cannot programme keys and leave them with a neighbour or third party.',
+    answer: 'Have your V5C vehicle registration document (logbook) available to prove ownership. You\'ll need to be present at the vehicle throughout â€” we cannot programme keys and leave them with a neighbour or third party.',
   },
   {
     question: 'How much does "all keys lost" car key replacement cost?',
-    answer: 'It varies by make, model, and key type. Typical AKL jobs start from around £120 for older transponder key vehicles, rising to £250+ for modern smart key / proximity key systems. We\'ll give you a firm quote over the phone before attending.',
+    answer: 'It varies by make, model, and key type. Typical AKL jobs start from around Â£120 for older transponder key vehicles, rising to Â£250+ for modern smart key / proximity key systems. We\'ll give you a firm quote over the phone before attending.',
   },
   {
     question: 'How long does it take to replace lost car keys?',
-    answer: 'For most vehicles, an all keys lost job takes 60–120 minutes on-site. Some complex or rare vehicles may require a specialist key blank to be ordered, which can add a day. We\'ll be upfront about timescales when you call.',
+    answer: 'For most vehicles, an all keys lost job takes 60â€“120 minutes on-site. Some complex or rare vehicles may require a specialist key blank to be ordered, which can add a day. We\'ll be upfront about timescales when you call.',
   },
   {
-    question: 'My car keys were stolen — should I replace them straight away?',
+    question: 'My car keys were stolen â€” should I replace them straight away?',
     answer: 'Yes, immediately. A thief who has your keys and knows which car they go to can return at any time. Ring us, report the theft to police for a crime reference number, and check whether your insurance covers key replacement. We can delete the stolen keys and programme new ones the same day.',
   },
 ]
@@ -82,14 +82,14 @@ export default function LostCarKeysPage() {
         <div className="container-max max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" aria-hidden="true"></span>
-            Same-Day Lost Key Replacement — Ashton-in-Makerfield
+            Same-Day Lost Key Replacement â€” Ashton-in-Makerfield
           </div>
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
-            Lost Car Keys —{' '}
+            Lost Car Keys â€”{' '}
             <span className="text-brand-orange">Ashton-in-Makerfield</span>
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
-            Lost your car keys and have no spare? We replace and programme car keys from scratch — same day, at your
+            Lost your car keys and have no spare? We replace and programme car keys from scratch â€” same day, at your
             vehicle, for all makes and models. No recovery truck, no dealer booking, no waiting days for an appointment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -109,8 +109,8 @@ export default function LostCarKeysPage() {
           <h2 id="cost-heading" className="text-2xl font-black text-brand-navy mb-6 text-center">What Does &quot;All Keys Lost&quot; Replacement Cost?</h2>
           <div className="space-y-3">
             {[
-              { label: 'Main Dealer — AKL', price: '£350–£600+', sub: 'Plus possible recovery cost', highlight: false },
-              { label: 'Ashton Lock & Key — AKL', price: '£120–£280', sub: 'Mobile, same day, at your vehicle', highlight: true },
+              { label: 'Main Dealer â€” AKL', price: 'Â£350â€“Â£600+', sub: 'Plus possible recovery cost', highlight: false },
+              { label: 'Ashton Lock & Key â€” AKL', price: 'Â£120â€“Â£280', sub: 'Mobile, same day, at your vehicle', highlight: true },
             ].map((row) => (
               <div
                 key={row.label}
@@ -118,7 +118,7 @@ export default function LostCarKeysPage() {
               >
                 <div>
                   <p className={`font-bold ${row.highlight ? 'text-green-800' : 'text-gray-700'}`}>
-                    {row.highlight && <span className="text-green-600 mr-1">✓</span>}
+                    {row.highlight && <span className="text-green-600 mr-1">âœ“</span>}
                     {row.label}
                   </p>
                   <p className="text-xs text-gray-500 mt-0.5">{row.sub}</p>
@@ -141,7 +141,7 @@ export default function LostCarKeysPage() {
           <p>
             When every key to a vehicle has been lost, the job is more involved than a standard key replacement.
             Because modern immobilisers register specific key transponder codes, simply cutting a new key isn&apos;t enough
-            — the car&apos;s ECU needs to be accessed, the old key data wiped, and new keys programmed from scratch.
+            â€” the car&apos;s ECU needs to be accessed, the old key data wiped, and new keys programmed from scratch.
             This is called All Keys Lost (AKL) programming.
           </p>
           <p>
@@ -156,9 +156,9 @@ export default function LostCarKeysPage() {
             To complete an AKL job, we need:
           </p>
           <ul>
-            <li>Your V5C logbook (vehicle registration document) — to prove ownership</li>
+            <li>Your V5C logbook (vehicle registration document) â€” to prove ownership</li>
             <li>You to be present at the vehicle throughout the job</li>
-            <li>Your make, model, year, and VIN/registration — have this ready when you call so we can quote accurately</li>
+            <li>Your make, model, year, and VIN/registration â€” have this ready when you call so we can quote accurately</li>
           </ul>
           <p>
             We take vehicle ownership verification seriously. We will not programme keys if the V5C isn&apos;t present
@@ -167,14 +167,14 @@ export default function LostCarKeysPage() {
 
           <h2>Lost Keys vs Spare Key Replacement</h2>
           <p>
-            If you&apos;ve lost one key but still have a working spare, the job is simpler and cheaper — we just need to
+            If you&apos;ve lost one key but still have a working spare, the job is simpler and cheaper â€” we just need to
             cut and programme a new key alongside the existing one. This is a standard{' '}
             <Link href="/car-key-replacement-wigan">car key replacement</Link> job rather than a full AKL.
           </p>
           <p>
             Either way, it&apos;s worth sorting a spare at the same time. A{' '}
             <Link href="/spare-car-key-ashton">spare car key</Link> cut and programmed while we&apos;re on-site costs
-            significantly less than a separate call-out later — and saves you from ever being in a full AKL
+            significantly less than a separate call-out later â€” and saves you from ever being in a full AKL
             situation again.
           </p>
 
@@ -185,7 +185,7 @@ export default function LostCarKeysPage() {
           </p>
           <ul>
             <li>Report the theft to police and get a crime reference number</li>
-            <li>Contact your insurer — stolen key replacement is often covered under comprehensive policies</li>
+            <li>Contact your insurer â€” stolen key replacement is often covered under comprehensive policies</li>
             <li>Consider a steering wheel lock or GPS tracker as an additional deterrent</li>
           </ul>
           <p>
@@ -196,7 +196,7 @@ export default function LostCarKeysPage() {
           <h2>Service Area</h2>
           <p>
             We cover Ashton-in-Makerfield, Wigan, St Helens, Newton-le-Willows, Leigh, Golborne, Haydock, Hindley,
-            and all surrounding WN postcodes. If you&apos;re unsure whether we cover your area, ring us — if we can get
+            and all surrounding WN postcodes. If you&apos;re unsure whether we cover your area, ring us â€” if we can get
             to you within a reasonable time, we will.
           </p>
           <p>
@@ -210,7 +210,7 @@ export default function LostCarKeysPage() {
       <CTASection
         variant="orange"
         heading="Lost Your Car Keys?"
-        subtext="Don't call the dealer. Call Ashton Lock & Key — same-day AKL replacement at your vehicle, cheaper and faster."
+        subtext="Don't call the dealer. Call Ashton Lock & Key â€” same-day AKL replacement at your vehicle, cheaper and faster."
       />
       <FAQSection faqs={faqs} heading="Lost Car Keys FAQs" />
 
@@ -220,7 +220,7 @@ export default function LostCarKeysPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { title: 'Car Key Replacement Wigan', desc: 'Have a spare? Replace your lost key alongside it.', href: '/car-key-replacement-wigan' },
-              { title: 'Spare Car Key Ashton', desc: 'Get a spare cut now — prevent future lockouts.', href: '/spare-car-key-ashton' },
+              { title: 'Spare Car Key Ashton', desc: 'Get a spare cut now â€” prevent future lockouts.', href: '/spare-car-key-ashton' },
               { title: 'Transponder Key Programming', desc: 'Chip programming for all modern vehicles.', href: '/transponder-key-programming-ashton' },
               { title: 'Car Lockout Service', desc: 'Locked your keys inside the car? We open it.', href: '/car-lockout-service-ashton' },
               { title: 'Auto Locksmith Ashton', desc: 'Full auto locksmith service overview.', href: '/auto-locksmith-ashton-in-makerfield' },

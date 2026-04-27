@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
@@ -8,9 +8,9 @@ import FAQSection from '@/components/FAQSection'
 import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  // ─── FIX: removed brand name — template adds it → "Car Key... | Ashton Lock & Key"
-  title: 'Car Key Replacement Wigan | Lost Car Keys | All Makes & Models — Save up to £200',
-  description: 'Car key replacement in Wigan & Ashton-in-Makerfield. Lost, broken or stolen car keys replaced and programmed for all makes and models. Much cheaper than dealers. Call 07711 341668.',
+  // â”€â”€â”€ FIX: removed brand name â€” template adds it â†’ "Car Key... | Ashton Lock & Key"
+  title: 'Car Key Replacement Wigan | Lost Car Keys | All Makes & Models â€” Save up to Â£200',
+  description: 'Car key replacement in Wigan & Ashton-in-Makerfield. Lost, broken or stolen car keys replaced and programmed for all makes and models. Much cheaper than dealers. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/car-key-replacement-wigan`,
   },
@@ -19,29 +19,29 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does car key replacement cost in Wigan?',
-    answer: 'It depends on the make, model, and key type. Basic transponder keys come in around £80–£120 all-in. Remote and smart keys are typically £120–£250. Either way, you\'re looking at a significant saving over what a main dealer would charge.',
+    answer: 'It depends on the make, model, and key type. Basic transponder keys come in around Â£80â€“Â£120 all-in. Remote and smart keys are typically Â£120â€“Â£250. Either way, you\'re looking at a significant saving over what a main dealer would charge.',
   },
   {
     question: 'Can you replace car keys without the original?',
-    answer: 'Yes. This is called an "all keys lost" job — we programme brand new keys to your vehicle from scratch with nothing to work from. It costs a bit more than replacing a single lost key, but it\'s very much doable. Have your V5 logbook handy as proof of ownership.',
+    answer: 'Yes. This is called an "all keys lost" job â€” we programme brand new keys to your vehicle from scratch with nothing to work from. It costs a bit more than replacing a single lost key, but it\'s very much doable. Have your V5 logbook handy as proof of ownership.',
   },
   {
     question: 'How long does car key replacement take?',
-    answer: 'Most jobs take between 30 and 90 minutes on-site, depending on the vehicle. We come to wherever your car is — home, work, a car park — so there\'s no need to arrange a recovery truck.',
+    answer: 'Most jobs take between 30 and 90 minutes on-site, depending on the vehicle. We come to wherever your car is â€” home, work, a car park â€” so there\'s no need to arrange a recovery truck.',
   },
   {
     question: 'Do you cover all car makes and models?',
-    answer: 'We cover the vast majority — Ford, Vauxhall, VW, Audi, BMW, Mercedes, Toyota, Renault, Peugeot, Citroën, Nissan, Honda, Kia, and plenty more. Call with your make, model, and year and we\'ll confirm straight away.',
+    answer: 'We cover the vast majority â€” Ford, Vauxhall, VW, Audi, BMW, Mercedes, Toyota, Renault, Peugeot, CitroÃ«n, Nissan, Honda, Kia, and plenty more. Call with your make, model, and year and we\'ll confirm straight away.',
   },
   {
     question: 'What if my car key fob has stopped working?',
-    answer: 'More often than not it\'s a flat battery — a 2-minute fix. If the fob has lost its pairing, we can re-sync it. If it\'s physically broken, we can supply and programme a replacement fob. Call us and describe the problem and we\'ll advise.',
+    answer: 'More often than not it\'s a flat battery â€” a 2-minute fix. If the fob has lost its pairing, we can re-sync it. If it\'s physically broken, we can supply and programme a replacement fob. Call us and describe the problem and we\'ll advise.',
   },
 ]
 
 const brands = [
   'Ford', 'Vauxhall', 'Volkswagen', 'Audi', 'BMW', 'Mercedes',
-  'Toyota', 'Renault', 'Peugeot', 'Citroën', 'Nissan', 'Honda',
+  'Toyota', 'Renault', 'Peugeot', 'CitroÃ«n', 'Nissan', 'Honda',
   'Kia', 'Hyundai', 'Seat', 'Skoda', 'Fiat', 'Volvo',
   'Land Rover', 'Jeep', 'Mazda', 'Mitsubishi',
 ]
@@ -83,15 +83,15 @@ export default function CarKeyReplacementPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10l1.5-1.5M6 16H3" />
               </svg>
-              Car Key Specialists — Wigan & Ashton-in-Makerfield
+              Car Key Specialists â€” Wigan & Ashton-in-Makerfield
             </div>
             <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
               Car Key Replacement <span className="text-brand-orange">Wigan</span>
             </h1>
             <p className="text-xl text-white/70 mb-6 leading-relaxed">
               Lost your car keys? Had them stolen? Key fob stopped working? We replace and programme car keys for all
-              makes and models across Wigan and Ashton-in-Makerfield — and we come to wherever your car is.
-              Typically 40–60% cheaper than main dealers.
+              makes and models across Wigan and Ashton-in-Makerfield â€” and we come to wherever your car is.
+              Typically 40â€“60% cheaper than main dealers.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {['All Makes & Models', 'Mobile Service', 'Cheaper Than Dealers', '30-Min Response', 'Fully Programmed'].map((t) => (
@@ -112,8 +112,8 @@ export default function CarKeyReplacementPage() {
             <h2 className="text-xl font-bold text-brand-navy mb-4">Price Comparison</h2>
             <div className="space-y-3">
               {[
-                { label: 'Main Dealer', price: '£250–£400+', highlight: false },
-                { label: 'Ashton Lock & Key', price: '£80–£200', highlight: true },
+                { label: 'Main Dealer', price: 'Â£250â€“Â£400+', highlight: false },
+                { label: 'Ashton Lock & Key', price: 'Â£80â€“Â£200', highlight: true },
               ].map((row) => (
                 <div
                   key={row.label}
@@ -122,7 +122,7 @@ export default function CarKeyReplacementPage() {
                   }`}
                 >
                   <span className={`font-semibold ${row.highlight ? 'text-green-800' : 'text-gray-600'}`}>
-                    {row.highlight && <span className="text-green-600 mr-1">✓</span>}
+                    {row.highlight && <span className="text-green-600 mr-1">âœ“</span>}
                     {row.label}
                   </span>
                   <span className={`font-black text-lg ${row.highlight ? 'text-green-700' : 'text-gray-400 line-through'}`}>
@@ -135,7 +135,7 @@ export default function CarKeyReplacementPage() {
               * Prices vary by make, model & key type. Indicative comparison only.
             </p>
             <div className="mt-4 p-3 bg-brand-light rounded-xl text-center">
-              <p className="text-brand-navy font-semibold text-sm">You could save up to <span className="text-brand-orange font-black text-xl">£200</span></p>
+              <p className="text-brand-navy font-semibold text-sm">You could save up to <span className="text-brand-orange font-black text-xl">Â£200</span></p>
               <p className="text-gray-500 text-xs mt-1">vs going to your car dealer</p>
             </div>
           </div>
@@ -153,7 +153,7 @@ export default function CarKeyReplacementPage() {
               </span>
             ))}
           </div>
-          <p className="text-center mt-4 text-gray-500 text-sm">Don&apos;t see your make? <a href={`tel:${BUSINESS.phone}`} className="text-brand-orange font-semibold hover:underline">Call us</a> — we likely cover it.</p>
+          <p className="text-center mt-4 text-gray-500 text-sm">Don&apos;t see your make? <a href={`tel:${BUSINESS.phone}`} className="text-brand-orange font-semibold hover:underline">Call us</a> â€” we likely cover it.</p>
         </div>
       </section>
 
@@ -161,20 +161,20 @@ export default function CarKeyReplacementPage() {
       <section className="section-padding bg-white">
         <div className="container-max max-w-4xl mx-auto">
 
-          {/* Key photos — shows real work, builds E-E-A-T */}
+          {/* Key photos â€” shows real work, builds E-E-A-T */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-10">
             <figure>
               <div className="rounded-2xl overflow-hidden shadow-md">
                 <Image
                   src="/images/car-transponder-key-replacement-wigan.webp"
-                  alt="Car transponder key replacement programmed by Ashton Lock & Key in Wigan — chip visible in key head"
+                  alt="Car transponder key replacement programmed by Ashton Lock & Key in Wigan â€” chip visible in key head"
                   width={540}
                   height={540}
                   sizes="(max-width: 640px) 100vw, 45vw"
                   className="w-full h-auto object-cover"
                 />
               </div>
-              <figcaption className="text-xs text-gray-400 mt-2 text-center">Transponder key — chip must be programmed to your vehicle</figcaption>
+              <figcaption className="text-xs text-gray-400 mt-2 text-center">Transponder key â€” chip must be programmed to your vehicle</figcaption>
             </figure>
             <figure>
               <div className="rounded-2xl overflow-hidden shadow-md">
@@ -187,7 +187,7 @@ export default function CarKeyReplacementPage() {
                   className="w-full h-auto object-cover"
                 />
               </div>
-              <figcaption className="text-xs text-gray-400 mt-2 text-center">Vauxhall remote key fob — supplied, cut and programmed on-site</figcaption>
+              <figcaption className="text-xs text-gray-400 mt-2 text-center">Vauxhall remote key fob â€” supplied, cut and programmed on-site</figcaption>
             </figure>
           </div>
 
@@ -195,8 +195,8 @@ export default function CarKeyReplacementPage() {
           <h2>We Come to Wherever Your Car Is</h2>
           <p>
             When you&apos;ve lost your car keys, being told to arrange recovery to a dealer and wait several days for a
-            replacement is the last thing you want to hear. Our mobile car key service means we come directly to you —
-            home, work, a car park, anywhere in the Wigan area — and get it sorted on the spot.
+            replacement is the last thing you want to hear. Our mobile car key service means we come directly to you â€”
+            home, work, a car park, anywhere in the Wigan area â€” and get it sorted on the spot.
           </p>
 
           <h2>What&apos;s Included in Our Car Key Replacement Service?</h2>
@@ -214,12 +214,12 @@ export default function CarKeyReplacementPage() {
           <h3>Remote / Fob Programming</h3>
           <p>
             If your key controls central locking, we programme the remote at the same time. You leave with a fully working
-            key — not just something that turns in the ignition.
+            key â€” not just something that turns in the ignition.
           </p>
 
           <h2>Lost All Your Car Keys? We Can Still Sort It</h2>
           <p>
-            Dealers often quote £400+ for an &quot;all keys lost&quot; job — and that&apos;s before you pay for recovery. We carry
+            Dealers often quote Â£400+ for an &quot;all keys lost&quot; job â€” and that&apos;s before you pay for recovery. We carry
             specialist diagnostic equipment for this exact scenario and offer a much more competitive price. Call us with
             your make, model, and year and we&apos;ll give you a quote.
           </p>
@@ -228,7 +228,7 @@ export default function CarKeyReplacementPage() {
           <p>
             Our mobile car key service covers Wigan, <Link href="/locksmith-ashton-in-makerfield">Ashton-in-Makerfield</Link>,
             St Helens, Newton-le-Willows, Leigh, Golborne, and all surrounding WN postcodes. Want to understand more
-            about what&apos;s involved? Read our <Link href="/blog/car-key-replacement-guide">complete car key replacement guide</Link> — it
+            about what&apos;s involved? Read our <Link href="/blog/car-key-replacement-guide">complete car key replacement guide</Link> â€” it
             covers every key type, the dealer vs locksmith cost comparison, and exactly what to expect from an all-keys-lost job.
             Not sure if our prices are competitive?{' '}
             <Link href="/blog/how-much-does-a-locksmith-cost-uk">Our UK locksmith price guide for 2025</Link> lays out

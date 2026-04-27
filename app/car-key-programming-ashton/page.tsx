@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -9,7 +9,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Car Key Programming Ashton-in-Makerfield | Transponder & Smart Key | Same Day',
-  description: 'Car key programming in Ashton-in-Makerfield. Transponder chip programming, smart key coding, ECU pairing — all makes. Mobile, same day. Call 07711 341668.',
+  description: 'Car key programming in Ashton-in-Makerfield. Transponder chip programming, smart key coding, ECU pairing â€” all makes. Mobile, same day. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/car-key-programming-ashton`,
   },
@@ -28,15 +28,15 @@ const faqs = [
   },
   {
     question: 'Can you programme a key I\'ve bought online?',
-    answer: 'Sometimes — but it depends on the make and model. Keys bought online are often uncoded blanks that need to be both cut and programmed. Call us with your registration and key part number and we\'ll confirm whether we can programme it.',
+    answer: 'Sometimes â€” but it depends on the make and model. Keys bought online are often uncoded blanks that need to be both cut and programmed. Call us with your registration and key part number and we\'ll confirm whether we can programme it.',
   },
   {
-    question: 'My car starts but the immobiliser light is on — can you fix it?',
+    question: 'My car starts but the immobiliser light is on â€” can you fix it?',
     answer: 'An immobiliser warning that stays on while driving usually means the transponder communication is intermittent or the key chip is failing. We carry diagnostic equipment to read fault codes and identify whether it\'s the key, the antenna ring, or the ECU itself.',
   },
   {
     question: 'How much does car key programming cost?',
-    answer: 'Programming only (e.g. for a key you already have cut) typically starts from £60–£80 for a standard transponder key. Smart key and proximity key programming is typically £100–£160. All-keys-lost (AKL) programming starts from £120. Exact quotes given over the phone.',
+    answer: 'Programming only (e.g. for a key you already have cut) typically starts from Â£60â€“Â£80 for a standard transponder key. Smart key and proximity key programming is typically Â£100â€“Â£160. All-keys-lost (AKL) programming starts from Â£120. Exact quotes given over the phone.',
   },
 ]
 
@@ -63,7 +63,7 @@ const programmingTypes = [
   },
   {
     title: 'ECU Pairing',
-    desc: 'Used after ECU replacement — re-links the new ECU to the existing vehicle keys so the immobiliser recognises them.',
+    desc: 'Used after ECU replacement â€” re-links the new ECU to the existing vehicle keys so the immobiliser recognises them.',
   },
 ]
 
@@ -72,7 +72,7 @@ export default function CarKeyProgrammingPage() {
   const schemas = [
     serviceSchema(
       'Car Key Programming Ashton-in-Makerfield',
-      'Car key programming in Ashton-in-Makerfield — transponder keys, smart keys, remote fobs, AKL, and ECU pairing. Mobile same-day service for all makes and models.',
+      'Car key programming in Ashton-in-Makerfield â€” transponder keys, smart keys, remote fobs, AKL, and ECU pairing. Mobile same-day service for all makes and models.',
       pageUrl,
     ),
     faqSchema(faqs),
@@ -107,7 +107,7 @@ export default function CarKeyProgrammingPage() {
             <svg className="w-4 h-4 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.14 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
             </svg>
-            Diagnostic Key Programming — Ashton-in-Makerfield
+            Diagnostic Key Programming â€” Ashton-in-Makerfield
           </div>
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             Car Key Programming{' '}
@@ -115,7 +115,7 @@ export default function CarKeyProgrammingPage() {
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
             A correctly cut key that hasn&apos;t been programmed won&apos;t start your car. We carry specialist diagnostic
-            equipment to programme transponder chips, smart keys, and remote fobs on-site — at your vehicle,
+            equipment to programme transponder chips, smart keys, and remote fobs on-site â€” at your vehicle,
             same day, for all makes and models.
           </p>
           <a href={`tel:${BUSINESS.phone}`} className="btn-primary text-xl py-5 px-8">
@@ -151,14 +151,14 @@ export default function CarKeyProgrammingPage() {
 
           <h2>Why Key Programming Is Non-Negotiable on Modern Vehicles</h2>
           <p>
-            Since the mid-1990s, car manufacturers have built immobilisers into their vehicles as standard — initially
+            Since the mid-1990s, car manufacturers have built immobilisers into their vehicles as standard â€” initially
             required by insurance companies to reduce the wave of car theft that peaked in that decade. An immobiliser
             works by requiring the key to broadcast a specific transponder code before the engine will start. If that
             code isn&apos;t present or isn&apos;t recognised, the fuel system cuts out and the car won&apos;t run.
           </p>
           <p>
             This means a key cut perfectly to fit your ignition barrel is still useless without programming. The cut
-            lets you turn the key — the chip lets the engine start. Both steps are required.
+            lets you turn the key â€” the chip lets the engine start. Both steps are required.
           </p>
 
           <h2>Our Diagnostic Equipment</h2>
@@ -168,15 +168,15 @@ export default function CarKeyProgrammingPage() {
             to perform key additions, all-keys-lost wipes, and immobiliser resets.
           </p>
           <p>
-            Some complex or niche vehicles require pin code extraction before programming can begin — we handle
+            Some complex or niche vehicles require pin code extraction before programming can begin â€” we handle
             this within the same visit where supported by the platform. Call us with your make, model, and year
             and we&apos;ll confirm compatibility before attending.
           </p>
 
-          <h2>Key Programming Without Cutting — Is It Possible?</h2>
+          <h2>Key Programming Without Cutting â€” Is It Possible?</h2>
           <p>
             In some cases, yes. Key cloning duplicates the transponder chip data from a working original onto a
-            new blank without ECU access — it&apos;s faster, cheaper, and doesn&apos;t require the working key to be
+            new blank without ECU access â€” it&apos;s faster, cheaper, and doesn&apos;t require the working key to be
             present for the full duration. However, not every vehicle supports cloning (many modern immobilisers
             use rolling codes that can&apos;t be cloned), so we&apos;ll advise which method is appropriate for
             your vehicle.
@@ -185,7 +185,7 @@ export default function CarKeyProgrammingPage() {
           <h2>Can You Programme a Key I&apos;ve Already Bought?</h2>
           <p>
             Sometimes. Online marketplaces sell uncoded key blanks for many common vehicles. If you&apos;ve purchased
-            one, call us with the part number and your registration — we&apos;ll confirm whether we can programme it
+            one, call us with the part number and your registration â€” we&apos;ll confirm whether we can programme it
             and what it will cost. Note that the cut blade still needs to be done correctly; if it&apos;s already been
             cut poorly, no amount of programming will make the key work smoothly in the ignition.
           </p>
@@ -201,7 +201,7 @@ export default function CarKeyProgrammingPage() {
           <p>
             Want to understand more about key types and what programming involves?{' '}
             <Link href="/blog/transponder-key-vs-smart-key-explained">Our guide to transponder vs smart keys</Link>{' '}
-            explains the technical differences in plain language — useful reading before you call.
+            explains the technical differences in plain language â€” useful reading before you call.
           </p>
         </div>
       </section>
@@ -210,7 +210,7 @@ export default function CarKeyProgrammingPage() {
       <CTASection
         variant="orange"
         heading="Need a Car Key Programmed in Ashton-in-Makerfield?"
-        subtext="We carry diagnostic equipment for all common makes. Call Ashton Lock & Key — mobile, same day, fixed price."
+        subtext="We carry diagnostic equipment for all common makes. Call Ashton Lock & Key â€” mobile, same day, fixed price."
       />
       <FAQSection faqs={faqs} heading="Car Key Programming FAQs" />
 

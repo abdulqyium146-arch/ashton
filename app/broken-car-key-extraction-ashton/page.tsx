@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Broken Car Key Extraction Ashton-in-Makerfield | Key Snapped in Lock | Same Day',
-  description: 'Key broken in car door or ignition near Ashton-in-Makerfield? We extract snapped keys without damage and replace them on the spot. Call 07711 341668.',
+  description: 'Key broken in car door or ignition near Ashton-in-Makerfield? We extract snapped keys without damage and replace them on the spot. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/broken-car-key-extraction-ashton`,
   },
@@ -23,15 +23,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Can you remove a broken key without damaging the lock?',
-    answer: 'Yes, in almost all cases. We use professional extraction tools — key extractors and broken key removers — designed specifically for this purpose. The goal is always to remove the fragment without damaging the lock barrel, so you don\'t need to replace the whole lock.',
+    answer: 'Yes, in almost all cases. We use professional extraction tools â€” key extractors and broken key removers â€” designed specifically for this purpose. The goal is always to remove the fragment without damaging the lock barrel, so you don\'t need to replace the whole lock.',
   },
   {
     question: 'Can you cut a replacement key after extracting the broken one?',
-    answer: 'Yes — we carry blanks and cutting equipment on the van. In most cases we can cut and programme a replacement key on the same visit. You\'ll leave with the broken fragment removed and a working key in your hand.',
+    answer: 'Yes â€” we carry blanks and cutting equipment on the van. In most cases we can cut and programme a replacement key on the same visit. You\'ll leave with the broken fragment removed and a working key in your hand.',
   },
   {
     question: 'What if the key broke off in the ignition?',
-    answer: 'Ignition extraction is more complex than door lock extraction, but it\'s a job we handle regularly. Don\'t try to drive with the broken fragment in place — call us and we\'ll extract it and assess whether the ignition barrel has been damaged.',
+    answer: 'Ignition extraction is more complex than door lock extraction, but it\'s a job we handle regularly. Don\'t try to drive with the broken fragment in place â€” call us and we\'ll extract it and assess whether the ignition barrel has been damaged.',
   },
   {
     question: 'Why do car keys break?',
@@ -75,11 +75,11 @@ export default function BrokenCarKeyExtractionPage() {
       <section className="bg-brand-navy section-padding" aria-labelledby="page-heading">
         <div className="container-max max-w-3xl">
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
-            Broken Car Key Extraction —{' '}
+            Broken Car Key Extraction â€”{' '}
             <span className="text-brand-orange">Ashton-in-Makerfield</span>
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
-            Key snapped in the car door or ignition? Don&apos;t try to dig it out yourself — you risk pushing the
+            Key snapped in the car door or ignition? Don&apos;t try to dig it out yourself â€” you risk pushing the
             fragment deeper and damaging the barrel. We extract broken keys professionally without lock damage, then
             replace the key on the same visit.
           </p>
@@ -99,10 +99,10 @@ export default function BrokenCarKeyExtractionPage() {
             The temptation when a key snaps in a lock is to grab a pair of pliers, a thin screwdriver, or even
             a pen knife and try to lever it out. In the majority of cases, this pushes the fragment further in,
             makes it harder to grip, and damages the delicate tumbler pins inside the barrel. A job that should
-            cost £40–£60 can turn into a full lock barrel replacement.
+            cost Â£40â€“Â£60 can turn into a full lock barrel replacement.
           </p>
           <p>
-            Professional extraction tools are specifically designed for this — narrow enough to reach past the
+            Professional extraction tools are specifically designed for this â€” narrow enough to reach past the
             remaining fragment, with a barbed or hooked end that grips the key metal and pulls it out cleanly.
           </p>
 
@@ -113,14 +113,14 @@ export default function BrokenCarKeyExtractionPage() {
             assess whether the lock needs any attention and cut a replacement key on-site.
           </p>
           <p>
-            If the barrel has been damaged — whether from the initial break or a previous extraction attempt — we
+            If the barrel has been damaged â€” whether from the initial break or a previous extraction attempt â€” we
             can replace it on the same visit as part of our{' '}
             <Link href="/emergency-locksmith-ashton-in-makerfield">lock repair service</Link>.
           </p>
 
           <h2>Broken Key in the Ignition</h2>
           <p>
-            Ignition extraction is more technically involved — the ignition barrel is less accessible and the
+            Ignition extraction is more technically involved â€” the ignition barrel is less accessible and the
             consequences of damaging it are more significant. If your key has broken in the ignition, don&apos;t attempt
             any extraction and don&apos;t try to start the car with the fragment in place. Call us, and we&apos;ll extract it
             and assess the ignition for any damage. If the ignition barrel needs replacing, see our{' '}
@@ -139,7 +139,7 @@ export default function BrokenCarKeyExtractionPage() {
       <CTASection
         variant="navy"
         heading="Key Broken in the Lock?"
-        subtext="Don't make it worse. Call Ashton Lock & Key — professional extraction, no damage, replacement on the spot."
+        subtext="Don't make it worse. Call Ashton Lock & Key â€” professional extraction, no damage, replacement on the spot."
       />
       <FAQSection faqs={faqs} heading="Broken Key Extraction FAQs" />
 

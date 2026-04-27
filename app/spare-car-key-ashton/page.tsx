@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -7,8 +7,8 @@ import FAQSection from '@/components/FAQSection'
 import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Spare Car Key Ashton-in-Makerfield | Cut & Programmed | From £60',
-  description: 'Get a spare car key cut and programmed in Ashton-in-Makerfield. All makes and models, mobile service. Protect yourself from lockouts. Call 07711 341668.',
+  title: 'Spare Car Key Ashton-in-Makerfield | Cut & Programmed | From Â£60',
+  description: 'Get a spare car key cut and programmed in Ashton-in-Makerfield. All makes and models, mobile service. Protect yourself from lockouts. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/spare-car-key-ashton`,
   },
@@ -23,19 +23,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does a spare car key cost in Ashton-in-Makerfield?',
-    answer: 'Standard transponder spare keys start from around £60–£80. Remote key fobs are typically £100–£150. Smart keys start from around £150. Getting a spare programmed while we\'re already on-site for another job costs even less — ask about our multi-key discount.',
+    answer: 'Standard transponder spare keys start from around Â£60â€“Â£80. Remote key fobs are typically Â£100â€“Â£150. Smart keys start from around Â£150. Getting a spare programmed while we\'re already on-site for another job costs even less â€” ask about our multi-key discount.',
   },
   {
     question: 'Why is getting a spare car key cheaper when added to another job?',
-    answer: 'The majority of the cost is our attendance and the programming setup. Once we\'re already at your vehicle with the equipment running, adding a second key requires much less additional time — so we pass that saving on.',
+    answer: 'The majority of the cost is our attendance and the programming setup. Once we\'re already at your vehicle with the equipment running, adding a second key requires much less additional time â€” so we pass that saving on.',
   },
   {
     question: 'How long does it take to get a spare car key made?',
-    answer: 'For most vehicles, 30–45 minutes. We cut the blade and programme the chip on-site. You leave with a fully working spare key ready to use.',
+    answer: 'For most vehicles, 30â€“45 minutes. We cut the blade and programme the chip on-site. You leave with a fully working spare key ready to use.',
   },
   {
     question: 'Where should I keep a spare car key?',
-    answer: 'Not in the car — that defeats the purpose. Good options: with a trusted family member, in a keysafe at home, or with a reliable neighbour. Don\'t keep it in an obvious place like a handbag that travels with you everywhere.',
+    answer: 'Not in the car â€” that defeats the purpose. Good options: with a trusted family member, in a keysafe at home, or with a reliable neighbour. Don\'t keep it in an obvious place like a handbag that travels with you everywhere.',
   },
 ]
 
@@ -75,12 +75,12 @@ export default function SpareCarKeyPage() {
       <section className="bg-brand-navy section-padding" aria-labelledby="page-heading">
         <div className="container-max max-w-3xl">
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
-            Spare Car Key —{' '}
+            Spare Car Key â€”{' '}
             <span className="text-brand-orange">Ashton-in-Makerfield</span>
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
             A spare car key is cheap insurance against one of the most inconvenient situations you can face. We
-            cut and programme spare keys for all makes and models — mobile, at your vehicle, while you wait.
+            cut and programme spare keys for all makes and models â€” mobile, at your vehicle, while you wait.
             Getting one programmed during another visit saves you even more.
           </p>
           <a href={`tel:${BUSINESS.phone}`} className="btn-primary text-xl py-5 px-8">
@@ -97,7 +97,7 @@ export default function SpareCarKeyPage() {
           <h2>Why You Should Have a Spare Car Key</h2>
           <p>
             Most people don&apos;t think about getting a spare until they&apos;ve already lost their main key. By that point,
-            they face an all-keys-lost replacement job — which is significantly more expensive and time-consuming
+            they face an all-keys-lost replacement job â€” which is significantly more expensive and time-consuming
             than simply having a spare programmed while everything is working normally.
           </p>
           <p>
@@ -118,7 +118,7 @@ export default function SpareCarKeyPage() {
 
           <h2>What to Do With Your Spare</h2>
           <p>
-            Keep the spare somewhere sensible — with a family member you trust, in a wall-mounted key safe at home,
+            Keep the spare somewhere sensible â€” with a family member you trust, in a wall-mounted key safe at home,
             or with a reliable neighbour. Don&apos;t keep it in the glove box, on the same ring as the main key, or
             in a bag you carry daily. A spare that travels everywhere with you provides no protection against
             losing the main key.
@@ -138,7 +138,7 @@ export default function SpareCarKeyPage() {
       <CTASection
         variant="navy"
         heading="Get a Spare Car Key Today"
-        subtext="Don't wait until you've lost your main key. Call Ashton Lock & Key — mobile, fast, all makes."
+        subtext="Don't wait until you've lost your main key. Call Ashton Lock & Key â€” mobile, fast, all makes."
       />
       <FAQSection faqs={faqs} heading="Spare Car Key FAQs" />
 
@@ -147,7 +147,7 @@ export default function SpareCarKeyPage() {
           <h2 className="text-2xl font-black text-brand-navy mb-6 text-center">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: 'Car Key Replacement Ashton', desc: 'Full replacement — lost, broken or stolen.', href: '/car-key-replacement-ashton' },
+              { title: 'Car Key Replacement Ashton', desc: 'Full replacement â€” lost, broken or stolen.', href: '/car-key-replacement-ashton' },
               { title: 'Lost Car Keys', desc: 'Lost all keys? AKL replacement from scratch.', href: '/lost-car-keys-ashton' },
               { title: 'Auto Locksmith Ashton', desc: 'Full auto locksmith service overview.', href: '/auto-locksmith-ashton-in-makerfield' },
             ].map((item) => (

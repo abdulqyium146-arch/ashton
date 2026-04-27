@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Car Key Fob Replacement Ashton-in-Makerfield | Re-sync & Repair | Same Day',
-  description: 'Key fob not working in Ashton-in-Makerfield? We re-sync, repair, or replace car key fobs for all makes. Mobile same-day service. Call 07711 341668.',
+  description: 'Key fob not working in Ashton-in-Makerfield? We re-sync, repair, or replace car key fobs for all makes. Mobile same-day service. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/car-key-fob-replacement-ashton`,
   },
@@ -23,18 +23,18 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Why has my car key fob stopped working?',
-    answer: 'The most common cause is a flat battery — easy to rule out by replacing the battery yourself (CR2032 in most cases). If that doesn\'t fix it, the fob may have lost its pairing with the car (common after a battery replacement or jump start), the internal circuit may be damaged, or the transponder chip may be failing. We can diagnose which it is.',
+    answer: 'The most common cause is a flat battery â€” easy to rule out by replacing the battery yourself (CR2032 in most cases). If that doesn\'t fix it, the fob may have lost its pairing with the car (common after a battery replacement or jump start), the internal circuit may be damaged, or the transponder chip may be failing. We can diagnose which it is.',
   },
   {
     question: 'Can you re-sync a key fob that has lost its pairing?',
-    answer: 'Yes. We re-sync fobs to vehicles using manufacturer-compatible programming equipment. Some vehicles allow fob re-sync through a simple button sequence — others require diagnostic access. Either way, we handle it on-site.',
+    answer: 'Yes. We re-sync fobs to vehicles using manufacturer-compatible programming equipment. Some vehicles allow fob re-sync through a simple button sequence â€” others require diagnostic access. Either way, we handle it on-site.',
   },
   {
     question: 'How much does key fob replacement cost in Ashton-in-Makerfield?',
-    answer: 'If just re-syncing is needed, from around £40–£60. A fully replaced fob (new unit, programmed) typically runs £80–£150 depending on make and model. Smart key / proximity key fobs are more complex and priced accordingly.',
+    answer: 'If just re-syncing is needed, from around Â£40â€“Â£60. A fully replaced fob (new unit, programmed) typically runs Â£80â€“Â£150 depending on make and model. Smart key / proximity key fobs are more complex and priced accordingly.',
   },
   {
-    question: 'My fob\'s buttons are physically broken — can it be repaired?',
+    question: 'My fob\'s buttons are physically broken â€” can it be repaired?',
     answer: 'Sometimes. The internal circuit board is often fine even when the outer casing is cracked or buttons have broken off. We can assess whether a new casing and circuit transplant is viable, or whether a full fob replacement is the better option.',
   },
 ]
@@ -75,12 +75,12 @@ export default function CarKeyFobReplacementPage() {
       <section className="bg-brand-navy section-padding" aria-labelledby="page-heading">
         <div className="container-max max-w-3xl">
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
-            Car Key Fob Replacement —{' '}
+            Car Key Fob Replacement â€”{' '}
             <span className="text-brand-orange">Ashton-in-Makerfield</span>
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
             Key fob not responding? Central locking stopped working? We diagnose, re-sync, repair, or replace
-            car key fobs for all makes and models — mobile, at your location, same day.
+            car key fobs for all makes and models â€” mobile, at your location, same day.
           </p>
           <a href={`tel:${BUSINESS.phone}`} className="btn-primary text-xl py-5 px-8">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -96,21 +96,21 @@ export default function CarKeyFobReplacementPage() {
           <h2>What We Check Before Replacing Anything</h2>
           <p>
             A non-working fob doesn&apos;t always mean you need a replacement. The most common fob issue is a flat battery
-            — a cheap fix you can do yourself with a CR2032 coin cell from any supermarket. If that doesn&apos;t resolve
+            â€” a cheap fix you can do yourself with a CR2032 coin cell from any supermarket. If that doesn&apos;t resolve
             it, we diagnose the actual cause before recommending a solution:
           </p>
           <ul>
-            <li>Lost pairing (syncronisation dropped) — common after battery replacement, jump starts, or ECU updates</li>
-            <li>Damaged transponder chip — often from water ingress or physical impact</li>
-            <li>Broken circuit board or button contacts — from drops or wear</li>
-            <li>Receiver antenna fault on the vehicle — if multiple fobs fail on the same car</li>
+            <li>Lost pairing (syncronisation dropped) â€” common after battery replacement, jump starts, or ECU updates</li>
+            <li>Damaged transponder chip â€” often from water ingress or physical impact</li>
+            <li>Broken circuit board or button contacts â€” from drops or wear</li>
+            <li>Receiver antenna fault on the vehicle â€” if multiple fobs fail on the same car</li>
           </ul>
 
           <h2>Re-Sync vs Full Replacement</h2>
           <p>
             If the fob itself is intact but has simply lost its pairing, a re-sync is faster and cheaper than a
-            full replacement. We use diagnostic equipment to re-pair the fob to your vehicle&apos;s ECU — on-site,
-            in most cases within 20–30 minutes.
+            full replacement. We use diagnostic equipment to re-pair the fob to your vehicle&apos;s ECU â€” on-site,
+            in most cases within 20â€“30 minutes.
           </p>
           <p>
             If the fob is physically damaged or the chip has failed, we supply and programme a replacement unit.
@@ -119,10 +119,10 @@ export default function CarKeyFobReplacementPage() {
             a new blade, see our dedicated page.
           </p>
 
-          <h2>Smart Key Fobs — More Complex, Still Fixable</h2>
+          <h2>Smart Key Fobs â€” More Complex, Still Fixable</h2>
           <p>
             Modern proximity keys (smart keys) that allow push-button start without inserting anything are a more
-            involved job — the programming requires deeper diagnostic access than a standard remote fob. We cover
+            involved job â€” the programming requires deeper diagnostic access than a standard remote fob. We cover
             smart key fob replacement through our{' '}
             <Link href="/transponder-key-programming-ashton">transponder and smart key programming service</Link>.
             Call us with your vehicle details and we&apos;ll confirm whether we can sort it on a same-day basis.
@@ -141,7 +141,7 @@ export default function CarKeyFobReplacementPage() {
       <CTASection
         variant="navy"
         heading="Key Fob Not Working?"
-        subtext="Don't guess — call us and describe the problem. We'll diagnose and fix it on-site, same day."
+        subtext="Don't guess â€” call us and describe the problem. We'll diagnose and fix it on-site, same day."
       />
       <FAQSection faqs={faqs} heading="Key Fob FAQs" />
 

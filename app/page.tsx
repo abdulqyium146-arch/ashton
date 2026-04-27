@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
@@ -10,14 +10,14 @@ import TrustBadges from '@/components/TrustBadges'
 import LocalPresenceSection from '@/components/LocalPresenceSection'
 
 export const metadata: Metadata = {
-  // ─── FIX: Use 'absolute' so template doesn't append brand name twice
+  // â”€â”€â”€ FIX: Use 'absolute' so template doesn't append brand name twice
   //     Without 'absolute', the parent template would produce:
   //     "Emergency Locksmith... | Ashton Lock & Key | Ashton Lock & Key"
   title: {
     absolute: 'Emergency Locksmith Ashton-in-Makerfield | 24/7 Fast Response | Ashton Lock & Key',
   },
   description:
-    'Locked out in Ashton-in-Makerfield or Wigan? Ashton Lock & Key is your local 24/7 locksmith — emergency lockouts, key cutting & car key replacement. 30-minute response. Call 07711 341668.',
+    'Locked out in Ashton-in-Makerfield or Wigan? Ashton Lock & Key is your local 24/7 locksmith â€” emergency lockouts, key cutting & car key replacement. 30-minute response. Call 07309 903243.',
   alternates: {
     canonical: BUSINESS.url,
     languages: { 'en-GB': BUSINESS.url, 'x-default': BUSINESS.url },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Emergency Locksmith Ashton-in-Makerfield | 24/7 Fast Response | Ashton Lock & Key',
     description:
-      'Locked out in Ashton-in-Makerfield or Wigan? Ashton Lock & Key is your local 24/7 locksmith — emergency lockouts, key cutting & car key replacement. 30-minute response. Call 07711 341668.',
+      'Locked out in Ashton-in-Makerfield or Wigan? Ashton Lock & Key is your local 24/7 locksmith â€” emergency lockouts, key cutting & car key replacement. 30-minute response. Call 07309 903243.',
     url: BUSINESS.url,
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const services = [
   {
     title: 'Emergency Locksmith',
-    description: 'Stepped outside and the door slammed behind you? Left your keys on the kitchen table? We\'ll be with you in 30 minutes — day or night, 365 days a year.',
+    description: 'Stepped outside and the door slammed behind you? Left your keys on the kitchen table? We\'ll be with you in 30 minutes â€” day or night, 365 days a year.',
     href: '/emergency-locksmith-ashton-in-makerfield',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -47,7 +47,7 @@ const services = [
   },
   {
     title: 'Key Cutting Ashton',
-    description: 'Don\'t get caught out with only one key. We cut house keys, office keys, padlock keys and more — precision-cut while you wait, usually in under 5 minutes.',
+    description: 'Don\'t get caught out with only one key. We cut house keys, office keys, padlock keys and more â€” precision-cut while you wait, usually in under 5 minutes.',
     href: '/key-cutting-ashton',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -60,7 +60,7 @@ const services = [
   },
   {
     title: 'Car Key Replacement',
-    description: 'Lost your car keys and the dealer wants £300? We replace and programme keys for all makes and models on-site — typically saving you £100–200 compared to main dealer prices.',
+    description: 'Lost your car keys and the dealer wants Â£300? We replace and programme keys for all makes and models on-site â€” typically saving you Â£100â€“200 compared to main dealer prices.',
     href: '/car-key-replacement-wigan',
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -76,23 +76,23 @@ const services = [
 const faqs = [
   {
     question: 'How quickly can you reach me in an emergency?',
-    answer: 'Most of the time we\'re with you within 30 minutes anywhere in Ashton-in-Makerfield or central Wigan. Sometimes faster. We\'re available round the clock — weekends, Christmas Day, bank holidays, 3am. Call us any time.',
+    answer: 'Most of the time we\'re with you within 30 minutes anywhere in Ashton-in-Makerfield or central Wigan. Sometimes faster. We\'re available round the clock â€” weekends, Christmas Day, bank holidays, 3am. Call us any time.',
   },
   {
     question: 'How much does an emergency locksmith cost?',
-    answer: 'Standard daytime lockouts start from £60. Out-of-hours (evenings and weekends) from £80. We always give you a fixed quote before we set off — what we quote is what you pay. There\'s no call-out charge on top and no VAT surprises.',
+    answer: 'Standard daytime lockouts start from Â£60. Out-of-hours (evenings and weekends) from Â£80. We always give you a fixed quote before we set off â€” what we quote is what you pay. There\'s no call-out charge on top and no VAT surprises.',
   },
   {
     question: 'Are you a local locksmith or a national call centre?',
-    answer: 'We\'re a genuine local locksmith based in Ashton-in-Makerfield. When you ring us, you\'re speaking directly to the person who\'ll be turning up at your door — nobody is putting you on hold and farming the job out to a subcontractor.',
+    answer: 'We\'re a genuine local locksmith based in Ashton-in-Makerfield. When you ring us, you\'re speaking directly to the person who\'ll be turning up at your door â€” nobody is putting you on hold and farming the job out to a subcontractor.',
   },
   {
     question: 'Can you open my lock without damaging it?',
-    answer: 'Yes, in the vast majority of cases. Non-destructive entry is always our first approach — proper locksmith picks and bypass tools, not brute force. If a lock genuinely can\'t be saved, we carry replacements and can fit one straight away.',
+    answer: 'Yes, in the vast majority of cases. Non-destructive entry is always our first approach â€” proper locksmith picks and bypass tools, not brute force. If a lock genuinely can\'t be saved, we carry replacements and can fit one straight away.',
   },
   {
     question: 'What areas do you cover?',
-    answer: 'We cover Ashton-in-Makerfield, Wigan, St Helens, Newton-le-Willows, Leigh, Golborne, Haydock, Billinge, Orrell, Hindley, Abram, Bryn, and all WN postcodes. Not sure if we reach you? Just call — if we can get there, we will.',
+    answer: 'We cover Ashton-in-Makerfield, Wigan, St Helens, Newton-le-Willows, Leigh, Golborne, Haydock, Billinge, Orrell, Hindley, Abram, Bryn, and all WN postcodes. Not sure if we reach you? Just call â€” if we can get there, we will.',
   },
 ]
 
@@ -112,7 +112,7 @@ export default function HomePage() {
         />
       ))}
 
-      {/* ── HERO ─────────────────────────────────────────────── */}
+      {/* â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <section className="relative bg-brand-navy overflow-hidden" aria-labelledby="hero-heading">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-5" aria-hidden="true">
@@ -125,18 +125,18 @@ export default function HomePage() {
             {/* Live badge */}
             <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" aria-hidden="true"></span>
-              Available Now — Serving Ashton-in-Makerfield & Wigan
+              Available Now â€” Serving Ashton-in-Makerfield & Wigan
             </div>
 
             <h1 id="hero-heading" className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
               Emergency Locksmith{' '}
               <span className="text-brand-orange">Ashton-in-Makerfield</span>
               <br />
-              <span className="text-3xl md:text-4xl text-white/80">Available 24/7 · Fast 30-Min Response</span>
+              <span className="text-3xl md:text-4xl text-white/80">Available 24/7 Â· Fast 30-Min Response</span>
             </h1>
 
             <p className="text-xl text-white/70 mb-8 max-w-2xl leading-relaxed">
-              Standing on your own doorstep at midnight with no way in is not a good feeling. We know — we get the calls.
+              Standing on your own doorstep at midnight with no way in is not a good feeling. We know â€” we get the calls.
               Ashton Lock & Key is your local locksmith in Ashton-in-Makerfield and Wigan, and we&apos;re ready when you need us.
             </p>
 
@@ -144,9 +144,9 @@ export default function HomePage() {
             <div className="flex flex-wrap gap-6 mb-10">
               {[
                 { value: '30 min', label: 'Average response time' },
-                { value: '4.9★', label: '127+ verified reviews' },
+                { value: '4.9â˜…', label: '127+ verified reviews' },
                 { value: '24/7', label: 'Always available' },
-                { value: '£60+', label: 'From (no hidden fees)' },
+                { value: 'Â£60+', label: 'From (no hidden fees)' },
               ].map((stat) => (
                 <div key={stat.label}>
                   <p className="text-2xl font-black text-brand-orange">{stat.value}</p>
@@ -182,11 +182,11 @@ export default function HomePage() {
             </div>
 
             <p className="mt-5 text-white/50 text-sm">
-              ✓ No call-out charge &nbsp;·&nbsp; ✓ Fixed price quotes &nbsp;·&nbsp; ✓ Fully insured
+              âœ“ No call-out charge &nbsp;Â·&nbsp; âœ“ Fixed price quotes &nbsp;Â·&nbsp; âœ“ Fully insured
             </p>
           </div>
 
-          {/* Hero image — van shot, above the fold */}
+          {/* Hero image â€” van shot, above the fold */}
           <div className="hidden lg:block relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
@@ -200,7 +200,7 @@ export default function HomePage() {
               />
               <div className="absolute bottom-4 left-4 right-4 bg-brand-navy/90 backdrop-blur rounded-xl px-4 py-3">
                 <p className="text-white text-sm font-semibold">Mobile locksmith serving Wigan &amp; Ashton-in-Makerfield</p>
-                <p className="text-brand-orange text-xs font-bold mt-0.5">Full locksmith services available — 24/7</p>
+                <p className="text-brand-orange text-xs font-bold mt-0.5">Full locksmith services available â€” 24/7</p>
               </div>
             </div>
           </div>
@@ -208,7 +208,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── SERVICES ─────────────────────────────────────────── */}
+      {/* â”€â”€ SERVICES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <section className="section-padding bg-brand-light" aria-labelledby="services-heading">
         <div className="container-max">
           <div className="text-center mb-12">
@@ -216,7 +216,7 @@ export default function HomePage() {
               Our Locksmith Services
             </h2>
             <p className="text-gray-600 max-w-xl mx-auto">
-              From being stuck on your doorstep at midnight to needing a spare key cut on your lunch break — here&apos;s how we can help.
+              From being stuck on your doorstep at midnight to needing a spare key cut on your lunch break â€” here&apos;s how we can help.
             </p>
           </div>
 
@@ -249,10 +249,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── TRUST BADGES ─────────────────────────────────────── */}
+      {/* â”€â”€ TRUST BADGES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <TrustBadges />
 
-      {/* ── HOW IT WORKS ─────────────────────────────────────── */}
+      {/* â”€â”€ HOW IT WORKS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <section className="section-padding bg-brand-navy" aria-labelledby="how-heading">
         <div className="container-max">
           <div className="text-center mb-12">
@@ -266,7 +266,7 @@ export default function HomePage() {
               {
                 step: '01',
                 title: 'Call or WhatsApp Us',
-                desc: 'Ring us on 07711 341668 or send a WhatsApp. You\'ll speak directly to a locksmith — not a call centre, not a switchboard. Just straight through to someone who can help.',
+                desc: 'Ring us on 07309 903243 or send a WhatsApp. You\'ll speak directly to a locksmith â€” not a call centre, not a switchboard. Just straight through to someone who can help.',
               },
               {
                 step: '02',
@@ -299,10 +299,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── REVIEWS ──────────────────────────────────────────── */}
+      {/* â”€â”€ REVIEWS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <ReviewsSection />
 
-      {/* ── AREAS SERVED ─────────────────────────────────────── */}
+      {/* â”€â”€ AREAS SERVED â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <section className="section-padding bg-brand-light" aria-labelledby="areas-heading">
         <div className="container-max">
           <div className="text-center mb-10">
@@ -331,19 +331,19 @@ export default function HomePage() {
           <p className="text-center text-gray-500 text-sm mt-6 max-w-2xl mx-auto">
             Need us urgently?{' '}
             <Link href="/emergency-locksmith-ashton-in-makerfield" className="text-brand-orange font-semibold hover:underline">Emergency locksmith Ashton-in-Makerfield</Link>{' '}
-            is available right now — 24/7, 30-minute response.
+            is available right now â€” 24/7, 30-minute response.
           </p>
         </div>
       </section>
 
-      {/* ── SHOPFRONT TRUST SIGNAL ───────────────────────────── */}
+      {/* â”€â”€ SHOPFRONT TRUST SIGNAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <section className="section-padding bg-white" aria-labelledby="about-heading">
         <div className="container-max">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/ashton-lock-key-shopfront-ashton-in-makerfield.webp"
-                alt="Ashton Lock & Key shop on the high street in Ashton-in-Makerfield — your local locksmith and key cutting centre"
+                alt="Ashton Lock & Key shop on the high street in Ashton-in-Makerfield â€” your local locksmith and key cutting centre"
                 width={640}
                 height={480}
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -352,29 +352,29 @@ export default function HomePage() {
             </div>
             <div>
               <h2 id="about-heading" className="text-3xl font-black text-brand-navy mb-4">
-                A Real Local Business — Not a Call Centre
+                A Real Local Business â€” Not a Call Centre
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Ashton Lock & Key is based right here in Ashton-in-Makerfield. We have a shop on the high street,
-                a fully equipped mobile van, and a team you can actually speak to. When you call, you get the locksmith —
+                a fully equipped mobile van, and a team you can actually speak to. When you call, you get the locksmith â€”
                 not an operator 200 miles away who farms the job out.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 That local presence means faster response times, honest prices, and genuine accountability.
-                We&apos;re not going anywhere — our reputation depends on every single job.
+                We&apos;re not going anywhere â€” our reputation depends on every single job.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── LOCAL PRESENCE: GMB MAP + NAP + HOURS + SERVICE RADIUS ── */}
+      {/* â”€â”€ LOCAL PRESENCE: GMB MAP + NAP + HOURS + SERVICE RADIUS â”€â”€ */}
       <LocalPresenceSection />
 
-      {/* ── FAQs ─────────────────────────────────────────────── */}
+      {/* â”€â”€ FAQs â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <FAQSection faqs={faqs} heading="Common Questions About Our Locksmith Service" />
 
-      {/* ── BLOG PREVIEW ─────────────────────────────────────── */}
+      {/* â”€â”€ BLOG PREVIEW â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <section className="section-padding bg-white" aria-labelledby="blog-heading">
         <div className="container-max">
           <div className="text-center mb-10">
@@ -396,14 +396,14 @@ export default function HomePage() {
               },
               {
                 title: 'How Much Does a Locksmith Cost in the UK?',
-                excerpt: 'The industry has a rogue trader problem. Here\'s the honest breakdown of what things should cost — and how to spot when you\'re being overcharged.',
+                excerpt: 'The industry has a rogue trader problem. Here\'s the honest breakdown of what things should cost â€” and how to spot when you\'re being overcharged.',
                 href: '/blog/how-much-does-a-locksmith-cost-uk',
                 category: 'Pricing',
                 color: 'bg-blue-50 text-blue-700',
               },
               {
                 title: 'How to Improve Your Home Security on a Budget',
-                excerpt: 'Most burglaries are opportunistic. A few sensible, affordable upgrades can make your home look like too much effort — and that\'s often enough.',
+                excerpt: 'Most burglaries are opportunistic. A few sensible, affordable upgrades can make your home look like too much effort â€” and that\'s often enough.',
                 href: '/blog/how-to-improve-home-security',
                 category: 'Security',
                 color: 'bg-green-50 text-green-700',
@@ -428,10 +428,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── CTA ──────────────────────────────────────────────── */}
+      {/* â”€â”€ CTA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <CTASection variant="gradient" />
 
-      {/* ── CONTACT NUDGE ───────────────────────────────────── */}
+      {/* â”€â”€ CONTACT NUDGE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <section className="py-6 bg-brand-navy">
         <div className="container-max text-center">
           <p className="text-white/60 text-sm">

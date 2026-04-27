@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Auto Locksmith St Helens | Car Lockout & Key Replacement | 24/7',
-  description: 'Auto locksmith covering St Helens and WA10/WA11 postcodes. Car lockouts, key replacement, transponder programming. Mobile 24/7 service. Call 07711 341668.',
+  description: 'Auto locksmith covering St Helens and WA10/WA11 postcodes. Car lockouts, key replacement, transponder programming. Mobile 24/7 service. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/auto-locksmith-st-helens`,
   },
@@ -23,15 +23,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Do you cover St Helens for auto locksmith call-outs?',
-    answer: 'Yes. We cover St Helens and the WA10/WA11 postcode area as part of our wider North West coverage. From our base in Ashton-in-Makerfield, St Helens is approximately 30–45 minutes depending on traffic. We attend call-outs in St Helens town centre, Haydock, Newton-le-Willows, and surrounding areas.',
+    answer: 'Yes. We cover St Helens and the WA10/WA11 postcode area as part of our wider North West coverage. From our base in Ashton-in-Makerfield, St Helens is approximately 30â€“45 minutes depending on traffic. We attend call-outs in St Helens town centre, Haydock, Newton-le-Willows, and surrounding areas.',
   },
   {
     question: 'What auto locksmith services are available in St Helens?',
-    answer: 'The full range — car lockouts (locked keys in vehicle), car key replacement and programming for all makes, transponder key programming, key fob repair and replacement, ignition repair, and van locksmith services.',
+    answer: 'The full range â€” car lockouts (locked keys in vehicle), car key replacement and programming for all makes, transponder key programming, key fob repair and replacement, ignition repair, and van locksmith services.',
   },
   {
     question: 'Are your prices the same for St Helens as for Ashton-in-Makerfield?',
-    answer: 'Standard jobs are quoted at the same rates. For call-outs at the furthest edges of our coverage area there may be a small additional travel contribution — we\'ll be upfront about this when you call and quote the all-in price before attending.',
+    answer: 'Standard jobs are quoted at the same rates. For call-outs at the furthest edges of our coverage area there may be a small additional travel contribution â€” we\'ll be upfront about this when you call and quote the all-in price before attending.',
   },
 ]
 
@@ -72,7 +72,7 @@ export default function AutoLocksmithStHelensPage() {
         <div className="container-max max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" aria-hidden="true"></span>
-            Covering St Helens &amp; Haydock — 24/7
+            Covering St Helens &amp; Haydock â€” 24/7
           </div>
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             Auto Locksmith <span className="text-brand-orange">St Helens</span>
@@ -101,18 +101,18 @@ export default function AutoLocksmithStHelensPage() {
             available here:
           </p>
           <ul>
-            <li><Link href="/car-lockout-service-ashton">Car lockout</Link> — locked keys in vehicle, non-destructive entry</li>
-            <li><Link href="/car-key-replacement-ashton">Car key replacement</Link> — all makes, cut and programmed on-site</li>
-            <li><Link href="/lost-car-keys-ashton">Lost all car keys</Link> — AKL reprogramming from scratch</li>
+            <li><Link href="/car-lockout-service-ashton">Car lockout</Link> â€” locked keys in vehicle, non-destructive entry</li>
+            <li><Link href="/car-key-replacement-ashton">Car key replacement</Link> â€” all makes, cut and programmed on-site</li>
+            <li><Link href="/lost-car-keys-ashton">Lost all car keys</Link> â€” AKL reprogramming from scratch</li>
             <li><Link href="/transponder-key-programming-ashton">Transponder key programming</Link></li>
             <li><Link href="/car-key-fob-replacement-ashton">Key fob replacement &amp; re-sync</Link></li>
-            <li><Link href="/van-locksmith-ashton">Van locksmith</Link> — commercial vehicle coverage</li>
+            <li><Link href="/van-locksmith-ashton">Van locksmith</Link> â€” commercial vehicle coverage</li>
           </ul>
 
           <h2>Response Times for St Helens</h2>
           <p>
-            St Helens is approximately 12–15 miles from our base in Ashton-in-Makerfield. Typical response time is
-            35–50 minutes. We will give you an honest ETA when you call — not a 30-minute promise that turns into
+            St Helens is approximately 12â€“15 miles from our base in Ashton-in-Makerfield. Typical response time is
+            35â€“50 minutes. We will give you an honest ETA when you call â€” not a 30-minute promise that turns into
             a 90-minute wait.
           </p>
 
@@ -129,7 +129,7 @@ export default function AutoLocksmithStHelensPage() {
       <CTASection
         variant="orange"
         heading="Auto Locksmith Needed in St Helens?"
-        subtext="Call Ashton Lock & Key — 24/7, mobile, fixed price quoted before we attend."
+        subtext="Call Ashton Lock & Key â€” 24/7, mobile, fixed price quoted before we attend."
       />
       <FAQSection faqs={faqs} heading="Auto Locksmith St Helens FAQs" />
 
@@ -138,9 +138,9 @@ export default function AutoLocksmithStHelensPage() {
           <h2 className="text-2xl font-black text-brand-navy mb-6 text-center">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { title: 'Auto Locksmith Ashton', desc: 'Our main auto locksmith hub — full service.', href: '/auto-locksmith-ashton-in-makerfield' },
+              { title: 'Auto Locksmith Ashton', desc: 'Our main auto locksmith hub â€” full service.', href: '/auto-locksmith-ashton-in-makerfield' },
               { title: 'Auto Locksmith Newton-le-Willows', desc: 'Also covering nearby Newton-le-Willows.', href: '/auto-locksmith-newton-le-willows' },
-              { title: 'Car Lockout Service', desc: 'Locked keys in car — non-destructive entry.', href: '/car-lockout-service-ashton' },
+              { title: 'Car Lockout Service', desc: 'Locked keys in car â€” non-destructive entry.', href: '/car-lockout-service-ashton' },
               { title: 'Car Key Replacement', desc: 'All makes, programmed on-site.', href: '/car-key-replacement-ashton' },
               { title: 'Lost Car Keys', desc: 'All-keys-lost AKL replacement.', href: '/lost-car-keys-ashton' },
               { title: 'Van Locksmith', desc: 'Commercial vehicle lockouts and security.', href: '/van-locksmith-ashton' },

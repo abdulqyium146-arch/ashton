@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -9,7 +9,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Car Key Replacement Ashton-in-Makerfield | Cut & Programmed | Same Day',
-  description: 'Car key replacement in Ashton-in-Makerfield. Lost, broken or stolen keys replaced and programmed on-site for all makes. Cheaper than dealers. Call 07711 341668.',
+  description: 'Car key replacement in Ashton-in-Makerfield. Lost, broken or stolen keys replaced and programmed on-site for all makes. Cheaper than dealers. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/car-key-replacement-ashton`,
   },
@@ -24,19 +24,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does car key replacement cost in Ashton-in-Makerfield?',
-    answer: 'Standard transponder keys start from around £80–£120 all-in. Remote key fobs are typically £120–£180. Smart / proximity keys range from £180–£280 depending on the vehicle. All-keys-lost jobs start from around £120 and rise depending on complexity. Exact quotes given over the phone.',
+    answer: 'Standard transponder keys start from around Â£80â€“Â£120 all-in. Remote key fobs are typically Â£120â€“Â£180. Smart / proximity keys range from Â£180â€“Â£280 depending on the vehicle. All-keys-lost jobs start from around Â£120 and rise depending on complexity. Exact quotes given over the phone.',
   },
   {
     question: 'Do you come to me or do I need to bring the car to you?',
-    answer: 'We come to you. Our car key replacement service is fully mobile — we arrive at wherever your vehicle is, whether that\'s home, work, a car park, or a roadside location. You don\'t need to arrange recovery.',
+    answer: 'We come to you. Our car key replacement service is fully mobile â€” we arrive at wherever your vehicle is, whether that\'s home, work, a car park, or a roadside location. You don\'t need to arrange recovery.',
   },
   {
     question: 'How long does car key replacement take in Ashton-in-Makerfield?',
-    answer: 'Most standard key replacements take 30–60 minutes on-site. All-keys-lost jobs typically take 60–120 minutes. Some rare vehicle models may require a specialist blank to be ordered, adding a day — we\'ll tell you this in advance.',
+    answer: 'Most standard key replacements take 30â€“60 minutes on-site. All-keys-lost jobs typically take 60â€“120 minutes. Some rare vehicle models may require a specialist blank to be ordered, adding a day â€” we\'ll tell you this in advance.',
   },
   {
     question: 'Can you replace a car key if I still have my spare?',
-    answer: 'Yes — and if you have a working spare, the job is simpler and quicker. We can programme a new key alongside your existing one. It\'s also cheaper than an all-keys-lost replacement, so sort it before you lose the spare too.',
+    answer: 'Yes â€” and if you have a working spare, the job is simpler and quicker. We can programme a new key alongside your existing one. It\'s also cheaper than an all-keys-lost replacement, so sort it before you lose the spare too.',
   },
 ]
 
@@ -44,26 +44,26 @@ const keyTypes = [
   {
     title: 'Basic Cut Keys',
     period: 'Pre-1995 vehicles',
-    desc: 'Simple metal key with no electronics. Cut to match the lock — no programming needed. Fast and inexpensive.',
-    price: 'From £20',
+    desc: 'Simple metal key with no electronics. Cut to match the lock â€” no programming needed. Fast and inexpensive.',
+    price: 'From Â£20',
   },
   {
     title: 'Transponder Keys',
-    period: '1995–2010 vehicles',
+    period: '1995â€“2010 vehicles',
     desc: 'Metal key with a microchip in the head. Must be programmed to the immobiliser after cutting or the engine won\'t start.',
-    price: 'From £80',
+    price: 'From Â£80',
   },
   {
     title: 'Remote Key Fobs',
     period: '2000s onwards',
     desc: 'Transponder key with built-in central locking remote. Requires cutting, chip programming, and remote sync.',
-    price: 'From £120',
+    price: 'From Â£120',
   },
   {
     title: 'Smart / Proximity Keys',
     period: '2010s onwards',
-    desc: 'Keyless entry and push-button start. Most complex to replace — requires specialist diagnostic equipment.',
-    price: 'From £180',
+    desc: 'Keyless entry and push-button start. Most complex to replace â€” requires specialist diagnostic equipment.',
+    price: 'From Â£180',
   },
 ]
 
@@ -72,7 +72,7 @@ export default function CarKeyReplacementAshtonPage() {
   const schemas = [
     serviceSchema(
       'Car Key Replacement Ashton-in-Makerfield',
-      'Mobile car key replacement in Ashton-in-Makerfield. All key types cut and programmed on-site — transponder, remote fob, and smart keys. Same-day service, cheaper than dealers.',
+      'Mobile car key replacement in Ashton-in-Makerfield. All key types cut and programmed on-site â€” transponder, remote fob, and smart keys. Same-day service, cheaper than dealers.',
       pageUrl,
     ),
     faqSchema(faqs),
@@ -107,15 +107,15 @@ export default function CarKeyReplacementAshtonPage() {
             <svg className="w-4 h-4 text-brand-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
             </svg>
-            Car Key Specialists — Ashton-in-Makerfield
+            Car Key Specialists â€” Ashton-in-Makerfield
           </div>
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             Car Key Replacement{' '}
             <span className="text-brand-orange">Ashton-in-Makerfield</span>
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
-            Lost, broken, or stolen car keys replaced and programmed on-site — at your vehicle, same day. All makes
-            and models covered. Typically 40–60% cheaper than going to your main dealer.
+            Lost, broken, or stolen car keys replaced and programmed on-site â€” at your vehicle, same day. All makes
+            and models covered. Typically 40â€“60% cheaper than going to your main dealer.
           </p>
           <div className="flex flex-wrap gap-3 mb-8">
             {['Mobile Service', 'All Makes & Models', 'Fixed Price Upfront', 'Same Day', 'No Recovery Needed'].map((t) => (
@@ -135,7 +135,7 @@ export default function CarKeyReplacementAshtonPage() {
       <section className="section-padding bg-brand-light" aria-labelledby="keytypes-heading">
         <div className="container-max">
           <h2 id="keytypes-heading" className="text-2xl font-black text-brand-navy mb-2 text-center">Every Car Key Type Covered</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">The type of key affects what the job involves — and what it costs</p>
+          <p className="text-center text-gray-500 text-sm mb-8">The type of key affects what the job involves â€” and what it costs</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {keyTypes.map((kt) => (
               <div key={kt.title} className="bg-white rounded-2xl p-5 border border-gray-100 hover:border-brand-orange transition-colors">
@@ -155,11 +155,11 @@ export default function CarKeyReplacementAshtonPage() {
       <section className="section-padding bg-white">
         <div className="container-max max-w-4xl mx-auto prose-custom">
 
-          <h2>Mobile Car Key Replacement — We Come to You</h2>
+          <h2>Mobile Car Key Replacement â€” We Come to You</h2>
           <p>
             When you need a car key replaced, the last thing you want is to arrange recovery to a dealer, wait
             for a booking slot, and pay inflated prices. Our mobile service means we drive to wherever your car
-            is — home, work, a supermarket car park, anywhere in the Ashton-in-Makerfield and Wigan area — and
+            is â€” home, work, a supermarket car park, anywhere in the Ashton-in-Makerfield and Wigan area â€” and
             complete the job on-site.
           </p>
           <p>
@@ -171,18 +171,18 @@ export default function CarKeyReplacementAshtonPage() {
           <p>
             Every car key replacement we carry out includes cutting the physical blade, programming the transponder
             chip to your vehicle&apos;s immobiliser, and synchronising the remote (where applicable). What you get
-            is a fully working key — not just a cut blade that won&apos;t start the car.
+            is a fully working key â€” not just a cut blade that won&apos;t start the car.
           </p>
           <p>
             If you&apos;ve lost all your keys, we handle full{' '}
-            <Link href="/lost-car-keys-ashton">all-keys-lost replacement</Link> too — erasing existing key data
+            <Link href="/lost-car-keys-ashton">all-keys-lost replacement</Link> too â€” erasing existing key data
             from the ECU and programming new keys from scratch.
           </p>
 
-          <h2>Ashton-in-Makerfield vs Wigan — What&apos;s the Difference?</h2>
+          <h2>Ashton-in-Makerfield vs Wigan â€” What&apos;s the Difference?</h2>
           <p>
             This page covers car key replacement specifically in Ashton-in-Makerfield (WN4 postcode). If you&apos;re
-            based in the wider Wigan borough — Wigan town centre, Leigh, Hindley, Aspull — see our{' '}
+            based in the wider Wigan borough â€” Wigan town centre, Leigh, Hindley, Aspull â€” see our{' '}
             <Link href="/car-key-replacement-wigan">car key replacement Wigan page</Link>.
             Both pages cover the same service; the difference is geography and Google.
           </p>
@@ -192,7 +192,7 @@ export default function CarKeyReplacementAshtonPage() {
             While we&apos;re on-site, getting a{' '}
             <Link href="/spare-car-key-ashton">spare key programmed</Link> costs a fraction of what a second
             call-out would later. It&apos;s the single most effective way to avoid an expensive AKL (all-keys-lost)
-            job in the future — and it gives you peace of mind that you&apos;ll never be completely stranded.
+            job in the future â€” and it gives you peace of mind that you&apos;ll never be completely stranded.
           </p>
 
           <h2>Understand the Costs Before You Call</h2>
@@ -211,7 +211,7 @@ export default function CarKeyReplacementAshtonPage() {
       <CTASection
         variant="orange"
         heading="Need a Car Key Replacement in Ashton-in-Makerfield?"
-        subtext="Call Ashton Lock & Key — mobile, same-day, fixed price. We come to wherever your car is."
+        subtext="Call Ashton Lock & Key â€” mobile, same-day, fixed price. We come to wherever your car is."
       />
       <FAQSection faqs={faqs} heading="Car Key Replacement FAQs" />
 

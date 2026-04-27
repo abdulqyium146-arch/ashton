@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Transponder Key Programming Ashton-in-Makerfield | All Makes | Same Day',
-  description: 'Transponder key programming in Ashton-in-Makerfield. Chip programming for all makes and models — mobile, same day, cheaper than dealers. Call 07711 341668.',
+  description: 'Transponder key programming in Ashton-in-Makerfield. Chip programming for all makes and models â€” mobile, same day, cheaper than dealers. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/transponder-key-programming-ashton`,
   },
@@ -23,19 +23,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is a transponder key?',
-    answer: 'A transponder key contains a small microchip in the plastic head that communicates with your car\'s immobiliser. When you insert the key, the immobiliser reads the chip code. If it matches the stored code, the engine starts. If there\'s no chip or the chip isn\'t programmed, the fuel system cuts out and the engine won\'t run — even if the physical key fits the ignition.',
+    answer: 'A transponder key contains a small microchip in the plastic head that communicates with your car\'s immobiliser. When you insert the key, the immobiliser reads the chip code. If it matches the stored code, the engine starts. If there\'s no chip or the chip isn\'t programmed, the fuel system cuts out and the engine won\'t run â€” even if the physical key fits the ignition.',
   },
   {
-    question: 'My key turns in the ignition but the engine won\'t start — could it be the transponder?',
+    question: 'My key turns in the ignition but the engine won\'t start â€” could it be the transponder?',
     answer: 'Yes, this is a classic symptom of a transponder issue. Other causes include a flat immobiliser ring antenna, a failing ECU, or a damaged transponder chip. We carry diagnostic equipment to identify the exact cause and resolve it on-site.',
   },
   {
     question: 'Can you programme a transponder key without the original?',
-    answer: 'Yes — this is the all-keys-lost (AKL) scenario. We access the ECU, erase the existing key data, and programme a completely new key. It costs more than adding a key alongside an existing one, but it\'s very achievable. See our dedicated lost car keys page.',
+    answer: 'Yes â€” this is the all-keys-lost (AKL) scenario. We access the ECU, erase the existing key data, and programme a completely new key. It costs more than adding a key alongside an existing one, but it\'s very achievable. See our dedicated lost car keys page.',
   },
   {
     question: 'How long does transponder key programming take?',
-    answer: 'For standard key addition (programming alongside a working original), typically 30–45 minutes. All-keys-lost jobs take 60–120 minutes. Some vehicles require pin code extraction first, which adds time — we\'ll advise when you call.',
+    answer: 'For standard key addition (programming alongside a working original), typically 30â€“45 minutes. All-keys-lost jobs take 60â€“120 minutes. Some vehicles require pin code extraction first, which adds time â€” we\'ll advise when you call.',
   },
 ]
 
@@ -75,12 +75,12 @@ export default function TransponderKeyProgrammingPage() {
       <section className="bg-brand-navy section-padding" aria-labelledby="page-heading">
         <div className="container-max max-w-3xl">
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
-            Transponder Key Programming —{' '}
+            Transponder Key Programming â€”{' '}
             <span className="text-brand-orange">Ashton-in-Makerfield</span>
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
             A correctly cut car key that hasn&apos;t been programmed won&apos;t start your engine. We programme
-            transponder chips to your vehicle&apos;s immobiliser on-site — mobile, same day, for all makes and models.
+            transponder chips to your vehicle&apos;s immobiliser on-site â€” mobile, same day, for all makes and models.
           </p>
           <a href={`tel:${BUSINESS.phone}`} className="btn-primary text-xl py-5 px-8">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -113,7 +113,7 @@ export default function TransponderKeyProgrammingPage() {
             <li>Spare key being added to a vehicle</li>
             <li>Key turning in ignition but engine not starting</li>
             <li>Immobiliser warning light on dashboard</li>
-            <li>All keys lost — programming from scratch after ECU reset</li>
+            <li>All keys lost â€” programming from scratch after ECU reset</li>
             <li>Transponder chip failed in existing key</li>
           </ul>
 
@@ -121,17 +121,17 @@ export default function TransponderKeyProgrammingPage() {
           <p>
             We use AUTEL MaxiIM and Xhorse VVDI programming devices alongside Advanced Diagnostics systems.
             These cover key programming for the vast majority of European, Asian, and domestic makes sold in the
-            UK — including Ford, Vauxhall, VW, Audi, BMW, Mercedes, Toyota, Renault, Peugeot, and many more.
+            UK â€” including Ford, Vauxhall, VW, Audi, BMW, Mercedes, Toyota, Renault, Peugeot, and many more.
           </p>
           <p>
             Some vehicles require extracting a pin code or accessing the ECU via the OBD port before programming
             is possible. We handle this within the same visit where the platform supports it.
           </p>
 
-          <h2>Transponder vs Smart Key — What&apos;s the Difference?</h2>
+          <h2>Transponder vs Smart Key â€” What&apos;s the Difference?</h2>
           <p>
             Transponder keys are physical keys that need to be inserted into the ignition. Smart keys (proximity
-            keys) stay in your pocket — the car senses their presence and allows keyless entry and push-button
+            keys) stay in your pocket â€” the car senses their presence and allows keyless entry and push-button
             start. Smart key programming is more complex and covered separately. For a plain-language comparison,
             read our{' '}
             <Link href="/blog/transponder-key-vs-smart-key-explained">transponder vs smart key guide</Link>.
@@ -147,7 +147,7 @@ export default function TransponderKeyProgrammingPage() {
       <CTASection
         variant="orange"
         heading="Need a Transponder Key Programmed?"
-        subtext="Call Ashton Lock & Key — we bring the diagnostic equipment to your vehicle, same day."
+        subtext="Call Ashton Lock & Key â€” we bring the diagnostic equipment to your vehicle, same day."
       />
       <FAQSection faqs={faqs} heading="Transponder Key Programming FAQs" />
 

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BUSINESS } from '@/lib/constants'
@@ -10,7 +10,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Emergency Locksmith Ashton-in-Makerfield | 24/7 Lockout Service | 30-Min Response',
-  description: 'Emergency locksmith in Ashton-in-Makerfield available 24/7. Locked out of your home or office? We arrive in 30 minutes. Fixed prices, no call-out fee. Call 07711 341668.',
+  description: 'Emergency locksmith in Ashton-in-Makerfield available 24/7. Locked out of your home or office? We arrive in 30 minutes. Fixed prices, no call-out fee. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/emergency-locksmith-ashton-in-makerfield`,
   },
@@ -24,19 +24,19 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How fast is your emergency locksmith response in Ashton-in-Makerfield?',
-    answer: 'We\'re with most customers in Ashton-in-Makerfield within 30 minutes of calling. Sometimes it\'s 20. We won\'t give you a time we can\'t keep — you\'ll get an honest ETA on the call, and we\'ll let you know if anything changes.',
+    answer: 'We\'re with most customers in Ashton-in-Makerfield within 30 minutes of calling. Sometimes it\'s 20. We won\'t give you a time we can\'t keep â€” you\'ll get an honest ETA on the call, and we\'ll let you know if anything changes.',
   },
   {
     question: 'How much does an emergency lockout cost in Ashton?',
-    answer: 'Standard daytime lockouts start from £60 all-in. Out-of-hours (evenings, weekends, bank holidays) from £80. You get a fixed, confirmed price before we set off. Nothing gets added on when we arrive.',
+    answer: 'Standard daytime lockouts start from Â£60 all-in. Out-of-hours (evenings, weekends, bank holidays) from Â£80. You get a fixed, confirmed price before we set off. Nothing gets added on when we arrive.',
   },
   {
     question: 'Can you open my door without breaking the lock?',
-    answer: 'In most cases, yes. Non-destructive entry is always our first approach — we use proper locksmith tools, not brute force. If the lock is beyond saving, we carry replacements and can fit one straight away so you\'re secure.',
+    answer: 'In most cases, yes. Non-destructive entry is always our first approach â€” we use proper locksmith tools, not brute force. If the lock is beyond saving, we carry replacements and can fit one straight away so you\'re secure.',
   },
   {
     question: 'Do you cover home and commercial lockouts?',
-    answer: 'Yes — houses, flats, HMOs, offices, shops, warehouses. If you\'re locked out of any building in the Ashton-in-Makerfield or Wigan area, give us a ring. Commercial jobs are dealt with just as quickly as residential.',
+    answer: 'Yes â€” houses, flats, HMOs, offices, shops, warehouses. If you\'re locked out of any building in the Ashton-in-Makerfield or Wigan area, give us a ring. Commercial jobs are dealt with just as quickly as residential.',
   },
   {
     question: 'What if I\'ve broken a key in the lock?',
@@ -79,7 +79,7 @@ export default function EmergencyLocksmithPage() {
           <div>
             <div className="inline-flex items-center gap-2 bg-red-500/20 border border-red-500/30 text-red-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
               <span className="w-2 h-2 bg-red-400 rounded-full animate-pulse" aria-hidden="true"></span>
-              Emergency Service — Available Right Now
+              Emergency Service â€” Available Right Now
             </div>
             <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
               Emergency Locksmith{' '}
@@ -87,7 +87,7 @@ export default function EmergencyLocksmithPage() {
             </h1>
             <p className="text-xl text-white/70 mb-6 leading-relaxed">
               Locked out in Ashton? Whether it&apos;s 2pm on a Tuesday or 2am on a bank holiday weekend, we&apos;re available.
-              Call now and we&apos;ll be with you in 30 minutes — no fuss, no call centre, just a locksmith who gets on with it.
+              Call now and we&apos;ll be with you in 30 minutes â€” no fuss, no call centre, just a locksmith who gets on with it.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {['24/7 Available', '30-Min Response', 'Fixed Prices', 'Non-Destructive Entry', 'Fully Insured'].map((t) => (
@@ -105,7 +105,7 @@ export default function EmergencyLocksmithPage() {
           <div className="bg-white/10 backdrop-blur rounded-2xl p-6 text-white space-y-4">
             <h2 className="text-xl font-bold">What We Can Help With</h2>
             {[
-              'House lockouts — locked out of your home',
+              'House lockouts â€” locked out of your home',
               'Flat & apartment lockouts',
               'Office & commercial lockouts',
               'Broken key extraction',
@@ -132,7 +132,7 @@ export default function EmergencyLocksmithPage() {
           <p>
             It happens to everyone at some point. You step outside to put the bins out, the door blows shut behind you,
             and your keys are sitting on the kitchen table. Or maybe the key snapped in the lock at midnight with the kids
-            already in bed. Whatever the situation, being locked out of your own home is stressful — and the last thing you
+            already in bed. Whatever the situation, being locked out of your own home is stressful â€” and the last thing you
             need is a call centre making it worse.
           </p>
           <p>
@@ -142,7 +142,7 @@ export default function EmergencyLocksmithPage() {
           </p>
 
           <h2>What Happens When You Call Us</h2>
-          <h3>You Call — We Pick Up</h3>
+          <h3>You Call â€” We Pick Up</h3>
           <p>
             Ring <a href={`tel:${BUSINESS.phone}`}>{BUSINESS.phoneDisplay}</a> and you&apos;ll speak to a locksmith directly.
             No automated menus, no &quot;press 1 for emergencies.&quot; Just straight through to someone who can actually sort it.
@@ -155,8 +155,8 @@ export default function EmergencyLocksmithPage() {
           <h3>We Head Straight to You</h3>
           <p>
             We aim to reach anywhere in Ashton-in-Makerfield within 30 minutes of your call. For locations in the wider
-            Wigan area — <Link href="/locksmith-wigan">Wigan town centre</Link>, Hindley, Newton-le-Willows — allow
-            35–45 minutes. We&apos;ll give you an honest ETA and stick to it.
+            Wigan area â€” <Link href="/locksmith-wigan">Wigan town centre</Link>, Hindley, Newton-le-Willows â€” allow
+            35â€“45 minutes. We&apos;ll give you an honest ETA and stick to it.
           </p>
           <h3>Non-Destructive Entry First, Always</h3>
           <p>
@@ -170,11 +170,11 @@ export default function EmergencyLocksmithPage() {
             Prices vary depending on lock type, time of day, and complexity. Here&apos;s a straightforward guide:
           </p>
           <ul>
-            <li><strong>Standard residential lockout (daytime, Mon–Fri):</strong> From £60</li>
-            <li><strong>Out-of-hours lockout (evenings, weekends):</strong> From £80</li>
-            <li><strong>Late night / early morning (midnight–6am):</strong> From £100</li>
-            <li><strong>Broken key extraction:</strong> From £50</li>
-            <li><strong>Lock replacement (on top of lockout charge):</strong> From £40 + parts</li>
+            <li><strong>Standard residential lockout (daytime, Monâ€“Fri):</strong> From Â£60</li>
+            <li><strong>Out-of-hours lockout (evenings, weekends):</strong> From Â£80</li>
+            <li><strong>Late night / early morning (midnightâ€“6am):</strong> From Â£100</li>
+            <li><strong>Broken key extraction:</strong> From Â£50</li>
+            <li><strong>Lock replacement (on top of lockout charge):</strong> From Â£40 + parts</li>
           </ul>
           <p>
             All prices include VAT. You&apos;ll get your exact quote before we touch anything.
@@ -183,14 +183,14 @@ export default function EmergencyLocksmithPage() {
           <h2>Areas We Cover for Emergency Lockouts</h2>
           <p>
             We cover Ashton-in-Makerfield (WN4), <Link href="/locksmith-wigan">Wigan</Link>, St Helens, Newton-le-Willows,
-            Leigh, Golborne, Haydock, Billinge, Orrell, Hindley, Abram, and Bryn. Not sure if you&apos;re in our area? Just ring us —
+            Leigh, Golborne, Haydock, Billinge, Orrell, Hindley, Abram, and Bryn. Not sure if you&apos;re in our area? Just ring us â€”
             if we can reach you quickly, we will.
           </p>
 
           <div className="my-8 rounded-2xl overflow-hidden shadow-md">
             <Image
               src="/images/ashton-lock-key-mobile-van-citroen.webp"
-              alt="Ashton Lock & Key emergency locksmith van on call in Ashton-in-Makerfield — mobile key cutting and locksmith service"
+              alt="Ashton Lock & Key emergency locksmith van on call in Ashton-in-Makerfield â€” mobile key cutting and locksmith service"
               width={800}
               height={534}
               sizes="(max-width: 768px) 100vw, 700px"
@@ -202,7 +202,7 @@ export default function EmergencyLocksmithPage() {
           <p>
             Not sure what to expect or whether you&apos;re being quoted fairly? Our guide on{' '}
             <Link href="/blog/what-to-do-if-locked-out">what to do if you&apos;re locked out</Link> walks through every
-            step — from checking your insurance to choosing a locksmith you can trust. If you&apos;re wondering whether the
+            step â€” from checking your insurance to choosing a locksmith you can trust. If you&apos;re wondering whether the
             price you&apos;ve been given sounds right, the{' '}
             <Link href="/blog/emergency-locksmith-response-time">emergency locksmith response time guide</Link> explains
             realistic timings and what to watch out for.

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Car Ignition Repair Ashton-in-Makerfield | Key Won\'t Turn | Replacement',
-  description: 'Car ignition repair and replacement in Ashton-in-Makerfield. Key stuck, won\'t turn, or snapped in ignition — fixed on-site same day. Call 07711 341668.',
+  description: 'Car ignition repair and replacement in Ashton-in-Makerfield. Key stuck, won\'t turn, or snapped in ignition â€” fixed on-site same day. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/car-ignition-repair-ashton`,
   },
@@ -27,10 +27,10 @@ const faqs = [
   },
   {
     question: 'Can you replace a car ignition barrel without replacing the whole ignition?',
-    answer: 'In many cases, yes. The barrel is the cylinder that the key turns — it\'s separate from the ignition switch assembly in many vehicles. Replacing just the barrel is cheaper and less involved than replacing the full ignition switch.',
+    answer: 'In many cases, yes. The barrel is the cylinder that the key turns â€” it\'s separate from the ignition switch assembly in many vehicles. Replacing just the barrel is cheaper and less involved than replacing the full ignition switch.',
   },
   {
-    question: 'My key snapped in the ignition — what do I do?',
+    question: 'My key snapped in the ignition â€” what do I do?',
     answer: 'Don\'t try to extract it yourself. Call us. We extract broken keys from ignitions professionally without causing additional damage, then assess whether the barrel needs replacing. If it does, we can replace it on the same visit.',
   },
   {
@@ -44,7 +44,7 @@ export default function CarIgnitionRepairPage() {
   const schemas = [
     serviceSchema(
       'Car Ignition Repair Ashton-in-Makerfield',
-      'Car ignition repair and barrel replacement in Ashton-in-Makerfield. Stuck or stiff ignition, snapped key extraction, and barrel replacement — mobile same-day service.',
+      'Car ignition repair and barrel replacement in Ashton-in-Makerfield. Stuck or stiff ignition, snapped key extraction, and barrel replacement â€” mobile same-day service.',
       pageUrl,
     ),
     faqSchema(faqs),
@@ -75,12 +75,12 @@ export default function CarIgnitionRepairPage() {
       <section className="bg-brand-navy section-padding" aria-labelledby="page-heading">
         <div className="container-max max-w-3xl">
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
-            Car Ignition Repair —{' '}
+            Car Ignition Repair â€”{' '}
             <span className="text-brand-orange">Ashton-in-Makerfield</span>
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
             Key stuck in the ignition, won&apos;t turn, or snapped off? We repair and replace car ignition barrels
-            on-site in Ashton-in-Makerfield — same day, mobile, no recovery truck needed.
+            on-site in Ashton-in-Makerfield â€” same day, mobile, no recovery truck needed.
           </p>
           <a href={`tel:${BUSINESS.phone}`} className="btn-primary text-xl py-5 px-8">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -95,22 +95,22 @@ export default function CarIgnitionRepairPage() {
         <div className="container-max max-w-4xl mx-auto prose-custom">
           <h2>Common Ignition Problems We Fix</h2>
           <ul>
-            <li>Key won&apos;t turn at all — worn barrel or steering lock engaged</li>
-            <li>Key stiff or difficult to turn — worn tumblers, corrosion, or damaged key</li>
-            <li>Key stuck in the ignition — won&apos;t come out</li>
-            <li>Key snapped off in the ignition — see our <Link href="/broken-car-key-extraction-ashton">broken key extraction service</Link></li>
-            <li>Ignition turns but car won&apos;t start — may be transponder rather than ignition</li>
+            <li>Key won&apos;t turn at all â€” worn barrel or steering lock engaged</li>
+            <li>Key stiff or difficult to turn â€” worn tumblers, corrosion, or damaged key</li>
+            <li>Key stuck in the ignition â€” won&apos;t come out</li>
+            <li>Key snapped off in the ignition â€” see our <Link href="/broken-car-key-extraction-ashton">broken key extraction service</Link></li>
+            <li>Ignition turns but car won&apos;t start â€” may be transponder rather than ignition</li>
           </ul>
 
           <h2>Ignition Barrel Replacement</h2>
           <p>
-            The ignition barrel is the mechanical cylinder that the key turns — separate from the ignition switch
+            The ignition barrel is the mechanical cylinder that the key turns â€” separate from the ignition switch
             electronics in many vehicles. When a barrel wears out (usually after many years and thousands of starts),
             it becomes stiff, then unreliable, then fails entirely.
           </p>
           <p>
             Barrel replacement is the standard fix. We source OEM-grade replacement barrels for most common makes and
-            models and fit them on-site. Where possible, the new barrel is re-pinned to work with your existing key —
+            models and fit them on-site. Where possible, the new barrel is re-pinned to work with your existing key â€”
             saving you the cost of a new key. Where that isn&apos;t possible, we cut and programme a replacement key on
             the same visit.
           </p>
@@ -119,7 +119,7 @@ export default function CarIgnitionRepairPage() {
           <p>
             If your key turns smoothly but the engine doesn&apos;t start, the issue is likely the{' '}
             <Link href="/transponder-key-programming-ashton">transponder chip</Link> rather than the ignition barrel.
-            The symptoms are similar from the driver&apos;s seat — key goes in, turns, nothing happens — but the
+            The symptoms are similar from the driver&apos;s seat â€” key goes in, turns, nothing happens â€” but the
             cause and fix are different. We diagnose on-site to identify which it is before recommending anything.
           </p>
 
@@ -136,7 +136,7 @@ export default function CarIgnitionRepairPage() {
       <CTASection
         variant="navy"
         heading="Ignition Problems?"
-        subtext="Call Ashton Lock & Key — we diagnose and repair car ignitions on-site in Ashton-in-Makerfield, same day."
+        subtext="Call Ashton Lock & Key â€” we diagnose and repair car ignitions on-site in Ashton-in-Makerfield, same day."
       />
       <FAQSection faqs={faqs} heading="Car Ignition Repair FAQs" />
 

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -9,7 +9,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Auto Locksmith Ashton-in-Makerfield | 24/7 Car Lockout & Key Replacement',
-  description: 'Auto locksmith in Ashton-in-Makerfield available 24/7. Car lockouts, car key replacement, transponder programming & key fob repair. No call-out fee. Call 07711 341668.',
+  description: 'Auto locksmith in Ashton-in-Makerfield available 24/7. Car lockouts, car key replacement, transponder programming & key fob repair. No call-out fee. Call 07309 903243.',
   alternates: {
     canonical: `${BUSINESS.url}/auto-locksmith-ashton-in-makerfield`,
   },
@@ -24,25 +24,25 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What does an auto locksmith do?',
-    answer: 'An auto locksmith specialises in vehicle security — unlocking cars without damaging them, replacing and programming car keys (including transponder and smart keys), repairing or replacing ignitions, and extracting broken keys from locks. We carry specialist diagnostic equipment to programme keys to your vehicle\'s immobiliser on the spot.',
+    answer: 'An auto locksmith specialises in vehicle security â€” unlocking cars without damaging them, replacing and programming car keys (including transponder and smart keys), repairing or replacing ignitions, and extracting broken keys from locks. We carry specialist diagnostic equipment to programme keys to your vehicle\'s immobiliser on the spot.',
   },
   {
     question: 'How fast can you get to me in Ashton-in-Makerfield?',
-    answer: 'We\'re based in Ashton-in-Makerfield, so for most WN4 postcodes we\'re with you in 20–30 minutes. For surrounding areas in the Wigan borough, typical response time is 30–45 minutes. We operate 24 hours a day, every day of the year.',
+    answer: 'We\'re based in Ashton-in-Makerfield, so for most WN4 postcodes we\'re with you in 20â€“30 minutes. For surrounding areas in the Wigan borough, typical response time is 30â€“45 minutes. We operate 24 hours a day, every day of the year.',
   },
   {
     question: 'Is it cheaper to use an auto locksmith or the dealer?',
-    answer: 'An auto locksmith is almost always significantly cheaper. Main dealers typically charge £200–£500+ for car key replacement and require you to book in, often days in advance. We offer mobile same-day service at typically 40–60% less, with no recovery truck required.',
+    answer: 'An auto locksmith is almost always significantly cheaper. Main dealers typically charge Â£200â€“Â£500+ for car key replacement and require you to book in, often days in advance. We offer mobile same-day service at typically 40â€“60% less, with no recovery truck required.',
   },
   {
     question: 'Can you help if I\'ve locked my keys in my car?',
-    answer: 'Yes — this is one of our most common call-outs. We open vehicles without causing any damage to the bodywork, glass, or locking mechanism. We use professional non-destructive entry tools and can usually have you back in your car within minutes of arriving.',
+    answer: 'Yes â€” this is one of our most common call-outs. We open vehicles without causing any damage to the bodywork, glass, or locking mechanism. We use professional non-destructive entry tools and can usually have you back in your car within minutes of arriving.',
   },
 ]
 
 const brands = [
   'Ford', 'Vauxhall', 'Volkswagen', 'Audi', 'BMW', 'Mercedes-Benz',
-  'Toyota', 'Renault', 'Peugeot', 'Citroën', 'Nissan', 'Honda',
+  'Toyota', 'Renault', 'Peugeot', 'CitroÃ«n', 'Nissan', 'Honda',
   'Kia', 'Hyundai', 'Seat', 'Skoda', 'Fiat', 'Volvo',
   'Land Rover', 'Range Rover', 'Mazda', 'Mitsubishi', 'Jeep', 'Jaguar',
 ]
@@ -55,7 +55,7 @@ const services = [
       </svg>
     ),
     title: 'Car Key Replacement',
-    desc: 'Lost, broken, or stolen — all key types cut and programmed on-site.',
+    desc: 'Lost, broken, or stolen â€” all key types cut and programmed on-site.',
     href: '/car-key-replacement-wigan',
   },
   {
@@ -66,7 +66,7 @@ const services = [
       </svg>
     ),
     title: 'Car Lockout Service',
-    desc: 'Locked out of your car? Non-destructive entry — no damage, fast access.',
+    desc: 'Locked out of your car? Non-destructive entry â€” no damage, fast access.',
     href: '/car-lockout-service-ashton',
   },
   {
@@ -145,7 +145,7 @@ export default function AutoLocksmithAshtonPage() {
         <div className="container-max max-w-4xl">
           <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" aria-hidden="true"></span>
-            Available Now — 24/7 Auto Locksmith in Ashton-in-Makerfield
+            Available Now â€” 24/7 Auto Locksmith in Ashton-in-Makerfield
           </div>
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
             Auto Locksmith{' '}
@@ -153,7 +153,7 @@ export default function AutoLocksmithAshtonPage() {
           </h1>
           <p className="text-xl text-white/70 mb-8 leading-relaxed">
             Locked out of your car? Lost your car keys? Need a transponder key programmed? Ashton Lock &amp; Key is
-            your local auto locksmith in Ashton-in-Makerfield — available 24 hours a day, with no call-out fee and
+            your local auto locksmith in Ashton-in-Makerfield â€” available 24 hours a day, with no call-out fee and
             upfront fixed prices before we leave the yard.
           </p>
           <div className="flex flex-wrap gap-3 mb-8">
@@ -179,7 +179,7 @@ export default function AutoLocksmithAshtonPage() {
       <section className="section-padding bg-brand-light" aria-labelledby="services-heading">
         <div className="container-max">
           <h2 id="services-heading" className="text-2xl font-black text-brand-navy mb-2 text-center">Auto Locksmith Services</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">Everything you need for your vehicle — one call, one local expert</p>
+          <p className="text-center text-gray-500 text-sm mb-8">Everything you need for your vehicle â€” one call, one local expert</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {services.map((svc) => (
               <Link
@@ -204,7 +204,7 @@ export default function AutoLocksmithAshtonPage() {
 
           <h2>What Does an Auto Locksmith Do?</h2>
           <p>
-            An auto locksmith is a specialist who works exclusively on vehicle security — not just cutting keys, but
+            An auto locksmith is a specialist who works exclusively on vehicle security â€” not just cutting keys, but
             diagnosing and resolving any situation where you can&apos;t get into or start your car. The most common
             call-outs we handle in Ashton-in-Makerfield are car lockouts (keys locked inside the vehicle), lost or
             broken car keys that need to be replaced and programmed, and key fobs that have stopped working.
@@ -212,20 +212,20 @@ export default function AutoLocksmithAshtonPage() {
           <p>
             Unlike a general locksmith, an auto locksmith carries diagnostic equipment that communicates with a
             vehicle&apos;s ECU. This is what allows us to programme a new transponder or smart key to your car&apos;s
-            immobiliser — without it, the engine simply won&apos;t start even if the key physically turns.
+            immobiliser â€” without it, the engine simply won&apos;t start even if the key physically turns.
           </p>
 
-          <h2>Car Lockout Service — Ashton-in-Makerfield</h2>
+          <h2>Car Lockout Service â€” Ashton-in-Makerfield</h2>
           <p>
             Locking your keys in your car is more common than people realise, and it&apos;s one of the most stressful
-            situations to be in — especially at night, in a car park, or in the middle of a working day. Our{' '}
+            situations to be in â€” especially at night, in a car park, or in the middle of a working day. Our{' '}
             <Link href="/car-lockout-service-ashton">car lockout service in Ashton-in-Makerfield</Link> uses professional
             non-destructive entry tools to open your vehicle without a single scratch to the paintwork, glass, or
             door seals.
           </p>
           <p>
             We don&apos;t drill, pry, or break. Modern non-destructive entry techniques mean we can open the vast
-            majority of vehicles — including modern central-locking systems — cleanly and quickly. You&apos;d never
+            majority of vehicles â€” including modern central-locking systems â€” cleanly and quickly. You&apos;d never
             know we&apos;d been there.
           </p>
 
@@ -233,11 +233,11 @@ export default function AutoLocksmithAshtonPage() {
           <p>
             Whether you&apos;ve lost one key, lost all keys, or your key has snapped, our{' '}
             <Link href="/car-key-replacement-wigan">car key replacement service</Link> covers all situations. We cut
-            and programme replacement keys on-site — no recovery truck, no booking in, no waiting days for a dealer
+            and programme replacement keys on-site â€” no recovery truck, no booking in, no waiting days for a dealer
             appointment.
           </p>
           <p>
-            For &quot;all keys lost&quot; situations — where there are no working keys left — we use specialist diagnostic
+            For &quot;all keys lost&quot; situations â€” where there are no working keys left â€” we use specialist diagnostic
             equipment to erase the existing key data from your vehicle&apos;s ECU and programme brand new keys from
             scratch. This is a significantly more involved process than replacing a single key, but we offer it at a
             fraction of the price most dealers charge.
@@ -250,7 +250,7 @@ export default function AutoLocksmithAshtonPage() {
 
           <h2>Transponder Keys &amp; Smart Key Programming</h2>
           <p>
-            Virtually every car built after 1995 uses a transponder key — a key with a microchip in the plastic head
+            Virtually every car built after 1995 uses a transponder key â€” a key with a microchip in the plastic head
             that communicates with the vehicle&apos;s immobiliser. If the chip isn&apos;t programmed, the engine won&apos;t
             start. Modern vehicles increasingly use smart keys (proximity keys) that allow keyless entry and
             push-button starts.
@@ -263,7 +263,7 @@ export default function AutoLocksmithAshtonPage() {
 
           <h2>Car Makes We Cover</h2>
           <p>
-            We cover almost every make sold in the UK. If your vehicle isn&apos;t listed below, call us — we almost
+            We cover almost every make sold in the UK. If your vehicle isn&apos;t listed below, call us â€” we almost
             certainly cover it.
           </p>
         </div>
@@ -283,7 +283,7 @@ export default function AutoLocksmithAshtonPage() {
           <p className="text-center mt-4 text-gray-500 text-sm">
             Don&apos;t see your make?{' '}
             <a href={`tel:${BUSINESS.phone}`} className="text-brand-orange font-semibold hover:underline">Call us</a>{' '}
-            — we likely cover it.
+            â€” we likely cover it.
           </p>
         </div>
       </section>
@@ -294,7 +294,7 @@ export default function AutoLocksmithAshtonPage() {
 
           <h2>Why Choose Ashton Lock &amp; Key for Auto Locksmith Work?</h2>
           <p>
-            There are plenty of national call centre operations that advertise in Ashton-in-Makerfield — they take your
+            There are plenty of national call centre operations that advertise in Ashton-in-Makerfield â€” they take your
             call, then subcontract to whoever is available. You might wait two hours, and you won&apos;t always get a
             fair price.
           </p>
@@ -305,14 +305,14 @@ export default function AutoLocksmithAshtonPage() {
             trading in this area.
           </p>
           <ul>
-            <li>Fixed prices quoted before we set off — no surprises on the bill</li>
+            <li>Fixed prices quoted before we set off â€” no surprises on the bill</li>
             <li>Speak directly to the locksmith, not a call centre</li>
             <li>Fully insured, with 25+ years of local experience</li>
-            <li>4.9★ rating from 127+ genuine Google Reviews</li>
-            <li>No call-out fee — you only pay when the job is done</li>
+            <li>4.9â˜… rating from 127+ genuine Google Reviews</li>
+            <li>No call-out fee â€” you only pay when the job is done</li>
           </ul>
 
-          <h2>Service Area — Ashton-in-Makerfield &amp; Beyond</h2>
+          <h2>Service Area â€” Ashton-in-Makerfield &amp; Beyond</h2>
           <p>
             Our auto locksmith service is based in Ashton-in-Makerfield and covers the full WN postcode area and
             beyond. We regularly attend call-outs in{' '}
@@ -334,7 +334,7 @@ export default function AutoLocksmithAshtonPage() {
       <CTASection
         variant="orange"
         heading="Need an Auto Locksmith in Ashton-in-Makerfield?"
-        subtext="Call Ashton Lock & Key — available 24/7, no call-out fee, fixed price given before we set off."
+        subtext="Call Ashton Lock & Key â€” available 24/7, no call-out fee, fixed price given before we set off."
       />
       <FAQSection faqs={faqs} heading="Auto Locksmith FAQs" />
 

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -10,7 +10,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Ignition Repair & Replacement Ashton-in-Makerfield',
-  description: 'Stiff ignition, key won\'t turn, or barrel failed in Ashton-in-Makerfield? We diagnose and repair ignition barrels on-site. Re-pinned to your existing key where possible. Call 07711 341668.',
+  description: 'Stiff ignition, key won\'t turn, or barrel failed in Ashton-in-Makerfield? We diagnose and repair ignition barrels on-site. Re-pinned to your existing key where possible. Call 07309 903243.',
   alternates: { canonical: `${BUSINESS.url}/ignition-repair-ashton-in-makerfield` },
   other: {
     'geo.region': 'GB-WGN',
@@ -31,26 +31,26 @@ const faqs = [
   },
   {
     question: 'If you replace the ignition barrel, will I need a new key?',
-    answer: 'Not necessarily. Where possible, we re-pin the new barrel to work with your existing key — this avoids the cost of key cutting and transponder programming. If the barrel can\'t be re-pinned to your key profile, we cut and programme a new key on the same visit.',
+    answer: 'Not necessarily. Where possible, we re-pin the new barrel to work with your existing key â€” this avoids the cost of key cutting and transponder programming. If the barrel can\'t be re-pinned to your key profile, we cut and programme a new key on the same visit.',
   },
   {
     question: 'How long does ignition repair or replacement take?',
-    answer: 'A straightforward ignition barrel replacement on a common UK vehicle typically takes 1–1.5 hours on-site. Diagnosis adds 15–20 minutes at the start of the job. If a new key needs to be cut and programmed, allow a total of 1.5–2 hours.',
+    answer: 'A straightforward ignition barrel replacement on a common UK vehicle typically takes 1â€“1.5 hours on-site. Diagnosis adds 15â€“20 minutes at the start of the job. If a new key needs to be cut and programmed, allow a total of 1.5â€“2 hours.',
   },
   {
     question: 'Can you fix an ignition on any make of car?',
-    answer: 'We cover all common UK makes including Ford, Vauxhall, VW, Audi, BMW, Mercedes-Benz, Renault, Peugeot, Citroën, Nissan, Toyota, Kia, and more. For some older or rarer vehicles we may need to source a specific barrel — call us and we\'ll advise on availability and lead time.',
+    answer: 'We cover all common UK makes including Ford, Vauxhall, VW, Audi, BMW, Mercedes-Benz, Renault, Peugeot, CitroÃ«n, Nissan, Toyota, Kia, and more. For some older or rarer vehicles we may need to source a specific barrel â€” call us and we\'ll advise on availability and lead time.',
   },
   {
     question: 'How much does ignition repair cost in Ashton-in-Makerfield?',
-    answer: 'Ignition diagnosis and repair starts from £80. Full barrel replacement starts from £120, depending on the vehicle and whether re-pinning or key cutting is required. The full price is quoted before work begins.',
+    answer: 'Ignition diagnosis and repair starts from Â£80. Full barrel replacement starts from Â£120, depending on the vehicle and whether re-pinning or key cutting is required. The full price is quoted before work begins.',
   },
 ]
 
 export default function IgnitionRepairAshtonPage() {
   const pageUrl = `${BUSINESS.url}/ignition-repair-ashton-in-makerfield`
   const schemas = [
-    serviceSchema('Ignition Repair & Replacement Ashton-in-Makerfield', 'Ignition barrel diagnosis, repair, and replacement in Ashton-in-Makerfield. Re-pinned to your existing key where possible — mobile, on-site service.', pageUrl),
+    serviceSchema('Ignition Repair & Replacement Ashton-in-Makerfield', 'Ignition barrel diagnosis, repair, and replacement in Ashton-in-Makerfield. Re-pinned to your existing key where possible â€” mobile, on-site service.', pageUrl),
     faqSchema(faqs),
     breadcrumbSchema([{ name: 'Home', url: BUSINESS.url }, { name: 'Auto Locksmith', url: `${BUSINESS.url}/auto-locksmith-ashton-in-makerfield` }, { name: 'Ignition Repair & Replacement', url: pageUrl }]),
     webPageSchema({ url: pageUrl, title: 'Ignition Repair & Replacement Ashton-in-Makerfield', description: 'Ignition barrel repair and replacement in Ashton-in-Makerfield. Mobile, on-site, re-pinned to existing key where possible.', type: 'WebPage' }),
@@ -67,7 +67,7 @@ export default function IgnitionRepairAshtonPage() {
         <div className="container-max max-w-4xl">
           <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" aria-hidden="true"></span>
-            Ignition Repair &amp; Replacement — Ashton-in-Makerfield &amp; Wigan
+            Ignition Repair &amp; Replacement â€” Ashton-in-Makerfield &amp; Wigan
           </div>
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
             Ignition Repair &amp; Replacement in{' '}
@@ -76,12 +76,12 @@ export default function IgnitionRepairAshtonPage() {
           <p className="text-xl text-white/70 mb-4 leading-relaxed">
             Stiff ignition? Key won&apos;t turn? Barrel completely seized? Ashton Lock &amp; Key diagnoses
             and repairs vehicle ignition systems on-site across Ashton-in-Makerfield and Wigan. We always
-            explore repair before replacement — and where a new barrel is required, we re-pin it to your
+            explore repair before replacement â€” and where a new barrel is required, we re-pin it to your
             existing key wherever possible.
           </p>
           <p className="text-lg text-white/60 mb-8 leading-relaxed">
             Don&apos;t pay dealer prices for ignition work. Our mobile service brings the repair to your
-            vehicle — no recovery required. Most ignition jobs are completed within 1.5 hours,
+            vehicle â€” no recovery required. Most ignition jobs are completed within 1.5 hours,
             with a full price confirmed before we begin.
           </p>
           <div className="flex flex-wrap gap-3 mb-8">
@@ -94,7 +94,7 @@ export default function IgnitionRepairAshtonPage() {
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Call {BUSINESS.phoneDisplay} — 24/7
+              Call {BUSINESS.phoneDisplay} â€” 24/7
             </a>
             <a href={`https://wa.me/${BUSINESS.whatsapp}`} target="_blank" rel="noopener noreferrer" className="btn-secondary text-xl py-5 px-8">
               WhatsApp Us
@@ -111,7 +111,7 @@ export default function IgnitionRepairAshtonPage() {
           <h2>Ignition Barrel Diagnosis, Repair &amp; Replacement in Ashton-in-Makerfield</h2>
           <p>
             An ignition that won&apos;t turn or feels stiff is a common fault across all vehicle ages and
-            makes. The causes range from a simple steering lock engagement — which is resolved in seconds —
+            makes. The causes range from a simple steering lock engagement â€” which is resolved in seconds â€”
             to a worn barrel that has finally failed after years of use. Ashton Lock &amp; Key diagnoses
             the root cause before recommending any work, ensuring you don&apos;t pay for a replacement when
             a repair will do.
@@ -125,21 +125,21 @@ export default function IgnitionRepairAshtonPage() {
           </p>
           <h3>Ignition Barrel Repair</h3>
           <p>
-            In some cases — particularly where the barrel is stiff due to debris, a worn spring, or
-            minor wafer damage — repair is possible without full replacement. We clean, lubricate, and
+            In some cases â€” particularly where the barrel is stiff due to debris, a worn spring, or
+            minor wafer damage â€” repair is possible without full replacement. We clean, lubricate, and
             where applicable replace individual components to restore normal operation. This is always
             the preferred route where the barrel is otherwise sound.
           </p>
           <h3>Ignition Barrel Replacement</h3>
           <p>
             Where the barrel has failed completely or is beyond economic repair, we supply and fit a
-            replacement. Our priority is always to re-pin the new barrel to your existing key — this
+            replacement. Our priority is always to re-pin the new barrel to your existing key â€” this
             avoids the inconvenience and cost of cutting and programming a new transponder key. For
             most Ford, Vauxhall, VW, Peugeot, Renault, and Nissan models this is straightforward.
           </p>
           <h3>Broken Key in Ignition</h3>
           <p>
-            If your key has snapped inside the ignition barrel, we handle extraction first —
+            If your key has snapped inside the ignition barrel, we handle extraction first â€”
             see our <Link href="/broken-key-extraction-ashton-in-makerfield" className="text-brand-orange hover:underline">broken key extraction service</Link>.
             Once the fragment is removed, we assess the barrel condition and proceed with repair or
             replacement as required, cutting and programming a new key on the same visit.
@@ -151,7 +151,7 @@ export default function IgnitionRepairAshtonPage() {
       <section className="section-padding bg-brand-light" aria-labelledby="services-heading">
         <div className="container-max">
           <h2 id="services-heading" className="text-2xl font-black text-brand-navy mb-2 text-center">All Auto Locksmith Services in Ashton-in-Makerfield</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">We cover every automotive locksmith situation — one call, one local specialist</p>
+          <p className="text-center text-gray-500 text-sm mb-8">We cover every automotive locksmith situation â€” one call, one local specialist</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {AUTO_SERVICES.map(svc => (
               <Link key={svc.slug} href={svc.slug} className="bg-white rounded-2xl p-5 border border-gray-100 hover:border-brand-orange transition-all group">
@@ -180,7 +180,7 @@ export default function IgnitionRepairAshtonPage() {
             ))}
           </div>
           <p className="text-center text-gray-500 text-sm">
-            <a href={`tel:${BUSINESS.phone}`} className="text-brand-orange font-semibold hover:underline">Call {BUSINESS.phoneDisplay}</a> — we&apos;ll confirm coverage and quote before we attend.
+            <a href={`tel:${BUSINESS.phone}`} className="text-brand-orange font-semibold hover:underline">Call {BUSINESS.phoneDisplay}</a> â€” we&apos;ll confirm coverage and quote before we attend.
           </p>
         </div>
       </section>
@@ -194,7 +194,7 @@ export default function IgnitionRepairAshtonPage() {
               <p>
                 Based at <strong>2, Market Approach, 1 Gerard St, Ashton-in-Makerfield, Wigan WN4 9AL</strong>,
                 we provide mobile ignition repair and replacement across our full service area.
-                We come to your vehicle — no recovery needed.
+                We come to your vehicle â€” no recovery needed.
               </p>
               <p>Coverage areas include:</p>
               <ul>
@@ -205,19 +205,19 @@ export default function IgnitionRepairAshtonPage() {
               <div className="bg-white rounded-2xl p-6 border border-gray-100">
                 <h3 className="font-bold text-brand-navy mb-4">Response Times</h3>
                 {[
-                  { area: 'Ashton-in-Makerfield (WN4)', time: '20–25 minutes' },
-                  { area: 'Wigan Town Centre', time: '25–35 minutes' },
-                  { area: 'Golborne / Bryn', time: '20–30 minutes' },
-                  { area: 'Newton-le-Willows', time: '25–35 minutes' },
-                  { area: 'Leigh / Atherton', time: '30–40 minutes' },
-                  { area: 'Haydock / St Helens', time: '30–40 minutes' },
+                  { area: 'Ashton-in-Makerfield (WN4)', time: '20â€“25 minutes' },
+                  { area: 'Wigan Town Centre', time: '25â€“35 minutes' },
+                  { area: 'Golborne / Bryn', time: '20â€“30 minutes' },
+                  { area: 'Newton-le-Willows', time: '25â€“35 minutes' },
+                  { area: 'Leigh / Atherton', time: '30â€“40 minutes' },
+                  { area: 'Haydock / St Helens', time: '30â€“40 minutes' },
                 ].map(r => (
                   <div key={r.area} className="flex justify-between py-2 border-b border-gray-100 last:border-0">
                     <span className="text-gray-700 text-sm">{r.area}</span>
                     <span className="text-brand-orange font-semibold text-sm">{r.time}</span>
                   </div>
                 ))}
-                <p className="text-xs text-gray-400 mt-3">Times are estimates — traffic conditions may vary.</p>
+                <p className="text-xs text-gray-400 mt-3">Times are estimates â€” traffic conditions may vary.</p>
               </div>
               <address className="not-italic mt-4 bg-white rounded-2xl p-5 border border-gray-100 text-sm text-gray-700">
                 <strong className="text-brand-navy block mb-1">Ashton Lock &amp; Key</strong>
@@ -232,7 +232,7 @@ export default function IgnitionRepairAshtonPage() {
         </div>
       </section>
 
-      <CTASection variant="orange" heading="Ignition Problem in Ashton-in-Makerfield?" subtext="Call Ashton Lock & Key — we diagnose and repair on-site, re-pinned to your existing key where possible." />
+      <CTASection variant="orange" heading="Ignition Problem in Ashton-in-Makerfield?" subtext="Call Ashton Lock & Key â€” we diagnose and repair on-site, re-pinned to your existing key where possible." />
       <FAQSection faqs={faqs} heading="Ignition Repair FAQs" />
 
       {/* RELATED */}
@@ -245,8 +245,8 @@ export default function IgnitionRepairAshtonPage() {
               { title: 'Car Key Replacement', desc: 'Need a new key after ignition repair?', href: '/car-key-replacement-ashton-in-makerfield' },
               { title: 'Transponder Key Programming', desc: 'New ignition key needs chip programming.', href: '/transponder-key-programming-ashton-in-makerfield' },
               { title: 'Car Lockout Service', desc: 'Can\'t get in because the ignition key is broken?', href: '/car-lockout-ashton-in-makerfield' },
-              { title: 'Emergency Auto Locksmith', desc: '24/7 emergency auto locksmith — any situation.', href: '/emergency-auto-locksmith-ashton-in-makerfield' },
-              { title: 'Auto Locksmith Ashton', desc: 'Full auto locksmith hub — all vehicle situations.', href: '/auto-locksmith-ashton-in-makerfield' },
+              { title: 'Emergency Auto Locksmith', desc: '24/7 emergency auto locksmith â€” any situation.', href: '/emergency-auto-locksmith-ashton-in-makerfield' },
+              { title: 'Auto Locksmith Ashton', desc: 'Full auto locksmith hub â€” all vehicle situations.', href: '/auto-locksmith-ashton-in-makerfield' },
             ].map(item => (
               <Link key={item.href} href={item.href} className="card hover:-translate-y-0.5 transition-transform group block">
                 <h3 className="font-bold text-brand-navy group-hover:text-brand-orange transition-colors mb-1">{item.title}</h3>

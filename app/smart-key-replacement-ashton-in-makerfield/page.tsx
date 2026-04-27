@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import Link from 'next/link'
 import { BUSINESS } from '@/lib/constants'
 import { serviceSchema, faqSchema, breadcrumbSchema, webPageSchema } from '@/lib/schema'
@@ -10,7 +10,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Smart Key Replacement Ashton-in-Makerfield | Proximity Keys',
-  description: 'Smart key & proximity key replacement in Ashton-in-Makerfield. BMW, Mercedes, Audi, Ford, Toyota & more — supplied & programmed on-site. Call 07711 341668.',
+  description: 'Smart key & proximity key replacement in Ashton-in-Makerfield. BMW, Mercedes, Audi, Ford, Toyota & more â€” supplied & programmed on-site. Call 07309 903243.',
   alternates: { canonical: `${BUSINESS.url}/smart-key-replacement-ashton-in-makerfield` },
   other: {
     'geo.region': 'GB-WGN',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is a smart key and how is it different from a standard key?',
-    answer: 'A smart key (also called a proximity key or keyless entry key) uses short-range radio frequency to communicate with the vehicle continuously. When the key is within range, the car unlocks automatically on touch — you never need to press a button or insert it into the ignition. Starting is done with a push-button on the dashboard. This differs from a standard transponder key, which must be physically inserted and turned.',
+    answer: 'A smart key (also called a proximity key or keyless entry key) uses short-range radio frequency to communicate with the vehicle continuously. When the key is within range, the car unlocks automatically on touch â€” you never need to press a button or insert it into the ignition. Starting is done with a push-button on the dashboard. This differs from a standard transponder key, which must be physically inserted and turned.',
   },
   {
     question: 'Can you replace a smart key if it\'s been lost completely?',
@@ -31,11 +31,11 @@ const faqs = [
   },
   {
     question: 'How long does smart key programming take?',
-    answer: 'Smart key programming is typically more involved than standard transponder key addition. Most jobs take 1–1.5 hours on-site, depending on the make and model. Some premium brands (BMW, Mercedes, Audi) have additional security layers that may extend this slightly.',
+    answer: 'Smart key programming is typically more involved than standard transponder key addition. Most jobs take 1â€“1.5 hours on-site, depending on the make and model. Some premium brands (BMW, Mercedes, Audi) have additional security layers that may extend this slightly.',
   },
   {
     question: 'Why is my smart key not being detected by the car?',
-    answer: 'Common causes include: flat key battery (the smart key has an internal battery — replace it first), lost pairing after an ECU reset or battery disconnection, water damage to the key internals, or a faulty antenna in the vehicle. We diagnose the cause before recommending a repair or replacement.',
+    answer: 'Common causes include: flat key battery (the smart key has an internal battery â€” replace it first), lost pairing after an ECU reset or battery disconnection, water damage to the key internals, or a faulty antenna in the vehicle. We diagnose the cause before recommending a repair or replacement.',
   },
   {
     question: 'Which smart key systems do you programme?',
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     question: 'How much does smart key replacement cost?',
-    answer: 'Smart key replacement is typically more expensive than standard transponder keys due to the programming complexity and hardware cost. Prices start from around £180–£320 depending on the make and model. Pricing is confirmed before we attend.',
+    answer: 'Smart key replacement is typically more expensive than standard transponder keys due to the programming complexity and hardware cost. Prices start from around Â£180â€“Â£320 depending on the make and model. Pricing is confirmed before we attend.',
   },
 ]
 
@@ -67,7 +67,7 @@ export default function SmartKeyReplacementAshtonPage() {
         <div className="container-max max-w-4xl">
           <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-sm font-semibold px-4 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" aria-hidden="true"></span>
-            Smart Key &amp; Proximity Key Specialists — Ashton-in-Makerfield &amp; Wigan
+            Smart Key &amp; Proximity Key Specialists â€” Ashton-in-Makerfield &amp; Wigan
           </div>
           <h1 id="page-heading" className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
             Smart Key Replacement in{' '}
@@ -76,7 +76,7 @@ export default function SmartKeyReplacementAshtonPage() {
           <p className="text-xl text-white/70 mb-4 leading-relaxed">
             Proximity key or push-button start system failed? Ashton Lock &amp; Key supplies and programmes
             smart keys for BMW, Mercedes-Benz, Audi, Ford, Toyota, Nissan, Kia, and other makes across
-            Ashton-in-Makerfield and Wigan — on-site at your vehicle, no dealer appointment required.
+            Ashton-in-Makerfield and Wigan â€” on-site at your vehicle, no dealer appointment required.
           </p>
           <p className="text-lg text-white/60 mb-8 leading-relaxed">
             Smart key systems require specialist diagnostic programming that goes beyond basic transponder
@@ -93,7 +93,7 @@ export default function SmartKeyReplacementAshtonPage() {
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              Call {BUSINESS.phoneDisplay} — 24/7
+              Call {BUSINESS.phoneDisplay} â€” 24/7
             </a>
             <a href={`https://wa.me/${BUSINESS.whatsapp}`} target="_blank" rel="noopener noreferrer" className="btn-secondary text-xl py-5 px-8">
               WhatsApp Us
@@ -109,7 +109,7 @@ export default function SmartKeyReplacementAshtonPage() {
         <div className="container-max max-w-4xl mx-auto prose-custom">
           <h2>Smart Key &amp; Proximity Key Replacement in Ashton-in-Makerfield</h2>
           <p>
-            Smart keys — also called proximity keys, keyless entry keys, or comfort keys — are the highest
+            Smart keys â€” also called proximity keys, keyless entry keys, or comfort keys â€” are the highest
             tier of automotive key technology found on newer and premium vehicles. Unlike transponder keys
             that are inserted and turned, smart keys communicate wirelessly with the vehicle at short range:
             the door unlocks when you touch the handle and the engine starts at the press of a dashboard button.
@@ -120,7 +120,7 @@ export default function SmartKeyReplacementAshtonPage() {
             Smart keys contain a more sophisticated transponder chip, a two-way RF communication module,
             and often rolling-code security that changes with each use. Programming requires specialist
             software that can communicate with the vehicle&apos;s body control module (BCM) and immobiliser
-            unit simultaneously. We use AUTEL MaxiIM and Xhorse VVDI tools — both of which support smart
+            unit simultaneously. We use AUTEL MaxiIM and Xhorse VVDI tools â€” both of which support smart
             key programming for all common UK makes.
           </p>
           <h3>BMW Comfort Access</h3>
@@ -148,7 +148,7 @@ export default function SmartKeyReplacementAshtonPage() {
       <section className="section-padding bg-brand-light" aria-labelledby="services-heading">
         <div className="container-max">
           <h2 id="services-heading" className="text-2xl font-black text-brand-navy mb-2 text-center">All Auto Locksmith Services in Ashton-in-Makerfield</h2>
-          <p className="text-center text-gray-500 text-sm mb-8">We cover every automotive locksmith situation — one call, one local specialist</p>
+          <p className="text-center text-gray-500 text-sm mb-8">We cover every automotive locksmith situation â€” one call, one local specialist</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {AUTO_SERVICES.map(svc => (
               <Link key={svc.slug} href={svc.slug} className="bg-white rounded-2xl p-5 border border-gray-100 hover:border-brand-orange transition-all group">
@@ -175,7 +175,7 @@ export default function SmartKeyReplacementAshtonPage() {
             ))}
           </div>
           <p className="text-center text-gray-500 text-sm">
-            <a href={`tel:${BUSINESS.phone}`} className="text-brand-orange font-semibold hover:underline">Call {BUSINESS.phoneDisplay}</a> with your make, model, and year — we&apos;ll confirm support and quote upfront.
+            <a href={`tel:${BUSINESS.phone}`} className="text-brand-orange font-semibold hover:underline">Call {BUSINESS.phoneDisplay}</a> with your make, model, and year â€” we&apos;ll confirm support and quote upfront.
           </p>
         </div>
       </section>
@@ -189,7 +189,7 @@ export default function SmartKeyReplacementAshtonPage() {
               <p>
                 Based at <strong>2, Market Approach, 1 Gerard St, Ashton-in-Makerfield, Wigan WN4 9AL</strong>,
                 we provide mobile smart key replacement across our full service area.
-                We come to your vehicle — wherever it is parked.
+                We come to your vehicle â€” wherever it is parked.
               </p>
               <p>Coverage areas include:</p>
               <ul>
@@ -200,19 +200,19 @@ export default function SmartKeyReplacementAshtonPage() {
               <div className="bg-white rounded-2xl p-6 border border-gray-100">
                 <h3 className="font-bold text-brand-navy mb-4">Response Times</h3>
                 {[
-                  { area: 'Ashton-in-Makerfield (WN4)', time: '20–25 minutes' },
-                  { area: 'Wigan Town Centre', time: '25–35 minutes' },
-                  { area: 'Golborne / Bryn', time: '20–30 minutes' },
-                  { area: 'Newton-le-Willows', time: '25–35 minutes' },
-                  { area: 'Leigh / Atherton', time: '30–40 minutes' },
-                  { area: 'Haydock / St Helens', time: '30–40 minutes' },
+                  { area: 'Ashton-in-Makerfield (WN4)', time: '20â€“25 minutes' },
+                  { area: 'Wigan Town Centre', time: '25â€“35 minutes' },
+                  { area: 'Golborne / Bryn', time: '20â€“30 minutes' },
+                  { area: 'Newton-le-Willows', time: '25â€“35 minutes' },
+                  { area: 'Leigh / Atherton', time: '30â€“40 minutes' },
+                  { area: 'Haydock / St Helens', time: '30â€“40 minutes' },
                 ].map(r => (
                   <div key={r.area} className="flex justify-between py-2 border-b border-gray-100 last:border-0">
                     <span className="text-gray-700 text-sm">{r.area}</span>
                     <span className="text-brand-orange font-semibold text-sm">{r.time}</span>
                   </div>
                 ))}
-                <p className="text-xs text-gray-400 mt-3">Times are estimates — traffic conditions may vary.</p>
+                <p className="text-xs text-gray-400 mt-3">Times are estimates â€” traffic conditions may vary.</p>
               </div>
               <address className="not-italic mt-4 bg-white rounded-2xl p-5 border border-gray-100 text-sm text-gray-700">
                 <strong className="text-brand-navy block mb-1">Ashton Lock &amp; Key</strong>
@@ -227,7 +227,7 @@ export default function SmartKeyReplacementAshtonPage() {
         </div>
       </section>
 
-      <CTASection variant="orange" heading="Smart Key Issue in Ashton-in-Makerfield?" subtext="Call Ashton Lock & Key — specialist smart key programming, on-site, all common keyless systems." />
+      <CTASection variant="orange" heading="Smart Key Issue in Ashton-in-Makerfield?" subtext="Call Ashton Lock & Key â€” specialist smart key programming, on-site, all common keyless systems." />
       <FAQSection faqs={faqs} heading="Smart Key Replacement FAQs" />
 
       {/* RELATED */}
@@ -241,7 +241,7 @@ export default function SmartKeyReplacementAshtonPage() {
               { title: 'Lost Car Key Replacement', desc: 'Lost your only smart key? AKL programming available.', href: '/lost-car-key-ashton-in-makerfield' },
               { title: 'Transponder Key Programming', desc: 'Chip programming for standard transponder keys.', href: '/transponder-key-programming-ashton-in-makerfield' },
               { title: 'Car Lockout Service', desc: 'Smart key dead? We open the vehicle without damage.', href: '/car-lockout-ashton-in-makerfield' },
-              { title: 'Auto Locksmith Ashton', desc: 'Full auto locksmith hub — all vehicle situations.', href: '/auto-locksmith-ashton-in-makerfield' },
+              { title: 'Auto Locksmith Ashton', desc: 'Full auto locksmith hub â€” all vehicle situations.', href: '/auto-locksmith-ashton-in-makerfield' },
             ].map(item => (
               <Link key={item.href} href={item.href} className="card hover:-translate-y-0.5 transition-transform group block">
                 <h3 className="font-bold text-brand-navy group-hover:text-brand-orange transition-colors mb-1">{item.title}</h3>
